@@ -1,0 +1,89 @@
+{
+	"label": "Fobie e Manie",
+	"folders": {
+		"Manias": "Manie",
+		"Phobias": "Fobie"
+	},
+	"entries": {
+		"Acrophobia": {
+			"name": "Acrofobia",
+			"description": "<p>Paura delle altezze</p>"
+		},
+		"Agathomania": {
+			"name": "Agatomania",
+			"description": "<p>Gentilezza patologica</p>"
+		},
+		"Algomania": {
+			"name": "Algomania",
+			"description": "<p>Ossessione per il dolore</p>"
+		},
+		"Amenomania": {
+			"name": "Amenomania",
+			"description": "<p>Allegria irrazionale</p>"
+		},
+		"Arachnophobia": {
+			"name": "Aracnofobia",
+			"description": "<p>Paura dei ragni</p>"
+		},
+		"Bibliokleptomania": {
+			"name": "Bibliocleptomania",
+			"description": "<p>Compulsione a rubare libri</p>"
+		},
+		"Bibliophobia": {
+			"name": "Bibliofobia",
+			"description": "<p>Paura dei libri</p>"
+		},
+		"Dikemania": {
+			"name": "Dicemania",
+			"description": "<p>Ossessione di veder fatta giustizia</p>"
+		},
+		"Eisoptrophobia": {
+			"name": "Eisottrofobia",
+			"description": "<p>Paura degli specchi</p>"
+		},
+		"Geliomania": {
+			"name": "Geliomania",
+			"description": "<p>Compulsione incontrollabile a ridere</p>"
+		},
+		"Hemaphobia": {
+			"name": "Emofobia",
+			"description": "<p>Paura del sangue</p>"
+		},
+		"Klazomania": {
+			"name": "Clazomania",
+			"description": "<p>Compulsione irrazionale a gridare</p>"
+		},
+		"Kleptomania": {
+			"name": "Cleptomania",
+			"description": "<p>Compulsione irrazionale a rubare</p>"
+		},
+		"Necrophobia": {
+			"name": "Necrofobia",
+			"description": "<p>Paura delle cose morte</p>"
+		},
+		"Nosomania": {
+			"name": "Nosomania",
+			"description": "<p>Convinzione delirante di soffrire di una malattia immaginaria</p>"
+		},
+		"Odontophobia": {
+			"name": "Odontofobia",
+			"description": "<p>Paura dei denti</p>"
+		},
+		"Pseudomania": {
+			"name": "Pseudomania",
+			"description": "<p>Compulsione irrazionale a mentire</p>"
+		},
+		"Pyrophobia": {
+			"name": "Pirofobia",
+			"description": "<p>Paura del fuoco</p>"
+		},
+		"Telephonophobia": {
+			"name": "Telefonofobia",
+			"description": "<p>Paura dei telefoni</p>"
+		},
+		"Xenophobia": {
+			"name": "Xenofobia",
+			"description": "<p>Paura degli estranei o degli stranieri</p>"
+		}
+	}
+}

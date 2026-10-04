@@ -42,10 +42,12 @@
 * Questa traduzione proviene dalla community e non è ufficiale. Qualunque suggerimento o feedback è enormemente apprezzato. Per favore utilizzare il sistema di notifiche qui su GitHub, “issues”.
 
 ## Known Issues - Problemi Noti
-* Only the _Skills_, _Items Examples_, _Examples_ and _Roll Requests_ compendiums are translated. _Sanity Roll Table_, _System manuals_, _Phobias and Manias_, _Roll Tables_ and _Weapons_ are still in English.
+* _Sanity Roll Table_, _System manuals_ and _Roll Tables_ compendiums are still in English.
+* The prompts of the spell cost steps (_Test Spell_) are not translated.
 * Translated skill names apply to documents taken from the compendiums: skills already present in existing actors keep their original names.
 ---- 
-* Sono tradotti solo i compendi _Abilità_, _Esempi Oggetti_, _Esempi_ e _Richieste di Tiri_. _Sanity Roll Table_, _System manuals_, _Phobias and Manias_, _Roll Tables_ e _Weapons_ sono ancora in inglese.
+* I compendi _Sanity Roll Table_, _System manuals_ e _Roll Tables_ sono ancora in inglese.
+* Le richieste mostrate durante il calcolo del costo degli incantesimi (_Incantesimo di prova_) non sono tradotte.
 * I nomi tradotti delle abilità valgono per i documenti presi dai compendi: le abilità già presenti negli attori esistenti mantengono il nome originale.
 
 ## Riconoscimenti
@@ -75,6 +77,13 @@ version 1.0.0 :
 
 * Prima versione stabile pubblicata da digennarot.
 * Build e release automatiche con GitHub Actions a ogni push su `master`.
+
+version 1.1.0 :
+
+* Abilità allineate alle chiavi di CoC7 8.15, mantenendo nomi e descrizioni curati: ora vengono tradotte tutte le 103 abilità, anche dentro gli attori di esempio.
+* Nuovi compendi tradotti: _Armi_ e _Fobie e Manie_, con le relative cartelle.
+* _Esempi Oggetti_: tradotti anche sezioni della biografia, occupazioni e tratti suggeriti, descrizione speciale delle armi e tempo di lancio degli incantesimi.
+* Richieste di Tiri rigenerate con i nuovi nomi delle abilità.
 
 ## Pubblicare una nuova versione
 

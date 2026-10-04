@@ -1,0 +1,145 @@
+{
+	"label": "Armi",
+	"folders": {
+		"Hand-to-Hand Weapons": "Armi da mischia",
+		"Handguns": "Pistole",
+		"Machine Guns": "Mitragliatrici",
+		"Rifles": "Fucili",
+		"Shotguns": "Fucili a pompa",
+		"Submachine Guns": "Mitra"
+	},
+	"entries": {
+		".22 Bolt-Action Rifle": {
+			"name": "Fucile a otturatore girevole cal. .22"
+		},
+		".22 Short Automatic": {
+			"name": "Pistola automatica cal. .22 Short"
+		},
+		".25 Derringer (1B)": {
+			"name": "Derringer cal. .25 (1C)"
+		},
+		".30 Browning M1917A1": {
+			"name": "Browning M1917A1 cal. .30"
+		},
+		".30 Lever-Action Carbine": {
+			"name": "Carabina a leva cal. .30"
+		},
+		".30-06 Bolt-Action Rifle": {
+			"name": "Fucile a otturatore girevole cal. .30-06"
+		},
+		".303 Lee-Enfield": {
+			"name": "Lee-Enfield cal. .303"
+		},
+		".32 or 7.65mm Automatic": {
+			"name": "Pistola automatica cal. .32 o 7,65 mm"
+		},
+		".32 or 7.65mm Revolver": {
+			"name": "Revolver cal. .32 o 7,65 mm"
+		},
+		".45 Automatic": {
+			"name": "Pistola automatica cal. .45"
+		},
+		".45 Martini-Henry Rifle": {
+			"name": "Fucile Martini-Henry cal. .45"
+		},
+		".45 Revolver": {
+			"name": "Revolver cal. .45"
+		},
+		"12-gauge Shotgun (2B sawed off)": {
+			"name": "Fucile a pompa cal. 12 (2C, a canne mozze)"
+		},
+		"12-gauge Shotgun (2B)": {
+			"name": "Fucile a pompa cal. 12 (2C)"
+		},
+		"12-gauge Shotgun (semi-auto)": {
+			"name": "Fucile a pompa cal. 12 (semiautomatico)"
+		},
+		"16-gauge Shotgun (2B)": {
+			"name": "Fucile a pompa cal. 16 (2C)"
+		},
+		"20-gauge Shotgun (2B)": {
+			"name": "Fucile a pompa cal. 20 (2C)"
+		},
+		"Bergmann MP181/MP2811": {
+			"name": "Bergmann MP181/MP2811"
+		},
+		"Blackjack": {
+			"name": "Manganello"
+		},
+		"Bow": {
+			"name": "Arco"
+		},
+		"Brass Knuckles": {
+			"name": "Tirapugni"
+		},
+		"Bren Gun": {
+			"name": "Mitragliatrice Bren"
+		},
+		"Browning Auto Rifle M1918": {
+			"name": "Fucile automatico Browning M1918"
+		},
+		"Bullwhip": {
+			"name": "Frusta"
+		},
+		"Burning Torch": {
+			"name": "Torcia accesa"
+		},
+		"Club, Large": {
+			"name": "Mazza, grande"
+		},
+		"Club, Small": {
+			"name": "Mazza, piccola"
+		},
+		"Col. Moran's Air Rifle": {
+			"name": "Fucile ad aria compressa del colonnello Moran"
+		},
+		"Crossbow": {
+			"name": "Balestra"
+		},
+		"Elephant Gun (2B)": {
+			"name": "Fucile da elefante (2C)"
+		},
+		"Garrote": {
+			"name": "Garrota"
+		},
+		"Hatchet/Sickle": {
+			"name": "Accetta/Falcetto"
+		},
+		"Knife, Large": {
+			"name": "Coltello, grande"
+		},
+		"Knife, Medium": {
+			"name": "Coltello, medio"
+		},
+		"Knife, Small": {
+			"name": "Coltello, piccolo"
+		},
+		"Mark I Lewis Gun": {
+			"name": "Mitragliatrice Lewis Mark I"
+		},
+		"Model P08 Luger": {
+			"name": "Luger modello P08"
+		},
+		"Nunchaku": {
+			"name": "Nunchaku"
+		},
+		"Rock, Thrown": {
+			"name": "Sasso, lanciato"
+		},
+		"Shuriken": {
+			"name": "Shuriken"
+		},
+		"Spear": {
+			"name": "Lancia"
+		},
+		"Spear, Thrown": {
+			"name": "Lancia, lanciata"
+		},
+		"Thompson": {
+			"name": "Thompson"
+		},
+		"Vickers .303": {
+			"name": "Vickers cal. .303"
+		}
+	}
+}

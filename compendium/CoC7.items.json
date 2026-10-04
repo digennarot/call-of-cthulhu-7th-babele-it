@@ -1,20 +1,40 @@
 {
 	"label": "Esempi Oggetti",
+	"mapping": {
+		"bioSections": "system.bioSections",
+		"suggestedOccupations": "system.suggestedOccupations",
+		"suggestedTraits": "system.suggestedTraits",
+		"special": "system.description.special",
+		"skillMainName": "system.skill.main.name",
+		"castingTime": "system.castingTime"
+	},
 	"entries": {
 		"1920's Setup Example": {
 			"name": "Esempio Setup Anni Venti",
-			"description": "<p>Configurazione standard per un personaggio degli Anni Venti.</p>"
+			"description": "<p>Configurazione standard per un personaggio degli Anni Venti.</p>",
+			"bioSections": [
+				"Descrizione personale",
+				"Ideologia/Convinzioni",
+				"Persone importanti",
+				"Luoghi significativi",
+				"Oggetti preziosi",
+				"Tratti"
+			]
 		},
 		"Peacemaker": {
 			"name": "Paciere",
-			"description": "<p>Un risolutore di problemi dotato di una naturale capacità di trovare o vedere “l’occhio del ciclone” e di osservare una questione da tutti i lati. Motivato dall’armonia, il paciere cerca di mantenere l’equilibrio, sia tra individui che tra gruppi di persone, e di preservare lo status quo. Mira a trovare soluzioni e sa essere molto adattabile, a volte anche a proprio discapito, poiché tende a mettere le esigenze altrui davanti alle proprie. Spesso descritto come “accomodante” o “arrendevole”, sa essere risoluto, equilibrato e audace, soprattutto quando scoppia una crisi.</p>"
+			"description": "<p>Un risolutore di problemi dotato di una naturale capacità di trovare o vedere “l’occhio del ciclone” e di osservare una questione da tutti i lati. Motivato dall’armonia, il paciere cerca di mantenere l’equilibrio, sia tra individui che tra gruppi di persone, e di preservare lo status quo. Mira a trovare soluzioni e sa essere molto adattabile, a volte anche a proprio discapito, poiché tende a mettere le esigenze altrui davanti alle proprie. Spesso descritto come “accomodante” o “arrendevole”, sa essere risoluto, equilibrato e audace, soprattutto quando scoppia una crisi.</p>",
+			"suggestedOccupations": "<p>Atleta, Barista/Cameriera, Agente di pattuglia, Maggiordomo, Criminale, Funzionario eletto, Operaio, Missionario, Infermiere, Sacerdote, Segretario, Yogi.</p>",
+			"suggestedTraits": "<p>calmo sotto pressione, equilibrato, modesto, altruista.</p>"
 		},
 		"Death ray (prototype)": {
 			"name": "Raggio della morte (prototipo)"
 		},
 		"Experimental weapon": {
 			"name": "Arma sperimentale",
-			"description": "<p>Descrizione dell'arma</p><p>Selezionando 'Area di effetto' si abilitano 3 diversi valori di danno e gittata</p><p>Selezionando 'Automatica' si possono scegliere 2 diverse abilità per l'arma</p><p>Selezionando 'Speciale' si attiva il campo di testo speciale</p><p>Nella scheda combattimento, se le icone hanno lo sfondo rosso, significa che per quell'arma non è stata selezionata alcuna abilità</p><p>Modifica l'arma e seleziona l'abilità corretta.</p>"
+			"description": "<p>Descrizione dell'arma</p><p>Selezionando 'Area di effetto' si abilitano 3 diversi valori di danno e gittata</p><p>Selezionando 'Automatica' si possono scegliere 2 diverse abilità per l'arma</p><p>Selezionando 'Speciale' si attiva il campo di testo speciale</p><p>Nella scheda combattimento, se le icone hanno lo sfondo rosso, significa che per quell'arma non è stata selezionata alcuna abilità</p><p>Modifica l'arma e seleziona l'abilità corretta.</p>",
+			"special": "<p>Qui puoi aggiungere una descrizione speciale o dei tiri:</p><p>Tiro 1: [[/r 2d17kh]]</p>",
+			"skillMainName": "Da selezionare quando l'arma è posseduta"
 		},
 		"Street Vendor": {
 			"name": "Venditore ambulante",
@@ -28,7 +48,8 @@
 		},
 		"Test Spell": {
 			"name": "Incantesimo di prova",
-			"description": "<p>Costringe un altro essere umano ad avere un incubo.</p><p>L’incantatore aggiunge un certo numero di punti magia e subisce [[/r 1D3 - 1]] punti Sanità. Se il bersaglio degli incubi è sveglio, l’incantatore deve spendere 1 POT e il lancio richiede cinque minuti in più.</p><p>Altri incantatori che conoscono l’incantesimo possono aggiungere un numero qualsiasi di punti magia; chiunque altro sia presente può aggiungere un punto magia.</p><p>L’incubo inizia con il bersaglio che affronta un esame per cui non ha studiato e si prolunga di un minuto per ogni sei punti magia spesi.</p><p></p>"
+			"description": "<p>Costringe un altro essere umano ad avere un incubo.</p><p>L’incantatore aggiunge un certo numero di punti magia e subisce [[/r 1D3 - 1]] punti Sanità. Se il bersaglio degli incubi è sveglio, l’incantatore deve spendere 1 POT e il lancio richiede cinque minuti in più.</p><p>Altri incantatori che conoscono l’incantesimo possono aggiungere un numero qualsiasi di punti magia; chiunque altro sia presente può aggiungere un punto magia.</p><p>L’incubo inizia con il bersaglio che affronta un esame per cui non ha studiato e si prolunga di un minuto per ogni sei punti magia spesi.</p><p></p>",
+			"castingTime": "10 - 15 minuti"
 		}
 	}
 }

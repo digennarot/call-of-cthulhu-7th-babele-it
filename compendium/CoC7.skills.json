@@ -1,430 +1,571 @@
 {
-    "label": "Abilità",
-    "entries": [
-        {
-            "id": "Accounting",
-            "name": "Contabilità",
-            "description": "<p>Permette di comprendere i registri finanziari, individuare frodi, bilanci truccati o spese insolite e tracce di fondi nascosti.</p>"
-        },
-        {
-            "id": "Acting",
-            "name": "Arti e Mestieri (Recitazione)",
-            "description": "<p>L'abilità di fingere di essere qualcun altro, mascherare le proprie emozioni o interpretare un ruolo in modo convincente per ingannare gli altri.</p>"
-        },
-        {
-            "id": "Animal Handling",
-            "name": "Gestione Animali",
-            "description": "<p>Consente di addestrare, calmare, cavalcare o comandare animali domestici o da lavoro, oltre a prevederne il comportamento.</p>"
-        },
-        {
-            "id": "Anthropology",
-            "name": "Antropologia",
-            "description": "<p>Studio dei comportamenti, delle credenze, della storia e degli stili di vita delle culture umane, utile per comprendere usanze estranee.</p>"
-        },
-        {
-            "id": "Appraise",
-            "name": "Valutare",
-            "description": "<p>La capacità di stimare accuratamente il valore monetario, l'età e l'autenticità di un oggetto, come un pezzo d'antiquariato o un'opera d'arte.</p>"
-        },
-        {
-            "id": "Archaeology",
-            "name": "Archeologia",
-            "description": "<p>Permette di identificare, datare e comprendere artefatti del passato, rovine, iscrizioni e antiche civiltà estinte.</p>"
-        },
-        {
-            "id": "Art/Craft (Any)",
-            "name": "Arti e Mestieri (Generico)",
-            "description": "<p>La capacità di creare, riparare o giudicare opere d'arte o manufatti artigianali specifici (es. pittura, falegnameria, forgiatura).</p>"
-        },
-        {
-            "id": "Artillery",
-            "name": "Armi da Fuoco (Artiglieria)",
-            "description": "<p>Abilità nell'uso e nel puntamento di armi pesanti da campo, come mortai, cannoni o obici militari.</p>"
-        },
-        {
-            "id": "Astronomy",
-            "name": "Scienza (Astronomia)",
-            "description": "<p>Conoscenza dei corpi celesti, utile per la navigazione stellare, per prevedere eclissi o identificare costellazioni in modo scientifico.</p>"
-        },
-        {
-            "id": "Axe",
-            "name": "Combattere (Ascia)",
-            "description": "<p>Competenza nel combattimento corpo a corpo utilizzando un'ascia da taglialegna, un'accetta o un'ascia da battaglia.</p>"
-        },
-        {
-            "id": "Biology",
-            "name": "Scienza (Biologia)",
-            "description": "<p>Lo studio della vita e degli organismi viventi. Permette di identificare piante, animali, batteri e agenti patogeni.</p>"
-        },
-        {
-            "id": "Botany",
-            "name": "Scienza (Botanica)",
-            "description": "<p>Ramo della biologia incentrato sullo studio delle piante, delle loro proprietà, degli ecosistemi e dei potenziali usi curativi o velenosi.</p>"
-        },
-        {
-            "id": "Bow",
-            "name": "Armi da Fuoco (Arco)",
-            "description": "<p>Abilità nell'uso di archi lunghi, corti o balestre per colpire un bersaglio a distanza con precisione.</p>"
-        },
-        {
-            "id": "Brawl",
-            "name": "Combattere (Mischia)",
-            "description": "<p>L'abilità di base per il combattimento corpo a corpo. Copre attacchi disarmati (pugni, calci) e l'uso di armi improvvisate, pugnali o clave.</p>"
-        },
-        {
-            "id": "Chainsaw",
-            "name": "Combattere (Motosega)",
-            "description": "<p>Competenza nell'uso della motosega, non solo per tagliare legna o materiali, ma anche come brutale arma da combattimento ravvicinato.</p>"
-        },
-        {
-            "id": "Charm",
-            "name": "Fascino",
-            "description": "<p>Usare la lusinga, la seduzione, la simpatia o la semplice affabilità personale per convincere qualcuno a collaborare o ad aiutare.</p>"
-        },
-        {
-            "id": "Chemistry",
-            "name": "Scienza (Chimica)",
-            "description": "<p>Conoscenza degli elementi e dei composti. Permette di analizzare sostanze sconosciute, creare esplosivi, veleni o antidoti.</p>"
-        },
-        {
-            "id": "Climb",
-            "name": "Scalare",
-            "description": "<p>La capacità di arrampicarsi su muri, pareti rocciose, alberi o strutture verticali senza corde, o di farlo in sicurezza e con destrezza.</p>"
-        },
-        {
-            "id": "Computer Use",
-            "name": "Informatica",
-            "description": "<p>Abilità di operare su computer, programmare software, hackerare reti, recuperare dati cancellati o aggirare firewall (nelle ere moderne).</p>"
-        },
-        {
-            "id": "Credit Rating",
-            "name": "Valore di Credito",
-            "description": "<p>Misura la ricchezza, la classe sociale e la reputazione finanziaria dell'Investigatore. Determina i fondi iniziali e l'accoglienza nell'alta società.</p>"
-        },
-        {
-            "id": "Cryptography",
-            "name": "Scienza (Crittografia)",
-            "description": "<p>La capacità di creare, riconoscere o decifrare codici segreti, linguaggi cifrati e messaggi nascosti.</p>"
-        },
-        {
-            "id": "Cthulhu Mythos",
-            "name": "Miti di Cthulhu",
-            "description": "<p>La spaventosa conoscenza delle vere entità dell'universo. Non può essere aumentata alla creazione. Più cresce, più riduce la Sanità Mentale massima.</p>"
-        },
-        {
-            "id": "Demolitions",
-            "name": "Demolizioni",
-            "description": "<p>Competenza nel maneggiare e piazzare esplosivi (come la dinamite o il C4) per far saltare in aria strutture o barriere in modo calcolato.</p>"
-        },
-        {
-            "id": "Disguise",
-            "name": "Camuffare",
-            "description": "<p>Alterare il proprio aspetto tramite trucco, vestiti, protesi o cambiamenti di postura per non farsi riconoscere o per sembrare un'altra persona.</p>"
-        },
-        {
-            "id": "Diving",
-            "name": "Immersione",
-            "description": "<p>L'abilità di utilizzare attrezzatura da palombaro o da sub (SCUBA) per condurre in sicurezza immersioni subacquee.</p>"
-        },
-        {
-            "id": "Dodge",
-            "name": "Schivare",
-            "description": "<p>L'istinto e i riflessi per evitare colpi fisici in corpo a corpo o pericoli improvvisi in arrivo. Il valore base è pari a metà della Destrezza (DEX).</p>"
-        },
-        {
-            "id": "Drive Auto",
-            "name": "Guida Auto",
-            "description": "<p>L'abilità di guidare automobili, furgoni e camion leggeri in situazioni di stress, effettuare manovre pericolose o partecipare a inseguimenti.</p>"
-        },
-        {
-            "id": "Electrical Repair",
-            "name": "Riparazioni Elettriche",
-            "description": "<p>La capacità di installare, riparare, modificare o sabotare dispositivi elettrici, pannelli di controllo e circuiti.</p>"
-        },
-        {
-            "id": "Electronics",
-            "name": "Elettronica",
-            "description": "<p>Comprensione teorica e pratica dei componenti elettronici microprocessati, essenziale per dispositivi complessi, radio avanzate e microspie.</p>"
-        },
-        {
-            "id": "Fast Talk",
-            "name": "Raggirare",
-            "description": "<p>Ingannare o confondere verbalmente qualcuno per ottenere ciò che si vuole (es. l'accesso a un'area) prima che l'interlocutore possa rifletterci su.</p>"
-        },
-        {
-            "id": "Fine Art",
-            "name": "Arti e Mestieri (Belle Arti)",
-            "description": "<p>Conoscenza approfondita della storia dell'arte, che permette di identificare stili, falsi, correnti artistiche e autori di opere specifiche.</p>"
-        },
-        {
-            "id": "First Aid",
-            "name": "Primo Soccorso",
-            "description": "<p>Permette di curare ferite superficiali, fermare emorragie, rianimare e fornire cure mediche d'emergenza, ripristinando un Punto Ferita.</p>"
-        },
-        {
-            "id": "Flail",
-            "name": "Combattere (Flagello)",
-            "description": "<p>Competenza nell'uso di armi a catena o snodate come il flagello medievale, il mazzafrusto o il nunchaku.</p>"
-        },
-        {
-            "id": "Flamethrower",
-            "name": "Armi da Fuoco (Lanciafiamme)",
-            "description": "<p>Abilità nell'utilizzo sicuro ed efficace di un lanciafiamme in combattimento, evitando incidenti o esplosioni accidentali del serbatoio.</p>"
-        },
-        {
-            "id": "Forensics",
-            "name": "Scienza (Forense)",
-            "description": "<p>Scienza applicata all'investigazione criminale. Permette di raccogliere prove, analizzare impronte, macchie di sangue e balistica sulla scena del crimine.</p>"
-        },
-        {
-            "id": "Forgery",
-            "name": "Arti e Mestieri (Falsificare)",
-            "description": "<p>Creare documenti, firme, patenti, testamenti o permessi falsi in modo che sembrino del tutto autentici a un esame accurato.</p>"
-        },
-        {
-            "id": "Garrote",
-            "name": "Combattere (Garrota)",
-            "description": "<p>Utilizzo di fili di metallo o corde resistenti per strangolare rapidamente e silenziosamente un avversario preso alle spalle.</p>"
-        },
-        {
-            "id": "Geology",
-            "name": "Scienza (Geologia)",
-            "description": "<p>Lo studio delle rocce, dei minerali, dei suoli e della struttura della Terra. Utile per valutare faglie, miniere o l'origine di una pietra.</p>"
-        },
-        {
-            "id": "Handgun",
-            "name": "Armi da Fuoco (Pistola)",
-            "description": "<p>Precisione e competenza nello sparare con armi da fuoco corte, come revolver, pistole semiautomatiche e pistole tascabili.</p>"
-        },
-        {
-            "id": "Heavy Weapons",
-            "name": "Armi da Fuoco (Armi Pesanti)",
-            "description": "<p>Uso e manutenzione di armamenti militari pesanti come lanciamissili, bazooka, cannoni anti-carro o minigun.</p>"
-        },
-        {
-            "id": "History",
-            "name": "Storia",
-            "description": "<p>Conoscenza approfondita di eventi, guerre, persone, nazioni ed epoche del passato dell'umanità. Utile per rintracciare oscuri culti o leggende.</p>"
-        },
-        {
-            "id": "Hypnosis",
-            "name": "Ipnosi",
-            "description": "<p>Indurre uno stato di trance nel soggetto per aiutarlo a ricordare dettagli rimossi, curare traumi temporanei o suggestionarne lievemente il comportamento.</p>"
-        },
-        {
-            "id": "Intimidate",
-            "name": "Intimidire",
-            "description": "<p>Costringere qualcuno ad agire secondo la propria volontà incutendo paura, tramite minacce fisiche, violenza psicologica o ricatti.</p>"
-        },
-        {
-            "id": "Jump",
-            "name": "Saltare",
-            "description": "<p>L'abilità di coprire distanze verticali od orizzontali saltando in modo atletico, senza farsi male o perdere l'equilibrio all'atterraggio.</p>"
-        },
-        {
-            "id": "Language (Any)",
-            "name": "Lingua (Generico)",
-            "description": "<p>Rappresenta una lingua qualsiasi studiata dal personaggio. Determina la fluidità nel parlarla, leggerla e scriverla.</p>"
-        },
-        {
-            "id": "Language (Other)",
-            "name": "Lingua (Altro)",
-            "description": "<p>La capacità di parlare, leggere e scrivere correntemente in una lingua straniera (viva o morta come il Latino o il Sanscrito).</p>"
-        },
-        {
-            "id": "Language (Own)",
-            "name": "Lingua (Propria)",
-            "description": "<p>La padronanza, il vocabolario e la grammatica della propria lingua madre. Utile per redigere documenti complessi o comprendere testi arcaici della propria lingua.</p>"
-        },
-        {
-            "id": "Law",
-            "name": "Legge",
-            "description": "<p>Conoscenza del sistema giuridico, delle leggi locali e internazionali, delle scappatoie legali e delle procedure di tribunale.</p>"
-        },
-        {
-            "id": "Library Use",
-            "name": "Individuare Bibliotecario",
-            "description": "<p>L'abilità chiave per cercare e trovare informazioni utili, ritagli di giornale o tomi rari all'interno di biblioteche, archivi e grandi collezioni di documenti.</p>"
-        },
-        {
-            "id": "Listen",
-            "name": "Ascoltare",
-            "description": "<p>Percepire rumori deboli, origliare conversazioni a distanza o capire se qualcuno si sta avvicinando furtivamente alle proprie spalle.</p>"
-        },
-        {
-            "id": "Locksmith",
-            "name": "Scassinare",
-            "description": "<p>Aprire serrature, casseforti o lucchetti senza l'uso della chiave, oltre a disinnescare sistemi di allarme o di sicurezza meccanici.</p>"
-        },
-        {
-            "id": "Lore",
-            "name": "Conoscenze (Generico)",
-            "description": "<p>Competenza in un ambito estremamente specifico non coperto dalle scienze accademiche, come folklore locale, leggende sui vampiri, o il mondo dei sogni.</p>"
-        },
-        {
-            "id": "Machine Gun",
-            "name": "Armi da Fuoco (Mitragliatrice Pesante)",
-            "description": "<p>L'addestramento nell'utilizzo di mitragliatrici leggere e pesanti montate su bipiede o treppiede per fornire fuoco di soppressione.</p>"
-        },
-        {
-            "id": "Mathematics",
-            "name": "Scienza (Matematica)",
-            "description": "<p>La capacità di comprendere ed eseguire calcoli complessi, analizzare schemi numerici e decifrare equazioni avanzate o modelli statistici.</p>"
-        },
-        {
-            "id": "Mechanical Repair",
-            "name": "Riparazioni Meccaniche",
-            "description": "<p>Aggiustare, assemblare o smontare motori, ingranaggi, macchinari idraulici, serrature complesse e dispositivi non elettrici.</p>"
-        },
-        {
-            "id": "Medicine",
-            "name": "Medicina",
-            "description": "<p>Scienza medica avanzata. Permette di curare malattie, stabilizzare ferite gravissime, eseguire interventi chirurgici e far recuperare Punti Ferita nel tempo.</p>"
-        },
-        {
-            "id": "Meteorology",
-            "name": "Scienza (Meteorologia)",
-            "description": "<p>Lo studio dell'atmosfera. Permette di prevedere con precisione l'arrivo di tempeste, analizzare anomalie climatiche e leggere gli strumenti meteo.</p>"
-        },
-        {
-            "id": "Natural World",
-            "name": "Scienze Naturali",
-            "description": "<p>Conoscenza generale non accademica e tradizionale di piante, alberi, tracce di animali, ecologia e dell'ambiente naturale.</p>"
-        },
-        {
-            "id": "Navigate",
-            "name": "Orientarsi",
-            "description": "<p>Trovare la propria strada e orientarsi usando mappe, stelle, bussole o strumentazione navale e aerea, evitando di perdersi.</p>"
-        },
-        {
-            "id": "Occult",
-            "name": "Occultismo",
-            "description": "<p>Conoscenza umana dell'esoterismo, stregoneria tradizionale, società segrete, magia folcloristica e superstizioni (distinto e separato dai Miti di Cthulhu).</p>"
-        },
-        {
-            "id": "Operate Heavy Machinery",
-            "name": "Manovrare Macchinari Pesanti",
-            "description": "<p>Guidare e manovrare in sicurezza trattori, macchine movimento terra, gru industriali, bulldozer o treni.</p>"
-        },
-        {
-            "id": "Persuade",
-            "name": "Persuadere",
-            "description": "<p>Convincere qualcuno della propria posizione attraverso argomentazioni logiche, dibattiti strutturati e ragioni fondate, richiedendo più tempo del Raggirare.</p>"
-        },
-        {
-            "id": "Pharmacy",
-            "name": "Scienza (Farmacia)",
-            "description": "<p>Riconoscere, sintetizzare e preparare medicinali, droghe chimiche o veleni partendo da ingredienti grezzi, calcolando i giusti dosaggi.</p>"
-        },
-        {
-            "id": "Photography",
-            "name": "Arti e Mestieri (Fotografia)",
-            "description": "<p>Scattare foto nitide (anche in condizioni di scarsa luce), sviluppare i negativi correttamente in camera oscura e individuare foto alterate o ritoccate.</p>"
-        },
-        {
-            "id": "Physics",
-            "name": "Scienza (Fisica)",
-            "description": "<p>Comprensione accademica delle leggi della materia, dell'energia, del moto, della termodinamica e dell'ottica.</p>"
-        },
-        {
-            "id": "Pilot (Any)",
-            "name": "Pilotare (Generico)",
-            "description": "<p>Abilità di pilotare specifici tipi di veicoli non automobilistici, come piccoli aeroplani, barche a motore, dirigibili o sottomarini.</p>"
-        },
-        {
-            "id": "Psychoanalysis",
-            "name": "Psicanalisi",
-            "description": "<p>Trattamenti clinici psichiatrici per calmare chi è in preda al panico, interrompere una crisi di Follia Temporanea e restituire Punti Sanità a lungo termine.</p>"
-        },
-        {
-            "id": "Psychology",
-            "name": "Psicologia",
-            "description": "<p>La capacità di comprendere le motivazioni intime delle persone, leggere il loro stato emotivo e intuire se qualcuno sta mentendo o nascondendo qualcosa.</p>"
-        },
-        {
-            "id": "Read Lips",
-            "name": "Leggere le Labbra",
-            "description": "<p>Comprendere ciò che una persona sta dicendo semplicemente osservando i movimenti della sua bocca a distanza, a patto che se ne conosca la lingua.</p>"
-        },
-        {
-            "id": "Ride",
-            "name": "Cavalcare",
-            "description": "<p>L'abilità di stare in sella e guidare cavalli, muli o altri animali da soma in modo sicuro, mantenendo il controllo in caso di spavento dell'animale.</p>"
-        },
-        {
-            "id": "Rifle/Shotgun",
-            "name": "Armi da Fuoco (Fucile/Fucile a Pompa)",
-            "description": "<p>Competenza nello sparare con armi da fuoco lunghe tenute a due mani, inclusi fucili da caccia, fucili a pompa e fucili d'assalto in modalità a colpo singolo.</p>"
-        },
-        {
-            "id": "Science (Any)",
-            "name": "Scienza (Generico)",
-            "description": "<p>L'applicazione pratica e teorica di una disciplina scientifica specializzata non inclusa nelle abilità base (ad esempio Criptozoologia, Ingegneria, ecc.).</p>"
-        },
-        {
-            "id": "Sleight of Hand",
-            "name": "Rapidità di Mano",
-            "description": "<p>La destrezza manuale per nascondere piccoli oggetti nel palmo, borseggiare, barare a carte o eseguire trucchi di prestigio senza farsi notare.</p>"
-        },
-        {
-            "id": "Spear",
-            "name": "Combattere (Lancia)",
-            "description": "<p>Competenza nel combattimento con armi in asta, come lance o picche, per mantenere il nemico a distanza colpendo con efficacia.</p>"
-        },
-        {
-            "id": "Spot Hidden",
-            "name": "Individuare",
-            "description": "<p>Abilità visiva fondamentale per notare indizi nascosti, passaggi segreti, piccoli oggetti celati, nemici in agguato o dettagli fuori posto in un ambiente.</p>"
-        },
-        {
-            "id": "Stealth",
-            "name": "Furtività",
-            "description": "<p>La capacità di muoversi in silenzio, nascondersi nelle ombre e passare inosservati, per evitare di essere visti o sentiti da guardie o creature orribili.</p>"
-        },
-        {
-            "id": "Submachine Gun",
-            "name": "Armi da Fuoco (Mitraglietta)",
-            "description": "<p>Uso di armi da fuoco automatiche compatte progettate per sparare a raffica, come il classico mitra Thompson (Tommy Gun).</p>"
-        },
-        {
-            "id": "Survival (Any)",
-            "name": "Sopravvivenza (Generico)",
-            "description": "<p>La perizia necessaria per sopravvivere in specifici ambienti ostili (es. Deserto, Artico, Giungla), sapendo come trovare cibo, acqua e costruirsi un riparo.</p>"
-        },
-        {
-            "id": "Swim",
-            "name": "Nuotare",
-            "description": "<p>La capacità di mantenersi a galla, nuotare per lunghe distanze, trattenere il fiato per periodi prolungati e sopravvivere in acque agitate o correnti forti.</p>"
-        },
-        {
-            "id": "Sword",
-            "name": "Combattere (Spada)",
-            "description": "<p>L'addestramento nell'uso di lame lunghe nel combattimento corpo a corpo, comprendendo spade, fioretti da scherma, sciabole o katane.</p>"
-        },
-        {
-            "id": "Throw",
-            "name": "Lanciare",
-            "description": "<p>La precisione nell'imprimere forza per lanciare oggetti colpendo un bersaglio. Include coltelli da lancio, sassi, palle da baseball o granate.</p>"
-        },
-        {
-            "id": "Track",
-            "name": "Seguire Tracce",
-            "description": "<p>Abilità di individuare, interpretare e seguire impronte, tracce di sangue o segni lasciati dal passaggio di una persona o di un animale nel terreno.</p>"
-        },
-        {
-            "id": "Track (Any)",
-            "name": "Seguire Tracce (Specifica)",
-            "description": "<p>Simile alla precedente, utilizzabile per specificare il tracciamento in contesti o ambienti molto specifici a discrezione del Custode.</p>"
-        },
-        {
-            "id": "Whip",
-            "name": "Combattere (Frusta)",
-            "description": "<p>L'uso di una frusta per infliggere danni, intimorire o tentare di disarmare o afferrare un oggetto dalle mani di un avversario a distanza ravvicinata.</p>"
-        },
-        {
-            "id": "Zoology",
-            "name": "Scienza (Zoologia)",
-            "description": "<p>Lo studio biologico e accademico degli animali. Include anatomia, evoluzione, classificazione delle specie e comprensione delle abitudini della fauna.</p>"
-        }
-    ]
+	"label": "Abilità",
+	"entries": {
+		"Accounting": {
+			"name": "Contabilità",
+			"skillName": "Contabilità",
+			"description": "<p>Permette di comprendere i registri finanziari, individuare frodi, bilanci truccati o spese insolite e tracce di fondi nascosti.</p>"
+		},
+		"Animal Handling": {
+			"name": "Gestione Animali",
+			"skillName": "Gestione Animali",
+			"description": "<p>Consente di addestrare, calmare, cavalcare o comandare animali domestici o da lavoro, oltre a prevederne il comportamento.</p>"
+		},
+		"Anthropology": {
+			"name": "Antropologia",
+			"skillName": "Antropologia",
+			"description": "<p>Studio dei comportamenti, delle credenze, della storia e degli stili di vita delle culture umane, utile per comprendere usanze estranee.</p>"
+		},
+		"Appraise": {
+			"name": "Valutare",
+			"skillName": "Valutare",
+			"description": "<p>La capacità di stimare accuratamente il valore monetario, l'età e l'autenticità di un oggetto, come un pezzo d'antiquariato o un'opera d'arte.</p>"
+		},
+		"Archaeology": {
+			"name": "Archeologia",
+			"skillName": "Archeologia",
+			"description": "<p>Permette di identificare, datare e comprendere artefatti del passato, rovine, iscrizioni e antiche civiltà estinte.</p>"
+		},
+		"Art/Craft (Acting)": {
+			"name": "Arti e Mestieri (Recitazione)",
+			"skillName": "Recitazione",
+			"specialization": "Arti e Mestieri",
+			"description": "<p>L'abilità di fingere di essere qualcun altro, mascherare le proprie emozioni o interpretare un ruolo in modo convincente per ingannare gli altri.</p>"
+		},
+		"Art/Craft (Any)": {
+			"name": "Arti e Mestieri (Generico)",
+			"skillName": "Generico",
+			"specialization": "Arti e Mestieri",
+			"description": "<p>La capacità di creare, riparare o giudicare opere d'arte o manufatti artigianali specifici (es. pittura, falegnameria, forgiatura).</p>"
+		},
+		"Art/Craft (Fine Art)": {
+			"name": "Arti e Mestieri (Belle Arti)",
+			"skillName": "Belle Arti",
+			"specialization": "Arti e Mestieri",
+			"description": "<p>Conoscenza approfondita della storia dell'arte, che permette di identificare stili, falsi, correnti artistiche e autori di opere specifiche.</p>"
+		},
+		"Art/Craft (Forgery)": {
+			"name": "Arti e Mestieri (Falsificare)",
+			"skillName": "Falsificare",
+			"specialization": "Arti e Mestieri",
+			"description": "<p>Creare documenti, firme, patenti, testamenti o permessi falsi in modo che sembrino del tutto autentici a un esame accurato.</p>"
+		},
+		"Art/Craft (Photography)": {
+			"name": "Arti e Mestieri (Fotografia)",
+			"skillName": "Fotografia",
+			"specialization": "Arti e Mestieri",
+			"description": "<p>Scattare foto nitide (anche in condizioni di scarsa luce), sviluppare i negativi correttamente in camera oscura e individuare foto alterate o ritoccate.</p>"
+		},
+		"Charm": {
+			"name": "Fascino",
+			"skillName": "Fascino",
+			"description": "<p>Usare la lusinga, la seduzione, la simpatia o la semplice affabilità personale per convincere qualcuno a collaborare o ad aiutare.</p>"
+		},
+		"Civics": {
+			"name": "Educazione Civica",
+			"skillName": "Educazione Civica",
+			"description": "<p>Consultare il manuale Cthulhu Invictus.</p>"
+		},
+		"Climb": {
+			"name": "Scalare",
+			"skillName": "Scalare",
+			"description": "<p>La capacità di arrampicarsi su muri, pareti rocciose, alberi o strutture verticali senza corde, o di farlo in sicurezza e con destrezza.</p>"
+		},
+		"Computer Use": {
+			"name": "Informatica",
+			"skillName": "Informatica",
+			"description": "<p>Abilità di operare su computer, programmare software, hackerare reti, recuperare dati cancellati o aggirare firewall (nelle ere moderne).</p>"
+		},
+		"Credit Rating": {
+			"name": "Valore di Credito",
+			"skillName": "Valore di Credito",
+			"description": "<p>Misura la ricchezza, la classe sociale e la reputazione finanziaria dell'Investigatore. Determina i fondi iniziali e l'accoglienza nell'alta società.</p>"
+		},
+		"Cthulhu Mythos": {
+			"name": "Miti di Cthulhu",
+			"skillName": "Miti di Cthulhu",
+			"description": "<p>La spaventosa conoscenza delle vere entità dell'universo. Non può essere aumentata alla creazione. Più cresce, più riduce la Sanità Mentale massima.</p>"
+		},
+		"Demolitions": {
+			"name": "Demolizioni",
+			"skillName": "Demolizioni",
+			"description": "<p>Competenza nel maneggiare e piazzare esplosivi (come la dinamite o il C4) per far saltare in aria strutture o barriere in modo calcolato.</p>"
+		},
+		"Disguise": {
+			"name": "Camuffare",
+			"skillName": "Camuffare",
+			"description": "<p>Alterare il proprio aspetto tramite trucco, vestiti, protesi o cambiamenti di postura per non farsi riconoscere o per sembrare un'altra persona.</p>"
+		},
+		"Diving": {
+			"name": "Immersione",
+			"skillName": "Immersione",
+			"description": "<p>L'abilità di utilizzare attrezzatura da palombaro o da sub (SCUBA) per condurre in sicurezza immersioni subacquee.</p>"
+		},
+		"Dodge": {
+			"name": "Schivare",
+			"skillName": "Schivare",
+			"description": "<p>L'istinto e i riflessi per evitare colpi fisici in corpo a corpo o pericoli improvvisi in arrivo. Il valore base è pari a metà della Destrezza (DEX).</p>"
+		},
+		"Drive Auto": {
+			"name": "Guida Auto",
+			"skillName": "Guida Auto",
+			"description": "<p>L'abilità di guidare automobili, furgoni e camion leggeri in situazioni di stress, effettuare manovre pericolose o partecipare a inseguimenti.</p>"
+		},
+		"Drive Carriage": {
+			"name": "Guidare Carrozza",
+			"skillName": "Guidare Carrozza",
+			"description": "<p>Consultare il manuale Cthulhu by Gaslight.</p>"
+		},
+		"Drive Horse / Oxen": {
+			"name": "Guidare Cavalli / Buoi",
+			"skillName": "Guidare Cavalli / Buoi",
+			"description": "<p>Consultare il manuale Cthulhu Invictus.</p>"
+		},
+		"Drive Wagon / Coach": {
+			"name": "Guidare Carro / Diligenza",
+			"skillName": "Guidare Carro / Diligenza",
+			"description": "<p>Consultare il manuale Down Darker Trails.</p>"
+		},
+		"Electrical Repair": {
+			"name": "Riparazioni Elettriche",
+			"skillName": "Riparazioni Elettriche",
+			"description": "<p>La capacità di installare, riparare, modificare o sabotare dispositivi elettrici, pannelli di controllo e circuiti.</p>"
+		},
+		"Electronics": {
+			"name": "Elettronica",
+			"skillName": "Elettronica",
+			"description": "<p>Comprensione teorica e pratica dei componenti elettronici microprocessati, essenziale per dispositivi complessi, radio avanzate e microspie.</p>"
+		},
+		"Empire": {
+			"name": "Impero",
+			"skillName": "Impero",
+			"description": "<p>Consultare il manuale Cthulhu Invictus.</p>"
+		},
+		"Fast Talk": {
+			"name": "Raggirare",
+			"skillName": "Raggirare",
+			"description": "<p>Ingannare o confondere verbalmente qualcuno per ottenere ciò che si vuole (es. l'accesso a un'area) prima che l'interlocutore possa rifletterci su.</p>"
+		},
+		"Fighting (Any)": {
+			"name": "Combattere (Generico)",
+			"skillName": "Generico",
+			"specialization": "Combattere",
+			"description": "<p>Da usare in professioni e archetipi per richiedere la scelta di una specializzazione di combattimento.</p>"
+		},
+		"Fighting (Axe)": {
+			"name": "Combattere (Ascia)",
+			"skillName": "Ascia",
+			"specialization": "Combattere",
+			"description": "<p>Competenza nel combattimento corpo a corpo utilizzando un'ascia da taglialegna, un'accetta o un'ascia da battaglia.</p>"
+		},
+		"Fighting (Brawl)": {
+			"name": "Combattere (Mischia)",
+			"skillName": "Mischia",
+			"specialization": "Combattere",
+			"description": "<p>L'abilità di base per il combattimento corpo a corpo. Copre attacchi disarmati (pugni, calci) e l'uso di armi improvvisate, pugnali o clave.</p>"
+		},
+		"Fighting (Chainsaw)": {
+			"name": "Combattere (Motosega)",
+			"skillName": "Motosega",
+			"specialization": "Combattere",
+			"description": "<p>Competenza nell'uso della motosega, non solo per tagliare legna o materiali, ma anche come brutale arma da combattimento ravvicinato.</p>"
+		},
+		"Fighting (Flail)": {
+			"name": "Combattere (Flagello)",
+			"skillName": "Flagello",
+			"specialization": "Combattere",
+			"description": "<p>Competenza nell'uso di armi a catena o snodate come il flagello medievale, il mazzafrusto o il nunchaku.</p>"
+		},
+		"Fighting (Garrote)": {
+			"name": "Combattere (Garrota)",
+			"skillName": "Garrota",
+			"specialization": "Combattere",
+			"description": "<p>Utilizzo di fili di metallo o corde resistenti per strangolare rapidamente e silenziosamente un avversario preso alle spalle.</p>"
+		},
+		"Fighting (Spear)": {
+			"name": "Combattere (Lancia)",
+			"skillName": "Lancia",
+			"specialization": "Combattere",
+			"description": "<p>Competenza nel combattimento con armi in asta, come lance o picche, per mantenere il nemico a distanza colpendo con efficacia.</p>"
+		},
+		"Fighting (Sword)": {
+			"name": "Combattere (Spada)",
+			"skillName": "Spada",
+			"specialization": "Combattere",
+			"description": "<p>L'addestramento nell'uso di lame lunghe nel combattimento corpo a corpo, comprendendo spade, fioretti da scherma, sciabole o katane.</p>"
+		},
+		"Fighting (Whip)": {
+			"name": "Combattere (Frusta)",
+			"skillName": "Frusta",
+			"specialization": "Combattere",
+			"description": "<p>L'uso di una frusta per infliggere danni, intimorire o tentare di disarmare o afferrare un oggetto dalle mani di un avversario a distanza ravvicinata.</p>"
+		},
+		"Firearms (Any)": {
+			"name": "Armi da Fuoco (Generico)",
+			"skillName": "Generico",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Da usare in professioni e archetipi per richiedere la scelta di una specializzazione di armi da fuoco.</p>"
+		},
+		"Firearms (Artillery)": {
+			"name": "Armi da Fuoco (Artiglieria)",
+			"skillName": "Artiglieria",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Abilità nell'uso e nel puntamento di armi pesanti da campo, come mortai, cannoni o obici militari.</p>"
+		},
+		"Firearms (Bow)": {
+			"name": "Armi da Fuoco (Arco)",
+			"skillName": "Arco",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Abilità nell'uso di archi lunghi, corti o balestre per colpire un bersaglio a distanza con precisione.</p>"
+		},
+		"Firearms (Flamethrower)": {
+			"name": "Armi da Fuoco (Lanciafiamme)",
+			"skillName": "Lanciafiamme",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Abilità nell'utilizzo sicuro ed efficace di un lanciafiamme in combattimento, evitando incidenti o esplosioni accidentali del serbatoio.</p>"
+		},
+		"Firearms (Handgun)": {
+			"name": "Armi da Fuoco (Pistola)",
+			"skillName": "Pistola",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Precisione e competenza nello sparare con armi da fuoco corte, come revolver, pistole semiautomatiche e pistole tascabili.</p>"
+		},
+		"Firearms (Heavy Weapons)": {
+			"name": "Armi da Fuoco (Armi Pesanti)",
+			"skillName": "Armi Pesanti",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Uso e manutenzione di armamenti militari pesanti come lanciamissili, bazooka, cannoni anti-carro o minigun.</p>"
+		},
+		"Firearms (Machine Gun)": {
+			"name": "Armi da Fuoco (Mitragliatrice Pesante)",
+			"skillName": "Mitragliatrice Pesante",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>L'addestramento nell'utilizzo di mitragliatrici leggere e pesanti montate su bipiede o treppiede per fornire fuoco di soppressione.</p>"
+		},
+		"Firearms (Rifle/Shotgun)": {
+			"name": "Armi da Fuoco (Fucile/Fucile a Pompa)",
+			"skillName": "Fucile/Fucile a Pompa",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Competenza nello sparare con armi da fuoco lunghe tenute a due mani, inclusi fucili da caccia, fucili a pompa e fucili d'assalto in modalità a colpo singolo.</p>"
+		},
+		"Firearms (Submachine Gun)": {
+			"name": "Armi da Fuoco (Mitraglietta)",
+			"skillName": "Mitraglietta",
+			"specialization": "Armi da Fuoco",
+			"description": "<p>Uso di armi da fuoco automatiche compatte progettate per sparare a raffica, come il classico mitra Thompson (Tommy Gun).</p>"
+		},
+		"First Aid": {
+			"name": "Primo Soccorso",
+			"skillName": "Primo Soccorso",
+			"description": "<p>Permette di curare ferite superficiali, fermare emorragie, rianimare e fornire cure mediche d'emergenza, ripristinando un Punto Ferita.</p>"
+		},
+		"Gambling": {
+			"name": "Gioco d'Azzardo",
+			"skillName": "Gioco d'Azzardo",
+			"description": "<p>Consultare il manuale Down Darker Trails.</p>"
+		},
+		"History": {
+			"name": "Storia",
+			"skillName": "Storia",
+			"description": "<p>Conoscenza approfondita di eventi, guerre, persone, nazioni ed epoche del passato dell'umanità. Utile per rintracciare oscuri culti o leggende.</p>"
+		},
+		"Hypnosis": {
+			"name": "Ipnosi",
+			"skillName": "Ipnosi",
+			"description": "<p>Indurre uno stato di trance nel soggetto per aiutarlo a ricordare dettagli rimossi, curare traumi temporanei o suggestionarne lievemente il comportamento.</p>"
+		},
+		"Intimidate": {
+			"name": "Intimidire",
+			"skillName": "Intimidire",
+			"description": "<p>Costringere qualcuno ad agire secondo la propria volontà incutendo paura, tramite minacce fisiche, violenza psicologica o ricatti.</p>"
+		},
+		"Jump": {
+			"name": "Saltare",
+			"skillName": "Saltare",
+			"description": "<p>L'abilità di coprire distanze verticali od orizzontali saltando in modo atletico, senza farsi male o perdere l'equilibrio all'atterraggio.</p>"
+		},
+		"Language (Any)": {
+			"name": "Lingua (Generico)",
+			"skillName": "Generico",
+			"specialization": "Lingua",
+			"description": "<p>Rappresenta una lingua qualsiasi studiata dal personaggio. Determina la fluidità nel parlarla, leggerla e scriverla.</p>"
+		},
+		"Language (Czech)": {
+			"name": "Lingua (Ceco)",
+			"skillName": "Ceco",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Dutch)": {
+			"name": "Lingua (Olandese)",
+			"skillName": "Olandese",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (English)": {
+			"name": "Lingua (Inglese)",
+			"skillName": "Inglese",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (German)": {
+			"name": "Lingua (Tedesco)",
+			"skillName": "Tedesco",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Own)": {
+			"name": "Lingua (Propria)",
+			"skillName": "Propria",
+			"specialization": "Lingua",
+			"description": "<p>La padronanza, il vocabolario e la grammatica della propria lingua madre. Utile per redigere documenti complessi o comprendere testi arcaici della propria lingua.</p>"
+		},
+		"Language (Polish)": {
+			"name": "Lingua (Polacco)",
+			"skillName": "Polacco",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Russian)": {
+			"name": "Lingua (Russo)",
+			"skillName": "Russo",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Swahili)": {
+			"name": "Lingua (Swahili)",
+			"skillName": "Swahili",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Yoruba)": {
+			"name": "Lingua (Yoruba)",
+			"skillName": "Yoruba",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Language (Zulu)": {
+			"name": "Lingua (Zulu)",
+			"skillName": "Zulu",
+			"specialization": "Lingua",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Law": {
+			"name": "Legge",
+			"skillName": "Legge",
+			"description": "<p>Conoscenza del sistema giuridico, delle leggi locali e internazionali, delle scappatoie legali e delle procedure di tribunale.</p>"
+		},
+		"Library Use": {
+			"name": "Individuare Bibliotecario",
+			"skillName": "Individuare Bibliotecario",
+			"description": "<p>L'abilità chiave per cercare e trovare informazioni utili, ritagli di giornale o tomi rari all'interno di biblioteche, archivi e grandi collezioni di documenti.</p>"
+		},
+		"Listen": {
+			"name": "Ascoltare",
+			"skillName": "Ascoltare",
+			"description": "<p>Percepire rumori deboli, origliare conversazioni a distanza o capire se qualcuno si sta avvicinando furtivamente alle proprie spalle.</p>"
+		},
+		"Locksmith": {
+			"name": "Scassinare",
+			"skillName": "Scassinare",
+			"description": "<p>Aprire serrature, casseforti o lucchetti senza l'uso della chiave, oltre a disinnescare sistemi di allarme o di sicurezza meccanici.</p>"
+		},
+		"Lore (Any)": {
+			"name": "Conoscenze (Generico)",
+			"skillName": "Generico",
+			"specialization": "Conoscenze",
+			"description": "<p>Competenza in un ambito estremamente specifico non coperto dalle scienze accademiche, come folklore locale, leggende sui vampiri, o il mondo dei sogni.</p>"
+		},
+		"Mechanical Repair": {
+			"name": "Riparazioni Meccaniche",
+			"skillName": "Riparazioni Meccaniche",
+			"description": "<p>Aggiustare, assemblare o smontare motori, ingranaggi, macchinari idraulici, serrature complesse e dispositivi non elettrici.</p>"
+		},
+		"Medicine": {
+			"name": "Medicina",
+			"skillName": "Medicina",
+			"description": "<p>Scienza medica avanzata. Permette di curare malattie, stabilizzare ferite gravissime, eseguire interventi chirurgici e far recuperare Punti Ferita nel tempo.</p>"
+		},
+		"Natural World": {
+			"name": "Scienze Naturali",
+			"skillName": "Scienze Naturali",
+			"description": "<p>Conoscenza generale non accademica e tradizionale di piante, alberi, tracce di animali, ecologia e dell'ambiente naturale.</p>"
+		},
+		"Navigate": {
+			"name": "Orientarsi",
+			"skillName": "Orientarsi",
+			"description": "<p>Trovare la propria strada e orientarsi usando mappe, stelle, bussole o strumentazione navale e aerea, evitando di perdersi.</p>"
+		},
+		"Occult": {
+			"name": "Occultismo",
+			"skillName": "Occultismo",
+			"description": "<p>Conoscenza umana dell'esoterismo, stregoneria tradizionale, società segrete, magia folcloristica e superstizioni (distinto e separato dai Miti di Cthulhu).</p>"
+		},
+		"Operate Heavy Machinery": {
+			"name": "Manovrare Macchinari Pesanti",
+			"skillName": "Manovrare Macchinari Pesanti",
+			"description": "<p>Guidare e manovrare in sicurezza trattori, macchine movimento terra, gru industriali, bulldozer o treni.</p>"
+		},
+		"Persuade": {
+			"name": "Persuadere",
+			"skillName": "Persuadere",
+			"description": "<p>Convincere qualcuno della propria posizione attraverso argomentazioni logiche, dibattiti strutturati e ragioni fondate, richiedendo più tempo del Raggirare.</p>"
+		},
+		"Pilot (Any)": {
+			"name": "Pilotare (Generico)",
+			"skillName": "Generico",
+			"specialization": "Pilotare",
+			"description": "<p>Abilità di pilotare specifici tipi di veicoli non automobilistici, come piccoli aeroplani, barche a motore, dirigibili o sottomarini.</p>"
+		},
+		"Psychoanalysis": {
+			"name": "Psicanalisi",
+			"skillName": "Psicanalisi",
+			"description": "<p>Trattamenti clinici psichiatrici per calmare chi è in preda al panico, interrompere una crisi di Follia Temporanea e restituire Punti Sanità a lungo termine.</p>"
+		},
+		"Psychology": {
+			"name": "Psicologia",
+			"skillName": "Psicologia",
+			"description": "<p>La capacità di comprendere le motivazioni intime delle persone, leggere il loro stato emotivo e intuire se qualcuno sta mentendo o nascondendo qualcosa.</p>"
+		},
+		"Read Lips": {
+			"name": "Leggere le Labbra",
+			"skillName": "Leggere le Labbra",
+			"description": "<p>Comprendere ciò che una persona sta dicendo semplicemente osservando i movimenti della sua bocca a distanza, a patto che se ne conosca la lingua.</p>"
+		},
+		"Ride": {
+			"name": "Cavalcare",
+			"skillName": "Cavalcare",
+			"description": "<p>L'abilità di stare in sella e guidare cavalli, muli o altri animali da soma in modo sicuro, mantenendo il controllo in caso di spavento dell'animale.</p>"
+		},
+		"Rope Use": {
+			"name": "Uso delle Corde",
+			"skillName": "Uso delle Corde",
+			"description": "<p>Consultare il manuale Down Darker Trails.</p>"
+		},
+		"Science (Any)": {
+			"name": "Scienza (Generico)",
+			"skillName": "Generico",
+			"specialization": "Scienza",
+			"description": "<p>L'applicazione pratica e teorica di una disciplina scientifica specializzata non inclusa nelle abilità base (ad esempio Criptozoologia, Ingegneria, ecc.).</p>"
+		},
+		"Science (Astronomy)": {
+			"name": "Scienza (Astronomia)",
+			"skillName": "Astronomia",
+			"specialization": "Scienza",
+			"description": "<p>Conoscenza dei corpi celesti, utile per la navigazione stellare, per prevedere eclissi o identificare costellazioni in modo scientifico.</p>"
+		},
+		"Science (Biology)": {
+			"name": "Scienza (Biologia)",
+			"skillName": "Biologia",
+			"specialization": "Scienza",
+			"description": "<p>Lo studio della vita e degli organismi viventi. Permette di identificare piante, animali, batteri e agenti patogeni.</p>"
+		},
+		"Science (Botany)": {
+			"name": "Scienza (Botanica)",
+			"skillName": "Botanica",
+			"specialization": "Scienza",
+			"description": "<p>Ramo della biologia incentrato sullo studio delle piante, delle loro proprietà, degli ecosistemi e dei potenziali usi curativi o velenosi.</p>"
+		},
+		"Science (Chemistry)": {
+			"name": "Scienza (Chimica)",
+			"skillName": "Chimica",
+			"specialization": "Scienza",
+			"description": "<p>Conoscenza degli elementi e dei composti. Permette di analizzare sostanze sconosciute, creare esplosivi, veleni o antidoti.</p>"
+		},
+		"Science (Cryptography)": {
+			"name": "Scienza (Crittografia)",
+			"skillName": "Crittografia",
+			"specialization": "Scienza",
+			"description": "<p>La capacità di creare, riconoscere o decifrare codici segreti, linguaggi cifrati e messaggi nascosti.</p>"
+		},
+		"Science (Engineering)": {
+			"name": "Scienza (Ingegneria)",
+			"skillName": "Ingegneria",
+			"specialization": "Scienza",
+			"description": "<p>Consultare il manuale base del Richiamo di Cthulhu 7a Edizione.</p>"
+		},
+		"Science (Forensics)": {
+			"name": "Scienza (Forense)",
+			"skillName": "Forense",
+			"specialization": "Scienza",
+			"description": "<p>Scienza applicata all'investigazione criminale. Permette di raccogliere prove, analizzare impronte, macchie di sangue e balistica sulla scena del crimine.</p>"
+		},
+		"Science (Geology)": {
+			"name": "Scienza (Geologia)",
+			"skillName": "Geologia",
+			"specialization": "Scienza",
+			"description": "<p>Lo studio delle rocce, dei minerali, dei suoli e della struttura della Terra. Utile per valutare faglie, miniere o l'origine di una pietra.</p>"
+		},
+		"Science (Mathematics)": {
+			"name": "Scienza (Matematica)",
+			"skillName": "Matematica",
+			"specialization": "Scienza",
+			"description": "<p>La capacità di comprendere ed eseguire calcoli complessi, analizzare schemi numerici e decifrare equazioni avanzate o modelli statistici.</p>"
+		},
+		"Science (Meteorology)": {
+			"name": "Scienza (Meteorologia)",
+			"skillName": "Meteorologia",
+			"specialization": "Scienza",
+			"description": "<p>Lo studio dell'atmosfera. Permette di prevedere con precisione l'arrivo di tempeste, analizzare anomalie climatiche e leggere gli strumenti meteo.</p>"
+		},
+		"Science (Pharmacy)": {
+			"name": "Scienza (Farmacia)",
+			"skillName": "Farmacia",
+			"specialization": "Scienza",
+			"description": "<p>Riconoscere, sintetizzare e preparare medicinali, droghe chimiche o veleni partendo da ingredienti grezzi, calcolando i giusti dosaggi.</p>"
+		},
+		"Science (Physics)": {
+			"name": "Scienza (Fisica)",
+			"skillName": "Fisica",
+			"specialization": "Scienza",
+			"description": "<p>Comprensione accademica delle leggi della materia, dell'energia, del moto, della termodinamica e dell'ottica.</p>"
+		},
+		"Science (Zoology)": {
+			"name": "Scienza (Zoologia)",
+			"skillName": "Zoologia",
+			"specialization": "Scienza",
+			"description": "<p>Lo studio biologico e accademico degli animali. Include anatomia, evoluzione, classificazione delle specie e comprensione delle abitudini della fauna.</p>"
+		},
+		"Sleight of Hand": {
+			"name": "Rapidità di Mano",
+			"skillName": "Rapidità di Mano",
+			"description": "<p>La destrezza manuale per nascondere piccoli oggetti nel palmo, borseggiare, barare a carte o eseguire trucchi di prestigio senza farsi notare.</p>"
+		},
+		"Spot Hidden": {
+			"name": "Individuare",
+			"skillName": "Individuare",
+			"description": "<p>Abilità visiva fondamentale per notare indizi nascosti, passaggi segreti, piccoli oggetti celati, nemici in agguato o dettagli fuori posto in un ambiente.</p>"
+		},
+		"Stealth": {
+			"name": "Furtività",
+			"skillName": "Furtività",
+			"description": "<p>La capacità di muoversi in silenzio, nascondersi nelle ombre e passare inosservati, per evitare di essere visti o sentiti da guardie o creature orribili.</p>"
+		},
+		"Survival (Any)": {
+			"name": "Sopravvivenza (Generico)",
+			"skillName": "Generico",
+			"specialization": "Sopravvivenza",
+			"description": "<p>La perizia necessaria per sopravvivere in specifici ambienti ostili (es. Deserto, Artico, Giungla), sapendo come trovare cibo, acqua e costruirsi un riparo.</p>"
+		},
+		"Swim": {
+			"name": "Nuotare",
+			"skillName": "Nuotare",
+			"description": "<p>La capacità di mantenersi a galla, nuotare per lunghe distanze, trattenere il fiato per periodi prolungati e sopravvivere in acque agitate o correnti forti.</p>"
+		},
+		"Throw": {
+			"name": "Lanciare",
+			"skillName": "Lanciare",
+			"description": "<p>La precisione nell'imprimere forza per lanciare oggetti colpendo un bersaglio. Include coltelli da lancio, sassi, palle da baseball o granate.</p>"
+		},
+		"Track": {
+			"name": "Seguire Tracce",
+			"skillName": "Seguire Tracce",
+			"description": "<p>Abilità di individuare, interpretare e seguire impronte, tracce di sangue o segni lasciati dal passaggio di una persona o di un animale nel terreno.</p>"
+		},
+		"Trap": {
+			"name": "Trappole",
+			"skillName": "Trappole",
+			"description": "<p>Consultare il manuale Down Darker Trails.</p>"
+		}
+	}
 }
