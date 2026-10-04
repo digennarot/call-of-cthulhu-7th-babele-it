@@ -1,65 +1,34 @@
 {
 	"label": "Esempi Oggetti",
-	"entries": [
-		{
-			"id": "1920's Setup Example",
+	"entries": {
+		"1920's Setup Example": {
 			"name": "Esempio Setup Anni Venti",
-			"description": "<p>Configurazione standard per un personaggio degli Anni Venti.</p>\n<p>&nbsp;</p>"
+			"description": "<p>Configurazione standard per un personaggio degli Anni Venti.</p>"
 		},
-		{
-			"id": "Archetype Example",
-			"name": "Esempio Archetipo",
-			"description": null
+		"Peacemaker": {
+			"name": "Paciere",
+			"description": "<p>Un risolutore di problemi dotato di una naturale capacità di trovare o vedere “l’occhio del ciclone” e di osservare una questione da tutti i lati. Motivato dall’armonia, il paciere cerca di mantenere l’equilibrio, sia tra individui che tra gruppi di persone, e di preservare lo status quo. Mira a trovare soluzioni e sa essere molto adattabile, a volte anche a proprio discapito, poiché tende a mettere le esigenze altrui davanti alle proprie. Spesso descritto come “accomodante” o “arrendevole”, sa essere risoluto, equilibrato e audace, soprattutto quando scoppia una crisi.</p>"
 		},
-		{
-			"id": "Death ray (prototype)",
-			"name": "Raggio di Morte (Prototipo)",
-			"description": ""
+		"Death ray (prototype)": {
+			"name": "Raggio della morte (prototipo)"
 		},
-		{
-			"id": "Experimental weapon",
-			"name": "Arma Sperimentale",
-			"description": "<p>Descrizione dell'Arma</p>\n<p>Selezionare 'Area di Effetto' attiverà 3 diversi tipi di danno e portata</p>\n<p>Selezionare 'Automatica' permetterà di selezionare 2 diverse skill per l'arma</p>\n<p>Selezionare 'Speciale' attiverà il campo di testo speciale</p>\n<p>Nella scheda di combattimento, se le icone hanno uno sfondo rosso, significa non è stata selezionata alcuna abilità per quell'arma</p>\n<p>Modifica l'arma e seleziona l'abilità corretta.</p>"
+		"Experimental weapon": {
+			"name": "Arma sperimentale",
+			"description": "<p>Descrizione dell'arma</p><p>Selezionando 'Area di effetto' si abilitano 3 diversi valori di danno e gittata</p><p>Selezionando 'Automatica' si possono scegliere 2 diverse abilità per l'arma</p><p>Selezionando 'Speciale' si attiva il campo di testo speciale</p><p>Nella scheda combattimento, se le icone hanno lo sfondo rosso, significa che per quell'arma non è stata selezionata alcuna abilità</p><p>Modifica l'arma e seleziona l'abilità corretta.</p>"
 		},
-		{
-			"id": "Occupation Example",
-			"name": "Esempio Professione",
-			"description": null
+		"Street Vendor": {
+			"name": "Venditore ambulante",
+			"description": "<p>Conosciuti comunemente anche come “strilloni” e “venditori di strada”, i venditori ambulanti si spostano di solito con un carretto o un carrello, vendendo ai passanti piccoli oggetti come manufatti artigianali, cibo e spuntini o altri articoli economici. Sono noti per gridare o declamare la propria merce per attirare i clienti, oltre che per la parlantina e le battute con cui aumentano le vendite.</p><p>Passare tutto il giorno in strada permette loro di conoscere i vari quartieri e i movimenti dei residenti, e li rende una calamita per raccogliere, o mettere in giro, pettegolezzi.</p><p><strong>Contatti suggeriti:</strong> altri venditori, forze dell’ordine locali, fornitori, maggiordomi e altro personale domestico.</p>"
 		},
-		{
-			"id": "Punch",
-			"name": "Pugno",
-			"description": ""
+		"Punch": {
+			"name": "Pugno"
 		},
-
-		{
-			"id": "Plan to enslave humanity",
-			"name": "Piano per schiavizzare l'umanità",
-			"description": ""
-		
+		"Example Talent": {
+			"name": "Talento di esempio"
 		},
-		{
-			"id": "Very mean sidekick",
-			"name": "Spalla molto cattiva",
-			"description": ""
-		
-		},
-		{
-			"id": "Orders",
-			"name": "Ordini",
-			"description": ""
-		
-		},
-		{
-			"id": "Secret documents",
-			"name": "Documenti segreti",
-			"description": ""
-		
-		},
-		{
-			"id": "Pile of junk",
-			"name": "Pila di spazzatura",
-			"description": ""
+		"Test Spell": {
+			"name": "Incantesimo di prova",
+			"description": "<p>Costringe un altro essere umano ad avere un incubo.</p><p>L’incantatore aggiunge un certo numero di punti magia e subisce [[/r 1D3 - 1]] punti Sanità. Se il bersaglio degli incubi è sveglio, l’incantatore deve spendere 1 POT e il lancio richiede cinque minuti in più.</p><p>Altri incantatori che conoscono l’incantesimo possono aggiungere un numero qualsiasi di punti magia; chiunque altro sia presente può aggiungere un punto magia.</p><p>L’incubo inizia con il bersaglio che affronta un esame per cui non ha studiato e si prolunga di un minuto per ogni sei punti magia spesi.</p><p></p>"
 		}
-	]
+	}
 }
