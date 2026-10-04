@@ -11,7 +11,7 @@
 * Italian translation of the compendiums of the Call of Cthulhu 7th Edition game system on Foundry VTT (Miskatonic Investigative Society).
 ---- 
 * Traduzione italiana dei compendi del sistema Call of Cthulhu 7th Edition (Miskatonic Investigative Society) su Foundry VTT.
-* L'interfaccia è già tradotta in italiano dal sistema stesso; questo modulo traduce i compendi tramite Babele e personalizza alcuni testi dell'interfaccia.
+* Il sistema include già una traduzione italiana parziale dell'interfaccia; questo modulo traduce i compendi tramite Babele e completa l'interfaccia (tutte le stringhe di CoC7 8.15).
 
 ## Installation - Installazione
 * Install/Update _Call of Cthulhu 7th Edition_ by Miskatonic Investigative Society from Foundry's system manager.
@@ -43,12 +43,10 @@
 
 ## Known Issues - Problemi Noti
 * The system manual is translated as a new Italian entry; the German, Spanish, French, Japanese and Ukrainian manuals are left in their own language.
-* Some field labels in the manual (Chaosium Canvas Interface, spell costs) are kept in English because the system interface does not translate them yet.
 * The prompts of the spell cost steps (_Test Spell_) are not translated.
 * Translated skill names apply to documents taken from the compendiums: skills already present in existing actors keep their original names.
 ---- 
 * Il manuale del sistema è tradotto come nuova voce italiana; i manuali in tedesco, spagnolo, francese, giapponese e ucraino restano nella loro lingua.
-* Alcune etichette nel manuale (Chaosium Canvas Interface, costi degli incantesimi) restano in inglese perché l'interfaccia del sistema non le traduce ancora.
 * Le richieste mostrate durante il calcolo del costo degli incantesimi (_Incantesimo di prova_) non sono tradotte.
 * I nomi tradotti delle abilità valgono per i documenti presi dai compendi: le abilità già presenti negli attori esistenti mantengono il nome originale.
 
@@ -91,6 +89,12 @@ version 1.2.0 :
 
 * Tradotti i compendi _Tabelle Sanità_ (tabelle VII-X) e _Tabelle_ (attacchi di follia in tempo reale).
 * Tradotto il manuale del sistema (21 pagine), mantenendo link, immagini e ancore funzionanti.
+
+version 1.3.0 :
+
+* Interfaccia completata: tradotte le 529 stringhe di CoC7 8.15 che mancavano anche nella traduzione italiana del sistema (Chaosium Canvas Interface, costi degli incantesimi, CoC ID, impostazioni, pacchetti esperienza, errori, ecc.).
+* I nomi delle abilità nelle etichette CoC ID coincidono con quelli del compendio Abilità.
+* Manuale aggiornato con le etichette italiane dell'interfaccia.
 
 ## Pubblicare una nuova versione
 
