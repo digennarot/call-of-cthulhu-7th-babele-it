@@ -1,0 +1,108 @@
+{
+	"label": "Tabelle Sanità",
+	"entries": {
+		"Table IX: Sample Phobias": {
+			"name": "Tabella IX: Esempi di fobie",
+			"description": "Vedi il Manuale del Custode a pag. 160 per i dettagli",
+			"results": {
+				"j1VtauWddscbPnMJ": {
+					"name": "Acrofobia"
+				},
+				"dahapQKhAhbs0hjb": {
+					"name": "Aracnofobia"
+				},
+				"9MOs1ajMf4ShIrBG": {
+					"name": "Bibliofobia"
+				},
+				"UrZdTGN4Ux937dSg": {
+					"name": "Eisottrofobia"
+				},
+				"VLSPzPyZeJ4aYC65": {
+					"name": "Emofobia"
+				},
+				"JvaLrcmax9Baania": {
+					"name": "Necrofobia"
+				},
+				"ODvU4CLHLSzpB2aD": {
+					"name": "Odontofobia"
+				},
+				"mo15gY2j42FS9Gsx": {
+					"name": "Pirofobia"
+				},
+				"SXpveRAqoFQe0ruq": {
+					"name": "Telefonofobia"
+				},
+				"ixZEZ0oHwdsZJFoc": {
+					"name": "Xenofobia"
+				}
+			}
+		},
+		"Table VII: Bouts of Madness - Real Time": {
+			"name": "Tabella VII: Attacchi di follia - Tempo reale",
+			"description": "Vedi il Manuale del Custode 7a Ed. a pag. 157 per i dettagli",
+			"results": {
+				"HgNsKb8Tpai3i2Al": {
+					"name": "Tabella degli attacchi di follia (tempo reale)"
+				},
+				"shZs4eTProS7darD": {
+					"name": "Tabella IX: Esempi di fobie"
+				},
+				"L3phCKkY8VlrrApC": {
+					"name": "Tabella X: Esempi di manie"
+				}
+			}
+		},
+		"Table VIII: Bouts of Madness - Summary": {
+			"name": "Tabella VIII: Attacchi di follia - Riassunto",
+			"description": "Vedi il Manuale del Custode 7a Ed. a pag. 159 per i dettagli",
+			"results": {
+				"DP0ps23LsX4mmZe5": {
+					"name": "Attacco di follia",
+					"description": "Vedi la tabella degli attacchi di follia a pag. 159 per [[/r 1D10]] ore"
+				},
+				"tMUV6LAyLURucY51": {
+					"name": "Tabella IX: Esempi di fobie"
+				},
+				"tJi6RPh6Jdk4XU0s": {
+					"name": "Tabella X: Esempi di manie"
+				}
+			}
+		},
+		"Table X: Sample Manias": {
+			"name": "Tabella X: Esempi di manie",
+			"description": "Vedi il Manuale del Custode a pag. 161 per i dettagli",
+			"results": {
+				"o5sS9aWzI62Tv1cb": {
+					"name": "Agatomania"
+				},
+				"I37iQnXS1JgzXY4K": {
+					"name": "Algomania"
+				},
+				"oVRIVGa78G2dLoXl": {
+					"name": "Amenomania"
+				},
+				"NJk3KNngqsy7BIDd": {
+					"name": "Bibliocleptomania"
+				},
+				"3oHAL5ofUNQ7vOy7": {
+					"name": "Dicemania"
+				},
+				"fVi8s0H8c4BFuvGM": {
+					"name": "Geliomania"
+				},
+				"MbCtMsdxsd2fSjHe": {
+					"name": "Clazomania"
+				},
+				"oi29TBzjxBBvOeAH": {
+					"name": "Cleptomania"
+				},
+				"pgQO5j8ow9m78CPU": {
+					"name": "Nosomania"
+				},
+				"kxCz7fzLqBSrVsHG": {
+					"name": "Pseudomania"
+				}
+			}
+		}
+	}
+}

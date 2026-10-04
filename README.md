@@ -42,11 +42,13 @@
 * Questa traduzione proviene dalla community e non è ufficiale. Qualunque suggerimento o feedback è enormemente apprezzato. Per favore utilizzare il sistema di notifiche qui su GitHub, “issues”.
 
 ## Known Issues - Problemi Noti
-* _Sanity Roll Table_, _System manuals_ and _Roll Tables_ compendiums are still in English.
+* The system manual is translated as a new Italian entry; the German, Spanish, French, Japanese and Ukrainian manuals are left in their own language.
+* Some field labels in the manual (Chaosium Canvas Interface, spell costs) are kept in English because the system interface does not translate them yet.
 * The prompts of the spell cost steps (_Test Spell_) are not translated.
 * Translated skill names apply to documents taken from the compendiums: skills already present in existing actors keep their original names.
 ---- 
-* I compendi _Sanity Roll Table_, _System manuals_ e _Roll Tables_ sono ancora in inglese.
+* Il manuale del sistema è tradotto come nuova voce italiana; i manuali in tedesco, spagnolo, francese, giapponese e ucraino restano nella loro lingua.
+* Alcune etichette nel manuale (Chaosium Canvas Interface, costi degli incantesimi) restano in inglese perché l'interfaccia del sistema non le traduce ancora.
 * Le richieste mostrate durante il calcolo del costo degli incantesimi (_Incantesimo di prova_) non sono tradotte.
 * I nomi tradotti delle abilità valgono per i documenti presi dai compendi: le abilità già presenti negli attori esistenti mantengono il nome originale.
 
@@ -84,6 +86,11 @@ version 1.1.0 :
 * Nuovi compendi tradotti: _Armi_ e _Fobie e Manie_, con le relative cartelle.
 * _Esempi Oggetti_: tradotti anche sezioni della biografia, occupazioni e tratti suggeriti, descrizione speciale delle armi e tempo di lancio degli incantesimi.
 * Richieste di Tiri rigenerate con i nuovi nomi delle abilità.
+
+version 1.2.0 :
+
+* Tradotti i compendi _Tabelle Sanità_ (tabelle VII-X) e _Tabelle_ (attacchi di follia in tempo reale).
+* Tradotto il manuale del sistema (21 pagine), mantenendo link, immagini e ancore funzionanti.
 
 ## Pubblicare una nuova versione
 

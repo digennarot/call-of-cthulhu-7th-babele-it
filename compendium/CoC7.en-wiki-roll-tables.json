@@ -1,0 +1,50 @@
+{
+	"label": "Tabelle",
+	"entries": {
+		"Bouts of Madness Table (Realtime)": {
+			"name": "Tabella degli attacchi di follia (tempo reale)",
+			"results": {
+				"3Pd4WXl37ZeU1i8e": {
+					"name": "Amnesia",
+					"description": "L'investigatore non ricorda nulla di ciò che è accaduto dall'ultima volta in cui si trovava in un luogo sicuro. Gli sembra di essere passato in un attimo dalla colazione al trovarsi di fronte a un mostro. L'effetto dura [[/r 1D10]] round."
+				},
+				"z16tJQGOk23wTa4C": {
+					"name": "Disabilità psicosomatica",
+					"description": "L'investigatore è colpito da cecità o sordità psicosomatica, o perde l'uso di un arto, per [[/r 1D10]] round."
+				},
+				"PiYnF6Q6j0NSku4J": {
+					"name": "Violenza",
+					"description": "Una nebbia rossa di rabbia cala sull'investigatore, che esplode in un'ondata di violenza e distruzione incontrollata contro ciò che lo circonda, alleati e nemici, per [[/r 1D10]] round."
+				},
+				"k8DF46MatH1DqSfQ": {
+					"name": "Paranoia",
+					"description": "L'investigatore soffre di una grave paranoia per [[/r 1D10]] round. Tutti ce l'hanno con lui! Non ci si può fidare di nessuno! Qualcuno lo spia, qualcuno lo ha tradito, ciò che vede è un inganno."
+				},
+				"PWPkEfuNpDpH2UkB": {
+					"name": "Persona importante",
+					"description": "Rileggi la voce Persone importanti nel passato dell'investigatore. L'investigatore scambia un'altra persona presente nella scena per la sua persona importante. Considera la natura del loro rapporto: l'investigatore agisce di conseguenza. L'effetto dura [[/r 1D10]] round."
+				},
+				"CBfZFFk02UMShx3O": {
+					"name": "Svenimento",
+					"description": "L'investigatore sviene e si riprende dopo [[/r 1D10]] round."
+				},
+				"GrvFqNbCGz0kZbPU": {
+					"name": "Fuga nel panico",
+					"description": "L'investigatore è spinto ad allontanarsi il più possibile con qualsiasi mezzo disponibile, anche se ciò significa prendere l'unico veicolo e abbandonare tutti gli altri. Fugge per [[/r 1D10]] round."
+				},
+				"8PxA7GKmozxJJGil": {
+					"name": "Crisi isterica o sfogo emotivo",
+					"description": "L'investigatore è incapace di agire perché ride, piange, urla, ecc. per [[/r 1D10]] round."
+				},
+				"UNWdb4jUKAl1MX3K": {
+					"name": "Fobia",
+					"description": "L'investigatore sviluppa una nuova fobia, come la claustrofobia (paura degli spazi chiusi), la demonofobia (paura degli spiriti o dei demoni) o la katsaridafobia (paura degli scarafaggi). Anche se l'oggetto della fobia non è presente, l'investigatore immagina che lo sia per i successivi [[/r 1D10]] round, e tutte le sue azioni subiscono un dado penalità finché dura l'attacco."
+				},
+				"VVGYNWTUqF2pPdXo": {
+					"name": "Mania",
+					"description": "L'investigatore sviluppa una nuova mania, come l'ablutomania (compulsione a lavarsi), la pseudomania (compulsione irrazionale a mentire) o l'elmintomania (un'eccessiva passione per i vermi). L'investigatore cerca di assecondare questa nuova mania per i successivi [[/r 1D10]] round, e tutte le sue azioni subiscono un dado penalità finché dura l'attacco."
+				}
+			}
+		}
+	}
+}
