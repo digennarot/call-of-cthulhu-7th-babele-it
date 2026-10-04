@@ -1,0 +1,58 @@
+name: Build and release
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version
+        id: meta
+        run: |
+          version=$(jq -r .version module.json)
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+
+      - name: Build module.json and module.zip
+        env:
+          REPO_URL: https://github.com/${{ github.repository }}
+          TAG: ${{ steps.meta.outputs.tag }}
+        run: |
+          mkdir -p dist
+          # Manifest and download always point to this repository and to the release of this version.
+          jq --arg url "$REPO_URL" --arg tag "$TAG" '
+            .url = $url
+            | .manifest = "\($url)/releases/latest/download/module.json"
+            | .download = "\($url)/releases/download/\($tag)/module.zip"
+          ' module.json > dist/module.json
+          mkdir -p build
+          cp -r babele-register.js compendium lang img README.md build/
+          cp dist/module.json build/module.json
+          (cd build && zip -r ../dist/module.zip .)
+          unzip -l dist/module.zip
+
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.meta.outputs.tag }}
+        run: |
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/module.json dist/module.zip --clobber
+          else
+            gh release create "$TAG" dist/module.json dist/module.zip \
+              --target "$GITHUB_SHA" \
+              --title "$TAG" \
+              --notes "Manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json"
+          fi

@@ -70,3 +70,13 @@ version 0.7.0 :
 * Compendi riallineati ai contenuti di CoC7 8.15: nuove abilità (Combattere, Armi da Fuoco, Scienza, Lingua, ecc.), nuovi esempi e Richieste di Tiri con la nuova sintassi.
 * Tradotti anche `skillName` e `specialization` delle abilità, così il sistema ricostruisce i nomi in italiano.
 * Rimosse dal file di lingua le chiavi non più usate dal sistema.
+
+version 1.0.0 :
+
+* Prima versione stabile pubblicata da digennarot.
+* Build e release automatiche con GitHub Actions a ogni push su `master`.
+
+## Pubblicare una nuova versione
+
+* Aumenta `version` in `module.json` e fai push su `master`: GitHub Actions crea la release `v<versione>` con `module.json` e `module.zip`.
+* Ogni push successivo con la stessa versione aggiorna i file della release esistente.
