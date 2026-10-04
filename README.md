@@ -108,6 +108,10 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 
 ## Versioni
 
+### 1.3.2
+
+* Rimossi file non utilizzati (vecchio `lang/en.json` e un'immagine da 1,5 MB): il pacchetto è più leggero.
+
 ### 1.3.1
 
 * Tooltip delle abilità allineati all'inglese: aggiunti il tiro combinato immediato e il collegamento

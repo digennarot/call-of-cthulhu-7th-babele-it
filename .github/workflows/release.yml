@@ -38,7 +38,7 @@ jobs:
             | .download = "\($url)/releases/download/\($tag)/module.zip"
           ' module.json > dist/module.json
           mkdir -p build
-          cp -r babele-register.js compendium lang img README.md build/
+          cp -r babele-register.js compendium lang README.md build/
           cp dist/module.json build/module.json
           (cd build && zip -r ../dist/module.zip .)
           unzip -l dist/module.zip
