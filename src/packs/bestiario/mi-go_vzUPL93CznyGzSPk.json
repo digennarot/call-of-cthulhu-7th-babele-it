@@ -1,0 +1,320 @@
+{
+	"_id": "vzUPL93CznyGzSPk",
+	"_key": "!actors!vzUPL93CznyGzSPk",
+	"name": "Mi-Go, i Funghi di Yuggoth",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"dex": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"mp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 7,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": 0,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I Funghi di Yuggoth sono una razza interstellare con una grande colonia sul pianeta Yuggoth (Plutone) e colonie minerarie sulle montagne della Terra, dove cercano metalli rari. Più che animali sono una specie di fungo. Comunicano tra loro cambiando i colori delle loro teste simili a cervelli, ma sanno parlare le lingue umane con voci ronzanti da insetto. Non possono nutrirsi di cibo terrestre e devono importarlo da altri mondi; volano nell’etere interstellare con le loro grandi ali, ma nell’atmosfera terrestre sono goffi.</p><p>Le lastre fotografiche comuni non ne catturano l’immagine. Feriti, sembrano capaci di far ricrescere o di innestare nuovi arti; dopo la morte si sciolgono in poche ore in una pozza di melma traslucida che secca lasciando solo una macchia oleosa. Venerano Nyarlathotep e Shub-Niggurath, e forse altri; assoldano o costringono agenti umani a coprire le loro operazioni, e per questo sono talvolta legati a culti. Gli avvistamenti in luoghi remoti sono forse all’origine delle storie sull’Abominevole uomo delle nevi e degli incontri con alieni e dischi volanti.</p><p>Sono scienziati curiosi, capaci di imprese chirurgiche straordinarie, come porre cervelli umani vivi in cilindri metallici che li mantengono in vita. Ai cilindri collegano strumenti per parlare, ascoltare e vedere, e così i loro servitori umani prediletti possono viaggiare nel freddo vuoto dello spazio verso stelle lontane e altri avamposti dei mi-go.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Ipnosi:</strong> inserendo nel ronzio toni a frequenze altissime e bassissime, il mi-go può mettere in trance uno o più umani che lo ascoltano: chi si trova entro dodici metri deve vincere un tiro contrapposto di POT o non può agire. I mi-go possono parlare telepaticamente agli umani al costo di 1 punto magia ogni 5 round; l’umano può resistere con un tiro contrapposto di POT.</p><p><strong>Luce del vuoto:</strong> crea una zona da cui i fotoni non escono, al costo di 1 punto magia per iarda cubica di oscurità; può avere la forma di una cortina o di una sfera.</p><p><strong>Incantesimi:</strong> hanno il 25% di probabilità di conoscere 1D3 incantesimi.</p><p><strong>Armatura:</strong> nessuna, ma il loro corpo extraterrestre e risonante fa sì che tutte le armi perforanti (proiettili compresi) infliggano il danno minimo.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "2",
+			"movement": [
+				{
+					"value": 13,
+					"type": "fly"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Scienziati enigmatici da Yuggoth",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Mi-Go, i Funghi di Yuggoth",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "reb0AbfpOPYZDHSa",
+			"_key": "!actors.items!vzUPL93CznyGzSPk.reb0AbfpOPYZDHSa",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "CQwlw2vE6o8sRJ2M",
+			"_key": "!actors.items!vzUPL93CznyGzSPk.CQwlw2vE6o8sRJ2M",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "TCgSizK3dFO3kR1I",
+			"_key": "!actors.items!vzUPL93CznyGzSPk.TCgSizK3dFO3kR1I",
+			"name": "Chele",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "reb0AbfpOPYZDHSa"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "NbXz9pVWgeKuEt6B",
+			"_key": "!actors.items!vzUPL93CznyGzSPk.NbXz9pVWgeKuEt6B",
+			"name": "Ghermire",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Afferra una vittima di Corporatura pari o inferiore e vola via per lasciarla cadere da grande altezza o portarla così in alto che i polmoni le scoppiano.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "reb0AbfpOPYZDHSa"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "0"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.mi-go",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

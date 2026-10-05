@@ -1,0 +1,490 @@
+{
+	"_id": "PYCRDAt5JStHJsBA",
+	"_key": "!actors!PYCRDAt5JStHJsBA",
+	"name": "Ghoul",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"mp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 9,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D4",
+				"auto": false
+			},
+			"build": {
+				"value": 1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I ghoul sono umanoidi ripugnanti dalla pelle gommosa, piedi simili a zoccoli, tratti canini e artigli. Parlano con quelli che vengono descritti come farfugliamenti e squittii, e sono spesso incrostati della muffa delle tombe raccolta mentre si nutrono.</p><p>Vivono in reti di gallerie sotto molte città, spesso attorno a cimiteri e antiche catacombe. Si sa che commerciano con streghe e con chi cerca piaceri indicibili, ma un umano ignaro che li incontra viene più probabilmente attaccato. Le tradizioni oscure suggeriscono che un essere umano possa trasformarsi in ghoul in un lungo periodo.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Incantesimi:</strong> hanno il 15% di probabilità di conoscere 1D10 incantesimi.</p><p><strong>Armatura:</strong> armi da fuoco e proiettili infliggono metà del danno tirato, arrotondato per difetto.</p><p><strong>Spunto:</strong> i ghoul potrebbero essere la verità dietro il mito dei bambini scambiati: le fate rubano i neonati e lasciano al loro posto «creature selvagge» che sembrano umane ma diventano sempre più strane crescendo, finché un giorno, di solito alla maturità, scompaiono.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "3",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Divoratori di cadaveri beffardi",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Ghoul",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "jzOEd3YORTbcUBxk",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.jzOEd3YORTbcUBxk",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "wm7aYwiMnCKBI3un",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.wm7aYwiMnCKBI3un",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "BVZ8bxVsvGalkyuf",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.BVZ8bxVsvGalkyuf",
+			"name": "Scalare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/climb.svg",
+			"system": {
+				"skillName": "Scalare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 85
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.climb",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "GDnlrONEPEVD99fi",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.GDnlrONEPEVD99fi",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "yGeMFGQ67iqoDXQn",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.yGeMFGQ67iqoDXQn",
+			"name": "Saltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/jump.svg",
+			"system": {
+				"skillName": "Saltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.jump",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "7b5vs5o2BpiifsxS",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.7b5vs5o2BpiifsxS",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "eIb8gKDEBDSWpIzz",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.eIb8gKDEBDSWpIzz",
+			"name": "Individuare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/spot_hidden.svg",
+			"system": {
+				"skillName": "Individuare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.spot-hidden",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "rLU3Ei9XZAQ1A6JN",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.rLU3Ei9XZAQ1A6JN",
+			"name": "Artigli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Artigli affilati e sudici: le ferite possono infettarsi se non curate.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "jzOEd3YORTbcUBxk"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "KcTqRM3OtMO7SlPJ",
+			"_key": "!actors.items!PYCRDAt5JStHJsBA.KcTqRM3OtMO7SlPJ",
+			"name": "Morso e presa",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Il ghoul resta attaccato invece di usare gli artigli e continua a infliggere 1D4 danni per round in automatico. Serve un tiro contrapposto di FOR per staccarlo.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "jzOEd3YORTbcUBxk"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D4"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.ghoul",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,260 @@
+{
+	"_id": "VgesIZyZB5tbyT86",
+	"_key": "!actors!VgesIZyZB5tbyT86",
+	"name": "Cavallo",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 140,
+				"formula": "(3D6+18)*5"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 165,
+				"formula": "(6D6+12)*5"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 23,
+				"max": 23,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+3D6",
+				"auto": false
+			},
+			"build": {
+				"value": 4,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I cavalli offrono molti vantaggi a chi li sa trattare; si distinguono in cavalli da sella, cavalli da tiro, asini e muli. Il cavallo da sella si governa con l’abilità Cavalcare: un cavaliere solo o un piccolo gruppo può coprire facilmente quaranta miglia al giorno, con acqua e foraggio a sufficienza. I cavalli da sella possono azzuffarsi tra loro ma non combattono se non messi alle strette; anche quelli addestrati per la cavalleria imparano solo a non indietreggiare e a controllare il nervosismo. Quasi tutti i cavalli vanno nel panico in presenza di qualcosa di soprannaturale.</p><p>I cavalli da tiro sono i più grandi, di solito domati alla sella ma poco cavalcati; per attaccarli a un carro si può chiedere un tiro di Guidare cavalli o simile, e selle e sottopancia della loro misura potrebbero non esistere (cavalcare a pelo comporta un dado penalità a Cavalcare). Asini e muli portano soprattutto carichi o tirano carri e calessi, e notoriamente ignorano gli ordini quando gli pare.</p><p>Davanti a sangue, spari, mostri e folle inferocite, qualsiasi cavallo tende sensatamente a fuggire.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Attacchi:</strong> animali grandi che scalciano, mordono e possono travolgere un avversario più piccolo, impennandosi e ricadendo sulle zampe anteriori. Un cavallo deve essere addestrato per calpestare le persone.</p><p><strong>Habitat:</strong> praterie e altipiani desertici, o dove vivono gli esseri umani.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Cavallo",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "4pNCmUoVAlDeYg3r",
+			"_key": "!actors.items!VgesIZyZB5tbyT86.4pNCmUoVAlDeYg3r",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 25
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "uGqoqskl1TvRqIap",
+			"_key": "!actors.items!VgesIZyZB5tbyT86.uGqoqskl1TvRqIap",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 25
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "AYPTorYyb8sbYuBZ",
+			"_key": "!actors.items!VgesIZyZB5tbyT86.AYPTorYyb8sbYuBZ",
+			"name": "Calci e morsi",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "4pNCmUoVAlDeYg3r"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D8"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.horse",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

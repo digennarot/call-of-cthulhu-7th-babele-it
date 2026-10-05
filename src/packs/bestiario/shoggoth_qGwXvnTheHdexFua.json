@@ -1,0 +1,315 @@
+{
+	"_id": "qGwXvnTheHdexFua",
+	"_key": "!actors!qGwXvnTheHdexFua",
+	"name": "Shoggoth",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 315,
+				"formula": "(18D6)*5"
+			},
+			"con": {
+				"value": 210,
+				"formula": "(12D6)*5"
+			},
+			"siz": {
+				"value": 420,
+				"formula": "(24D6)*5"
+			},
+			"dex": {
+				"value": 15,
+				"formula": "(1D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 63,
+				"max": 63,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 10,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+8D6",
+				"auto": false
+			},
+			"build": {
+				"value": 9,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Gli shoggoth sono tra i mostri dei Miti più orribili e ripugnanti. Enormi sacche di protoplasma di circa quattro metri e mezzo di diametro, anfibie, sanno formare a volontà arti, occhi e altre appendici, imitare altre forme di vita e compiere enormi prodigi di forza. Comunicano nel modo voluto dalla razza che li domina, formando organi appositi.</p><p>Nonostante Abdul Alhazred sostenesse che sulla Terra non ne esistono, se non negli incubi dei sognatori, gli shoggoth vivono in luoghi profondi e bui. Spesso servono gli Abitanti del Profondo e altre razze; sono scontrosi nel migliore dei casi e diventano sempre più intelligenti, ribelli e imitativi. I loro creatori, gli Antichi, scoprirono a proprie spese la vera natura dei loro servitori in una ribellione che quasi distrusse la loro civiltà.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Incantesimi:</strong> nessuno, ma alcuni individui molto antichi possono conoscerne e lanciarne.</p><p><strong>Combattimento:</strong> in combattimento uno shoggoth copre un’area di 5 iarde quadrate e produce a volontà tentacoli, artigli o qualsiasi appendice per schiacciare; chi viene colpito può anche essere inglobato.</p><p><strong>Inglobare:</strong> chi è trattenuto nella massa nera può reagire solo nei round in cui ottiene un risultato pari o inferiore alla sua FOR con 1D100. Lo shoggoth può inglobare un numero qualsiasi di nemici, purché la loro TAG totale non superi la sua.</p><p><strong>Armatura:</strong> nessuna, ma fuoco ed elettricità infliggono metà danno; le armi fisiche come armi da fuoco e coltelli infliggono solo 1 punto per colpo; rigenera 2 punti ferita per round.</p><p><strong>Movimento:</strong> 10, rotolando.</p><p><strong>Spunto:</strong> quando la genetica sarà matura, gli esperimenti potrebbero rivelare un codice sconosciuto nelle cellule di ogni essere vivente della Terra che, attivato, permette un’evoluzione ibrida e rapidissima, con una carne che si adatta all’istante all’ambiente. L’umanità accoglierà con favore o con orrore lo shoggoth che è in tutti noi?</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1D6",
+				"checkFailled": "1D20"
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Iridescenze fetide",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Shoggoth",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "WTEyjECn3KWJuGhB",
+			"_key": "!actors.items!qGwXvnTheHdexFua.WTEyjECn3KWJuGhB",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "aCDBU6JGVH0qM1WT",
+			"_key": "!actors.items!qGwXvnTheHdexFua.aCDBU6JGVH0qM1WT",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 8
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "peFCapGyEYirGyHM",
+			"_key": "!actors.items!qGwXvnTheHdexFua.peFCapGyEYirGyHM",
+			"name": "Schiacciare",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Il danno è pari al bonus al danno; in alternativa lo shoggoth può inglobare il bersaglio.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "WTEyjECn3KWJuGhB"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "8D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "AHw0SRVOjuhy8CvH",
+			"_key": "!actors.items!qGwXvnTheHdexFua.AHw0SRVOjuhy8CvH",
+			"name": "Inglobare",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Ogni vittima inglobata viene attaccata separatamente e deve vincere un tiro contrapposto di FOR o venire fatta a pezzi; se attacca più bersagli, lo shoggoth divide la sua FOR tra tutti. Ogni round dentro lo shoggoth la vittima perde punti ferita pari al suo bonus al danno.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "WTEyjECn3KWJuGhB"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "8D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.shoggoth",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

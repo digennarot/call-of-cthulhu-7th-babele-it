@@ -6,10 +6,10 @@
 	"img": "icons/svg/mystery-man.svg",
 	"system": {
 		"description": {
-			"value": "<p>Romanziere, saggista o poeta che vive (o cerca di vivere) della propria penna; le ricerche per i suoi libri lo portano spesso in luoghi insoliti.</p><p>Arte/Mestiere va specializzata in Letteratura.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Author): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"value": "<p>Romanziere, saggista o poeta che vive (o cerca di vivere) della propria penna; le ricerche per i suoi libri lo portano spesso in luoghi insoliti.</p><p>Arte/Mestiere va specializzata in Letteratura.</p><p><em>Abilità confermate dal Call of Cthulhu RPG Wiki di Chaosium; punti abilità e Credito ricostruiti dal Manuale del Custode (cap. 3, titolo originale: Author), da verificare sul manuale.</em></p>",
 			"keeper": ""
 		},
-		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"source": "Manuale del Custode, cap. 3; abilità dal Call of Cthulhu RPG Wiki",
 		"type": {
 			"classic": true,
 			"lovecraftian": true,

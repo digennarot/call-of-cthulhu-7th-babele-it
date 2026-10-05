@@ -1,0 +1,320 @@
+{
+	"_id": "1nQKHTtS8zeaupFr",
+	"_key": "!actors!1nQKHTtS8zeaupFr",
+	"name": "Abitante del Profondo",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 8,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D4",
+				"auto": false
+			},
+			"build": {
+				"value": 1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "1"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Gli Abitanti del Profondo (Deep Ones) sono una razza anfibia che serve soprattutto Cthulhu e due entità chiamate Padre Dagon e Madre Hydra. Chiuse nelle profondità senza tempo del mare, le loro vite aliene e arroganti sono di una bellezza fredda, incredibilmente crudeli e di fatto immortali. Si riuniscono per accoppiarsi o per adorare il Grande Cthulhu, ma non desiderano toccare né essere toccati come gli umani. Sono una razza marina, assente nelle acque dolci, con molte città sommerse in tutto il mondo: una al largo del Massachusetts, vicino a Innsmouth, altre si dice al largo delle isole britanniche.</p><p>Possono essere venerati dagli umani con cui si accoppiano regolarmente, perché sono immortali se non vengono uccisi, e così i loro figli ibridi. Hanno pelle squamosa grigioverde o bluastra, creste dorsali simili a pinne, mani e piedi palmati, teste da pesce o da rana con occhi sporgenti e bocche larghe dai denti di squalo, e branchie palpitanti sul collo.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Respirare sott’acqua:</strong> respirano senza aiuto sia sott’acqua sia sulla terraferma.</p><p><strong>Incantesimi:</strong> hanno il 40% di probabilità di conoscere 1D4 incantesimi.</p><p><strong>Armatura:</strong> 1 punto di pelle e squame.</p><p><strong>Spunto:</strong> diari, memorie e racconti di marinai, pescatori e pescatori di perle parlano di strani gioielli, di enormi pietre lavorate incrostate di madreperla e, naturalmente, di sirene. Messi insieme, potrebbero indicare le regioni che ospitano comunità immortali di Abitanti del Profondo: sono stati annotati nomi come Ahu-Y’hloa, Y’ha-nth-lei e G’ll-oo.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "1",
+			"movement": [
+				{
+					"value": 10,
+					"type": "swim"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Signori branchiati dei mari profondi",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Abitante del Profondo",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "iY8efOysJivHfZXu",
+			"_key": "!actors.items!1nQKHTtS8zeaupFr.iY8efOysJivHfZXu",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "WZkEhvmknjypEUIU",
+			"_key": "!actors.items!1nQKHTtS8zeaupFr.WZkEhvmknjypEUIU",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 25
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "IfMDiTgXxXSii24f",
+			"_key": "!actors.items!1nQKHTtS8zeaupFr.IfMDiTgXxXSii24f",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "iY8efOysJivHfZXu"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "jP7RqQKW8reja2bh",
+			"_key": "!actors.items!1nQKHTtS8zeaupFr.jP7RqQKW8reja2bh",
+			"name": "Lancia",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Gli Abitanti del Profondo sono abili con lance e tridenti e possono usare le armi come gli umani.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "iY8efOysJivHfZXu"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D8"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.deep-one",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

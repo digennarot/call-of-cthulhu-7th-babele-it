@@ -1,0 +1,357 @@
+{
+	"_id": "sKPH2eYZ5xVDmD1I",
+	"_key": "!actors!sKPH2eYZ5xVDmD1I",
+	"name": "Polipo volante",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 250,
+				"formula": "(4D6+36)*5"
+			},
+			"con": {
+				"value": 125,
+				"formula": "(2D6+18)*5"
+			},
+			"siz": {
+				"value": 250,
+				"formula": "(4D6+36)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"pow": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 37,
+				"max": 37,
+				"auto": false
+			},
+			"mp": {
+				"value": 16,
+				"max": 16,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 8,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+5D6",
+				"auto": false
+			},
+			"build": {
+				"value": 6,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "4"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Questa specie senza nome giunse sulla Terra dallo spazio come conquistatrice circa settecentocinquanta milioni di anni fa. Costruì città di basalto con alte torri senza finestre e abitò anche altri tre pianeti del sistema solare. Sulla Terra combatté contro la Grande Razza di Yith e fu infine sconfitta e costretta sottoterra; alla fine del Cretaceo risalì dalle sue tane e si vendicò sterminando la Grande Razza.</p><p>I polipi vivono ancora nelle loro caverne profonde e sembrano contenti di restarci, annientando i pochi che si imbattono in loro. Gli ingressi delle loro dimore si trovano per lo più tra rovine antichissime, dove grandi pozzi sono sigillati con lastre di pietra. Le antiche leggende dicono che controllano venti tremendi, capaci di devastare o di colpire singole persone.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Invisibilità:</strong> spendendo 1 punto magia per round un polipo diventa del tutto invisibile, ma si può localizzare grazie al costante, nauseante sibilo che lo accompagna. Per colpirlo bisogna prima riuscire in un tiro di Ascoltare, e l’attacco subisce un dado penalità. I polipi entrano ed escono naturalmente dalla visibilità: a ogni attacco contro di loro si fa un tiro di Fortuna, e se fallisce l’attacco subisce un dado penalità. Da invisibile il polipo non attacca con i tentacoli, ma può usare un attacco di vento o lanciare incantesimi.</p><p><strong>Incantesimi:</strong> hanno il 70% di probabilità di conoscere 1D10 incantesimi.</p><p><strong>Attacchi:</strong> ogni round si tirano 2D6 per sapere quanti tentacoli si formano; un solo attacco di vento per round. Ogni potere del vento costa 1 punto magia per round. Il bonus al danno si usa solo per la raffica di vento.</p><p><strong>Vento risucchiante:</strong> gittata 1.000 iarde, aggira gli angoli e risale i corridoi senza perdere forza. Il bersaglio fa un tiro contrapposto di FOR contro il POT del polipo (oltre 200 iarde ottiene un dado bonus): se perde non può allontanarsi per quel round. Il polipo può muoversi a piena velocità mentre lo usa, e può colpire più bersagli entro 30 iarde l’uno dall’altro (ognuno degli altri ottiene un dado bonus).</p><p><strong>Tempesta:</strong> più polipi insieme generano un vento locale di mezzo miglio orario per punto di POT, che perde 5 miglia orarie ogni 200 iarde. Un gruppo può scatenare venti da uragano su qualche miglio quadrato: i bersagli subiscono 1D4 di danno per ogni 20 miglia orarie oltre le 100 (metà danno con un tiro di Fortuna riuscito).</p><p><strong>Armatura:</strong> 4 punti, più l’invisibilità. Le armi fisiche infliggono solo il danno minimo, poi ridotto dei 4 punti di armatura. Le armi incantate infliggono danno normale, come calore ed elettricità.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1D3",
+				"checkFailled": "1D20"
+			},
+			"attacksPerRound": "2D6",
+			"movement": [
+				{
+					"value": 12,
+					"type": "fly"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Terrori dall’oscurità sottostante",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Polipo volante",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "NrPrjRpmVA8nv292",
+			"_key": "!actors.items!sKPH2eYZ5xVDmD1I.NrPrjRpmVA8nv292",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 85
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "oCvTHQAu1eaXafpa",
+			"_key": "!actors.items!sKPH2eYZ5xVDmD1I.oCvTHQAu1eaXafpa",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "WitkRDsJGuGGIBE7",
+			"_key": "!actors.items!sKPH2eYZ5xVDmD1I.WitkRDsJGuGGIBE7",
+			"name": "Tentacoli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Il danno va direttamente ai punti ferita e ignora l’armatura: la ferita appare come un’ustione da vento o una disidratazione dei tessuti.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "NrPrjRpmVA8nv292"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D10"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "8iBdJV8JCkG2AERd",
+			"_key": "!actors.items!sKPH2eYZ5xVDmD1I.8iBdJV8JCkG2AERd",
+			"name": "Combattere (Raffica di vento)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Raffica di vento",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-raffica-di-vento",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "DAc8ueWoFxlNLJAh",
+			"_key": "!actors.items!sKPH2eYZ5xVDmD1I.DAc8ueWoFxlNLJAh",
+			"name": "Raffica di vento",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Costa 1 punto magia. Cilindro di 10 iarde di diametro; perde 1D6 di danno per ogni multiplo della gittata base di 20 iarde. Le vittime vengono scarnificate, disidratate e spinte indietro di tante iarde quanti sono i punti ferita persi.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Raffica di vento)",
+						"id": "8iBdJV8JCkG2AERd"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "20",
+						"damage": "5D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": true,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.flying-polyp",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

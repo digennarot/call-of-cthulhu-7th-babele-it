@@ -1,0 +1,355 @@
+{
+	"_id": "p81VmeCTgSDQmDDH",
+	"_key": "!actors!p81VmeCTgSDQmDDH",
+	"name": "Coccodrillo del Nilo",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 130,
+				"formula": "(4D6+12)*5"
+			},
+			"con": {
+				"value": 90,
+				"formula": "(3D6+8)*5"
+			},
+			"siz": {
+				"value": 130,
+				"formula": "(4D6+12)*5"
+			},
+			"dex": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 22,
+				"max": 22,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 6,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+2D6",
+				"auto": false
+			},
+			"build": {
+				"value": 3,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "5"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Il coccodrillo del Nilo, ormai raro nel basso Nilo, si trova ancora nell’Africa centrale, in Madagascar, nell’Asia tropicale e nell’Australia settentrionale e occidentale. Dove c’è acqua possono esserci coccodrilli. Mangiano qualsiasi cosa riescano a catturare e accorrono in gran numero a una preda per nutrirsi insieme; di solito non attaccano le barche.</p><p>Gli stessi valori valgono per qualsiasi coccodrilliano, compresi alligatori, caimani e gaviali.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Armatura:</strong> 5 punti di pelle coriacea.</p><p><strong>Habitat:</strong> tropici di tutto il mondo, soprattutto le paludi della giungla.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [
+				{
+					"value": 8,
+					"type": "swim"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Coccodrillo del Nilo",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "Ejeo85uu7zqqjhve",
+			"_key": "!actors.items!p81VmeCTgSDQmDDH.Ejeo85uu7zqqjhve",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "XJQGAovtCIweTzac",
+			"_key": "!actors.items!p81VmeCTgSDQmDDH.XJQGAovtCIweTzac",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 17
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "rC089BKy2JR0jTU6",
+			"_key": "!actors.items!p81VmeCTgSDQmDDH.rC089BKy2JR0jTU6",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Furtività (in acqua 80%)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "9if40RPwGCPwWArd",
+			"_key": "!actors.items!p81VmeCTgSDQmDDH.9if40RPwGCPwWArd",
+			"name": "Colpo di coda",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Il danno è pari al bonus al danno.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "Ejeo85uu7zqqjhve"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "2D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "BMqsGwGFP43HqV6Z",
+			"_key": "!actors.items!p81VmeCTgSDQmDDH.BMqsGwGFP43HqV6Z",
+			"name": "Morso e presa",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Una volta afferrata la vittima difficilmente la lascia: infligge il bonus al danno ogni round in cui la trattiene e può trascinarla sott’acqua per annegarla.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "Ejeo85uu7zqqjhve"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D10"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.crocodile-nile",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

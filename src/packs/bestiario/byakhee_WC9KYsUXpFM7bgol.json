@@ -1,0 +1,390 @@
+{
+	"_id": "WC9KYsUXpFM7bgol",
+	"_key": "!actors!WC9KYsUXpFM7bgol",
+	"name": "Byakhee",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 90,
+				"formula": "(5D6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 90,
+				"formula": "(5D6)*5"
+			},
+			"dex": {
+				"value": 70,
+				"formula": "(3D6+3)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 14,
+				"max": 14,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 5,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D6",
+				"auto": false
+			},
+			"build": {
+				"value": 2,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "2"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Questa razza interstellare serve spesso Hastur l’Innominabile e può essere evocata per prendere parte a rituali. Fatti di materia ordinaria, i byakhee sono vulnerabili alle armi comuni, come le pistole. Abitano lo spazio interstellare e non hanno basi sulla Terra, ma possono essere evocati per compiere imprese o fare da cavalcature, trasportando i loro cavalieri tra le stelle.</p><p>Camminano su quattro zampe ma talvolta si ergono sulle posteriori; grandi come una mucca, non sono né mucca, né uccello, né insetto, ma un miscuglio di tutto ciò unito al lezzo di un cadavere umano. Li si riconosce dal fetore, che arriva molto prima di loro.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Volare:</strong> i byakhee volano nello spazio e possono portare un cavaliere, che però va protetto dal vuoto e dal freddo con incantesimi o pozioni adatti (per esempio l’idromele spaziale).</p><p><strong>Incantesimi:</strong> hanno il 40% di probabilità di conoscere 1D4 incantesimi, spesso legati a Hastur e alle entità a lui associate.</p><p><strong>Morso e presa:</strong> se il morso va a segno il byakhee resta attaccato alla vittima e ne beve il sangue. Scampata la morte, la vittima recupera fino a 1D10+5 FOR al giorno con il riposo (anche tramite trasfusioni).</p><p><strong>Armatura:</strong> 2 punti di pelliccia e pelle coriacea.</p><p><strong>Spunto:</strong> i byakhee sanno piegare lo spazio? Alcuni ipotizzano che il potere risieda in un organo interno, talvolta chiamato «hune», che qualcuno troverebbe molto interessante come arma o mezzo di trasporto. Forse un esemplare giace in un museo o in un laboratorio dimenticato, in attesa di uno scienziato ignaro.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "2",
+			"movement": [
+				{
+					"value": 16,
+					"type": "fly"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Destrieri delle stelle",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Byakhee",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "7jW8ntMfOn5jmVFu",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.7jW8ntMfOn5jmVFu",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 55
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "BpzmmEHWx5O8FODL",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.BpzmmEHWx5O8FODL",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "DMs9Tfwhch929mA0",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.DMs9Tfwhch929mA0",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "OkFu8vjH8Cw6fD5N",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.OkFu8vjH8Cw6fD5N",
+			"name": "Individuare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/spot_hidden.svg",
+			"system": {
+				"skillName": "Individuare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.spot-hidden",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "6AFB2sgqUMMtQYwL",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.6AFB2sgqUMMtQYwL",
+			"name": "Artigli e urto",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "7jW8ntMfOn5jmVFu"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "PZAHfSRhcwcJ7Lfz",
+			"_key": "!actors.items!WC9KYsUXpFM7bgol.PZAHfSRhcwcJ7Lfz",
+			"name": "Morso e presa",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Più 3D10 FOR (sangue) prosciugati ogni round, compreso il primo, finché la vittima muore (FOR 0) o vince un tiro contrapposto di FOR. Una sola vittima alla volta.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "7jW8ntMfOn5jmVFu"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.byakhee",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

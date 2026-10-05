@@ -1,0 +1,328 @@
+{
+	"_id": "s8tXpudb3Bqvo6FR",
+	"_key": "!actors!s8tXpudb3Bqvo6FR",
+	"name": "Cane",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"dex": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 8,
+				"max": 8,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "-1",
+				"auto": false
+			},
+			"build": {
+				"value": -1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I nostri amici domestici si distinguono tra gli animali per la devozione e l’affetto verso i padroni. Quando cacciano preferiscono riunirsi in mute di almeno 1D8+3 animali. I cani hanno taglie molto diverse e i valori medi indicati vanno adattati di conseguenza.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Habitat:</strong> ovunque vivano gli esseri umani.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Cane",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "SPRBsgbFnJZSaJiN",
+			"_key": "!actors.items!s8tXpudb3Bqvo6FR.SPRBsgbFnJZSaJiN",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "T1qs13krUgbNJVIq",
+			"_key": "!actors.items!s8tXpudb3Bqvo6FR.T1qs13krUgbNJVIq",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 42
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "FTfol01HT6UAizNR",
+			"_key": "!actors.items!s8tXpudb3Bqvo6FR.FTfol01HT6UAizNR",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "0CBM733xL8JUBzAk",
+			"_key": "!actors.items!s8tXpudb3Bqvo6FR.0CBM733xL8JUBzAk",
+			"name": "Fiutare qualcosa di interessante",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Fiutare qualcosa di interessante",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 90
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fiutare-qualcosa-di-interessante",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "oYJcRe0WwSwocAE9",
+			"_key": "!actors.items!s8tXpudb3Bqvo6FR.oYJcRe0WwSwocAE9",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "SPRBsgbFnJZSaJiN"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.dog",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

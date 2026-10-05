@@ -1,0 +1,295 @@
+{
+	"_id": "yhJ2Ec6T9keEJzGv",
+	"_key": "!actors!yhJ2Ec6T9keEJzGv",
+	"name": "Figlio di Yig (Serpente a sonagli)",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 40,
+				"formula": ""
+			},
+			"con": {
+				"value": 40,
+				"formula": ""
+			},
+			"siz": {
+				"value": 30,
+				"formula": ""
+			},
+			"dex": {
+				"value": 90,
+				"formula": ""
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 60,
+				"formula": ""
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 7,
+				"max": 7,
+				"auto": false
+			},
+			"mp": {
+				"value": 12,
+				"max": 12,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 9,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": -2,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I figli di Yig, o sacri a Yig, sono grandi serpenti con il marchio del dio sulla testa: una mezzaluna bianca. Di solito sono esemplari più grandi del normale delle specie velenose del luogo: in Nord America possono essere crotali diamantati, teste di rame, mocassini acquatici o crotali dei boschi.</p><p>Questi serpenti mostruosi sono guidati dalla volontà di Yig o dei suoi servitori e possono fare la guardia a luoghi o manufatti sacri, oppure essere mandati a colpire chi ha offeso Yig: cacciatori implacabili, seguono il bersaglio finché non possono colpirlo, poi spariscono all’improvviso come sono arrivati. A volte un figlio di Yig porta un messaggio meno letale, un avvertimento o il promemoria che Yig vede tutto.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Altre specie:</strong> per altri serpenti, prendi le caratteristiche massime della specie e aggiungi +1D10 a ognuna.</p><p><strong>Agguato:</strong> compaiono così in fretta da cogliere tutti di sorpresa (tiro di Ascoltare o Individuare per non subire l’agguato) e colpiscono automaticamente, a meno che il bersaglio non reagisca con un tiro di Schivare riuscito.</p><p><strong>Veleno:</strong> succhiare il veleno richiede un tiro riuscito di Pronto Soccorso, Mondo Naturale o Sopravvivenza e dimezza il danno (o lo dimezza ancora, se il tiro Estremo di COS è riuscito). Amputare subito l’arto colpito (di solito una gamba) con Medicina o Pronto Soccorso può evitare la morte, a un prezzo altissimo e permanente.</p><p><strong>Incantesimi:</strong> nessuno.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Serpenti mostruosi",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Figlio di Yig (Serpente a sonagli)",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "4Pmra87uxpnMGxDr",
+			"_key": "!actors.items!yhJ2Ec6T9keEJzGv.4Pmra87uxpnMGxDr",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "bCEp0sabEnjtScGP",
+			"_key": "!actors.items!yhJ2Ec6T9keEJzGv.bCEp0sabEnjtScGP",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "MRsExkT9QCWm01Sw",
+			"_key": "!actors.items!yhJ2Ec6T9keEJzGv.MRsExkT9QCWm01Sw",
+			"name": "Combattere (Morso)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Morso",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-morso",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "YAPYdh3Nql7eXrDw",
+			"_key": "!actors.items!yhJ2Ec6T9keEJzGv.YAPYdh3Nql7eXrDw",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Più veleno forte: 2D10 danni, agonia e di solito la morte; un tiro Estremo di COS riuscito dimezza il danno.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Morso)",
+						"id": "MRsExkT9QCWm01Sw"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D2"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.child-of-yig-rattlesnake",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

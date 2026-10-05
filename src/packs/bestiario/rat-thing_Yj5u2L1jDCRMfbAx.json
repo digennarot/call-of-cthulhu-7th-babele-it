@@ -1,0 +1,330 @@
+{
+	"_id": "Yj5u2L1jDCRMfbAx",
+	"_key": "!actors!Yj5u2L1jDCRMfbAx",
+	"name": "Cosa-ratto",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 10,
+				"formula": "(1D3)*5"
+			},
+			"con": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"siz": {
+				"value": 5,
+				"formula": "5"
+			},
+			"dex": {
+				"value": 90,
+				"formula": "(4D6+4)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"pow": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 4,
+				"max": 4,
+				"auto": false
+			},
+			"mp": {
+				"value": 7,
+				"max": 7,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 9,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "-2",
+				"auto": false
+			},
+			"build": {
+				"value": -2,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Somigliano a ratti comuni e da lontano è facile confonderli, ma da vicino la testa è una caricatura maligna di una testa umana e le zampe sembrano minuscole mani umane. Tutti hanno denti fortissimi e affilati.</p><p>Queste creature innaturali sono forse frutto di stregoneria: a volte un servitore fedele viene trasformato in cosa-ratto per continuare a servire il suo padrone. Si dice che conoscano bene i Miti e che vengano donate come famigli a streghe e stregoni cari agli dèi oscuri. Brown Jenkin, il famiglio della strega Keziah Mason, era una cosa-ratto.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Attacchi:</strong> si arrampicano su gambe e vestiti o si lasciano cadere dal soffitto.</p><p><strong>Incantesimi:</strong> hanno il 30% di probabilità di conoscere 1D3 incantesimi; chi li conosceva in vita li conserva. Se la cosa-ratto è un dono di un Dio Esterno o simili, probabilmente ne conosce molti di più.</p><p><strong>Armatura:</strong> nessuna, ma gli attacchi contro una cosa-ratto in corsa subiscono un dado penalità.</p><p><strong>Sanità:</strong> 0/1D6 per vedere una cosa-ratto; 1/1D8 se l’osservatore la conosceva in vita.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Beffatori maligni e spie striscianti",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Cosa-ratto",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "czwI6BN0lkUe6frt",
+			"_key": "!actors.items!Yj5u2L1jDCRMfbAx.czwI6BN0lkUe6frt",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "bmd1Pq624rOSv5nr",
+			"_key": "!actors.items!Yj5u2L1jDCRMfbAx.bmd1Pq624rOSv5nr",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "QTPYsdFpqDWPcdHo",
+			"_key": "!actors.items!Yj5u2L1jDCRMfbAx.QTPYsdFpqDWPcdHo",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "mZhYHq7NEMwqusa7",
+			"_key": "!actors.items!Yj5u2L1jDCRMfbAx.mZhYHq7NEMwqusa7",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "NGv8UoOTTct00fwu",
+			"_key": "!actors.items!Yj5u2L1jDCRMfbAx.NGv8UoOTTct00fwu",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Una volta riuscito l’attacco, la cosa-ratto resta aggrappata e continua a mordere; strapparla via costa alla vittima altri 1D3 punti ferita.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "czwI6BN0lkUe6frt"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D4"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.rat-thing",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

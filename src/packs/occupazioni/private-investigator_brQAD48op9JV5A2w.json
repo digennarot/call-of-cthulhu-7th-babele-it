@@ -6,10 +6,10 @@
 	"img": "icons/svg/mystery-man.svg",
 	"system": {
 		"description": {
-			"value": "<p>Lavora in proprio per clienti che non possono o non vogliono rivolgersi alla polizia: mariti sospettosi, persone scomparse, segreti da scoprire.</p><p>L’abilità libera è spesso Uso del computer, Scassinare o Armi da fuoco.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Private Investigator): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"value": "<p>Lavora in proprio per clienti che non possono o non vogliono rivolgersi alla polizia: mariti sospettosi, persone scomparse, segreti da scoprire.</p><p>L’abilità libera è spesso Uso del computer, Scassinare o Armi da fuoco.</p><p><em>Abilità confermate dal Call of Cthulhu RPG Wiki di Chaosium; punti abilità e Credito ricostruiti dal Manuale del Custode (cap. 3, titolo originale: Private Investigator), da verificare sul manuale.</em></p>",
 			"keeper": ""
 		},
-		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"source": "Manuale del Custode, cap. 3; abilità dal Call of Cthulhu RPG Wiki",
 		"type": {
 			"classic": true,
 			"lovecraftian": false,

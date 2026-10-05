@@ -1,0 +1,442 @@
+{
+	"_id": "GykBeEIdqby9SH7f",
+	"_key": "!actors!GykBeEIdqby9SH7f",
+	"name": "Giovane oscuro di Shub-Niggurath",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 220,
+				"formula": "(4D6+30)*5"
+			},
+			"con": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"siz": {
+				"value": 220,
+				"formula": "(4D6+30)*5"
+			},
+			"dex": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"pow": {
+				"value": 90,
+				"formula": "(5D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 30,
+				"max": 30,
+				"auto": false
+			},
+			"mp": {
+				"value": 18,
+				"max": 18,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 8,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+4D6",
+				"auto": false
+			},
+			"build": {
+				"value": 5,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Masse enormi e contorte di tentacoli neri simili a corde. Qua e là sulla superficie si aprono grandi bocche grinzose che gocciolano un liquido verde. Sotto il corpo, alcuni tentacoli terminano in zoccoli neri con cui la creatura batte il terreno. Nella sagoma ricordano alberi: i tronchi sono le zampe corte, le chiome i corpi ramificati. L’intera massa puzza di fossa aperta. Sono alti tra i quattro e i sei metri.</p><p>Sono i «piccoli» a cui allude l’epiteto di Shub-Niggurath, «la Capra Nera dei Boschi dai Mille Piccoli». Strettamente legati a lei, si trovano solo dove è venerata: ne fanno le veci accettando sacrifici e adorazione dai cultisti, divorando i non credenti e diffondendo il culto della madre nel mondo. Per fortuna li si incontra di rado.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Incantesimi:</strong> ogni giovane oscuro conosce un numero di incantesimi pari a un decimo della sua INT.</p><p><strong>Attacchi:</strong> 5 per round, ma Travolgere una sola volta per round.</p><p><strong>Armatura:</strong> fatti di materia non terrestre, subiscono solo 1 punto di danno per proiettile dalle armi da fuoco (2 con un impalamento). Le armi da mischia infliggono danno normale. Calore, esplosioni, corrosione, elettricità e veleni non hanno effetto.</p><p><strong>Spunto:</strong> gli archeologi hanno trovato nell’Inghilterra centrale indizi di un antico culto pagano della fertilità, devoto agli alberi, con sacrifici di vergini a qualcosa chiamato solo «l’Albero Avvizzito». Forse è collegato ai racconti degli anziani amazzonici su zone di giungla che camminano e sui doni da offrire «agli alti» per placarne la fame.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1D3",
+				"checkFailled": "1D10"
+			},
+			"attacksPerRound": "5",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Giovane oscuro",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Giovane oscuro di Shub-Niggurath",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "mwxihzp06iZAGleG",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.mwxihzp06iZAGleG",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 80
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "h66gu78JX9S6yzXL",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.h66gu78JX9S6yzXL",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "CSZvk8pljVaW9G4Z",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.CSZvk8pljVaW9G4Z",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Furtività (dado bonus nei boschi)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "ZaiInecUJR1O3ysX",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.ZaiInecUJR1O3ysX",
+			"name": "Tentacoli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Il danno è pari al bonus al danno. Può anche scalciare con gli zoccoli, schiacciare o colpire con la sua mole.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "mwxihzp06iZAGleG"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "4D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "REEZHUKtJrC7GtCg",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.REEZHUKtJrC7GtCg",
+			"name": "Afferrare",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Afferra e trattiene fino a quattro vittime, accostandole alle bocche: ognuna perde 1D10+5 FOR per round, che non si recupera più. Mentre viene prosciugata la vittima può solo dimenarsi e urlare.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "mwxihzp06iZAGleG"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D10+5"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "J8ZhHMd1Ai51xQ3I",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.J8ZhHMd1Ai51xQ3I",
+			"name": "Combattere (Travolgere)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Travolgere",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-travolgere",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "VuzH1lLiDB9RdG1h",
+			"_key": "!actors.items!GykBeEIdqby9SH7f.VuzH1lLiDB9RdG1h",
+			"name": "Travolgere",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Una sola volta per round. Calpesta fino a 1D4 umani, se sono vicini tra loro.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Travolgere)",
+						"id": "J8ZhHMd1Ai51xQ3I"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "2D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.dark-young",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

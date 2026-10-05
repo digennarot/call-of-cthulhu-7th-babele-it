@@ -1,0 +1,320 @@
+{
+	"_id": "TWvgo8fXO1mP6xRr",
+	"_key": "!actors!TWvgo8fXO1mP6xRr",
+	"name": "Orrore cacciatore",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 145,
+				"formula": "(5D6+12)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 205,
+				"formula": "(5D6+24)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(3D6+3)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 75,
+				"formula": "(1D6+12)*5"
+			},
+			"pow": {
+				"value": 105,
+				"formula": "(6D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 25,
+				"max": 25,
+				"auto": false
+			},
+			"mp": {
+				"value": 21,
+				"max": 21,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 7,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+3D6",
+				"auto": false
+			},
+			"build": {
+				"value": 4,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "9"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Somigliano a enormi serpenti o vermi neri e corposi, con ali da pipistrello o simili a ombrelli (a volte una sola grande ala). La loro forma cambia di continuo, contorcendosi e sussultando, così che è difficile guardarli. Parlano con voci grandi e aspre e sono lunghi in media dodici metri.</p><p>La luce del giorno li dissolve, e un lampo abbastanza intenso (forse quello di una reazione nucleare) potrebbe ridurli in polvere. Velocissimi, sono le creature da caccia di alcuni dèi, in particolare di Nyarlathotep; possono anche essere evocati direttamente e mandati in cerca di sangue e di vite.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Incantesimi:</strong> hanno il 25% di probabilità di conoscere 2D10 incantesimi.</p><p><strong>Armatura:</strong> 9 punti di pelle.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D10"
+			},
+			"attacksPerRound": "2",
+			"movement": [
+				{
+					"value": 11,
+					"type": "fly"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Grandi volatori viperini",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Orrore cacciatore",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "AxZyXb59eVXv1JRm",
+			"_key": "!actors.items!TWvgo8fXO1mP6xRr.AxZyXb59eVXv1JRm",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 65
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "okMHXvjUs3sD0ABN",
+			"_key": "!actors.items!TWvgo8fXO1mP6xRr.okMHXvjUs3sD0ABN",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "y4WW8Xlus8QrCXYI",
+			"_key": "!actors.items!TWvgo8fXO1mP6xRr.y4WW8Xlus8QrCXYI",
+			"name": "Morso e urto",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Può attaccare con il morso, con la sua mole schiacciante o con la coda tentacolare.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "AxZyXb59eVXv1JRm"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "fD06ZMhDDV95I9NZ",
+			"_key": "!actors.items!TWvgo8fXO1mP6xRr.fD06ZMhDDV95I9NZ",
+			"name": "Stretta della coda",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. La coda si avvolge sulla vittima e le impedisce di muoversi; per liberarsi serve un tiro contrapposto di FOR. L’orrore può volare via con la vittima o continuare a combattere, ma può solo morderla, con un dado bonus perché di solito ha le braccia bloccate.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "AxZyXb59eVXv1JRm"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "0"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.hunting-horror",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

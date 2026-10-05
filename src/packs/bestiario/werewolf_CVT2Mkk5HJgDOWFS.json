@@ -1,0 +1,330 @@
+{
+	"_id": "CVT2Mkk5HJgDOWFS",
+	"_key": "!actors!CVT2Mkk5HJgDOWFS",
+	"name": "Lupo mannaro",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 105,
+				"formula": "(6D6)*5"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 55,
+				"formula": "(3D6)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 20,
+				"formula": "(1D4+2)*5"
+			},
+			"pow": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 12,
+				"max": 12,
+				"auto": false
+			},
+			"mp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D4",
+				"auto": false
+			},
+			"build": {
+				"value": 1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "1"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Tradizionalmente un normale essere umano viene maledetto e da allora di tanto in tanto si trasforma in un mostro metà uomo e metà bestia, classicamente con la luna piena; lo sventurato può ignorare la maledizione o detestare il suo destino. Un secondo tipo si trasforma completamente in lupo, si compiace delle sue trasformazioni e le controlla meglio. Entrambi attaccano con furia famelica, come un cane rabbioso.</p><p>Entrambi i tipi sembrano propagarsi con un agente trasmesso dalla saliva durante il morso. In alcune culture si diventa lupi mannari per stregoneria (la maledizione è un incantesimo); alcune tradizioni dicono che ci si può trasformare da sé ingerendo certe piante e il sangue di un innocente.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p>In forma umana i lupi mannari hanno aspetto e caratteristiche normali. La forma di uomo-bestia e quella di lupo gigante condividono attacchi, armatura e così via; per il lupo gigante porta la TAG a 65 ((3D6+1D3)×5). Il Custode può applicare o meno una perdita di Sanità alla forma di lupo: se la applica, dai alla creatura occhi luminosi e altri tratti soprannaturali.</p><p><strong>Rigenerazione:</strong> in forma bestiale rigenera 1 punto ferita per round. Cicatrici e lividi possono restare quando riprende forma umana, e la guarigione lo indebolisce, costringendolo spesso a letto per giorni.</p><p><strong>Immunità:</strong> è immune alla maggior parte delle armi, ma può essere ferito e ucciso dal fuoco e dall’argento. Se la sua pelliccia prende fuoco perde punti ferita più in fretta di quanto li rigeneri. Una ferita grave (metà dei punti ferita o più in un colpo solo) inflitta da un’arma d’argento lo uccide; i punti persi per ferite minori da argento non si rigenerano.</p><p><strong>Armatura:</strong> in forma di lupo o di uomo-bestia, 1 punto di pelle più la rigenerazione di 1 punto ferita per round.</p><p><strong>Sanità:</strong> 0/1D8 per vedere un lupo mannaro; 0/1D3 per vederlo cambiare forma.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D8"
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Forma umanoide",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Lupo mannaro",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "WLawP71J4P6EYPiG",
+			"_key": "!actors.items!CVT2Mkk5HJgDOWFS.WLawP71J4P6EYPiG",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "TFeVaE70jVildzTk",
+			"_key": "!actors.items!CVT2Mkk5HJgDOWFS.TFeVaE70jVildzTk",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 32
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "2f7XD3DenUWEUjrN",
+			"_key": "!actors.items!CVT2Mkk5HJgDOWFS.2f7XD3DenUWEUjrN",
+			"name": "Seguire Tracce",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/track.svg",
+			"system": {
+				"skillName": "Seguire Tracce",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 90
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Seguire Tracce (con l’olfatto)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.track",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "DBTCUAHDhm7SCneu",
+			"_key": "!actors.items!CVT2Mkk5HJgDOWFS.DBTCUAHDhm7SCneu",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "4zs3sSISgJCv7CiH",
+			"_key": "!actors.items!CVT2Mkk5HJgDOWFS.4zs3sSISgJCv7CiH",
+			"name": "Morsi e artigli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Se un morso lacera la pelle, la vittima si trasformerà in lupo mannaro alla prossima luna piena.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "WLawP71J4P6EYPiG"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D8"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.werewolf",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

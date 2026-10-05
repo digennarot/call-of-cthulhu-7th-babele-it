@@ -6,10 +6,10 @@
 	"img": "icons/svg/mystery-man.svg",
 	"system": {
 		"description": {
-			"value": "<p>Docente e ricercatore universitario, esperto nella propria disciplina e con accesso a biblioteche e collezioni accademiche.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Professor): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"value": "<p>Docente e ricercatore universitario, esperto nella propria disciplina e con accesso a biblioteche e collezioni accademiche.</p><p><em>Abilità confermate dal Call of Cthulhu RPG Wiki di Chaosium; punti abilità e Credito ricostruiti dal Manuale del Custode (cap. 3, titolo originale: Professor), da verificare sul manuale.</em></p>",
 			"keeper": ""
 		},
-		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"source": "Manuale del Custode, cap. 3; abilità dal Call of Cthulhu RPG Wiki",
 		"type": {
 			"classic": true,
 			"lovecraftian": true,

@@ -6,10 +6,10 @@
 	"img": "icons/svg/mystery-man.svg",
 	"system": {
 		"description": {
-			"value": "<p>Investigatore in borghese della polizia, incaricato di omicidi, furti e casi che gli agenti di pattuglia non possono risolvere.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Police Detective): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"value": "<p>Investigatore in borghese della polizia, incaricato di omicidi, furti e casi che gli agenti di pattuglia non possono risolvere.</p><p><em>Abilità confermate dal Call of Cthulhu RPG Wiki di Chaosium; punti abilità e Credito ricostruiti dal Manuale del Custode (cap. 3, titolo originale: Police Detective), da verificare sul manuale.</em></p>",
 			"keeper": ""
 		},
-		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"source": "Manuale del Custode, cap. 3; abilità dal Call of Cthulhu RPG Wiki",
 		"type": {
 			"classic": true,
 			"lovecraftian": true,

@@ -1,0 +1,363 @@
+{
+	"_id": "aZyTwzcQJz1N87bJ",
+	"_key": "!actors!aZyTwzcQJz1N87bJ",
+	"name": "Orso nero",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 100,
+				"formula": "(3D6+10)*5"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 100,
+				"formula": "(3D6+10)*5"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 16,
+				"max": 16,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+2D6",
+				"auto": false
+			},
+			"build": {
+				"value": 3,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "3"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>L’orso nero è di gran lunga l’orso più comune del Nord America ed è l’unico che si possa incontrare negli Stati Uniti orientali. Grande e forte, attacca con le zampe, gli artigli e i denti.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Armatura:</strong> 3 punti di pelliccia e cartilagine.</p><p><strong>Habitat:</strong> dal Canada meridionale al Messico meridionale.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Orso nero",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "EjPYKFIeaByRJV8V",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.EjPYKFIeaByRJV8V",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "wNVO75opY5waICs7",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.wNVO75opY5waICs7",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 25
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "pzH1bNm8IfzSSxfn",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.pzH1bNm8IfzSSxfn",
+			"name": "Scalare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/climb.svg",
+			"system": {
+				"skillName": "Scalare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.climb",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "DAp7s1RNoewmvSDk",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.DAp7s1RNoewmvSDk",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "zmWZfHCzYd72m46v",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.zmWZfHCzYd72m46v",
+			"name": "Fiutare la preda",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Fiutare la preda",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fiutare-la-preda",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "I602XxpEePvYWYxf",
+			"_key": "!actors.items!aZyTwzcQJz1N87bJ.I602XxpEePvYWYxf",
+			"name": "Zampate e morsi",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "EjPYKFIeaByRJV8V"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.bear-black",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

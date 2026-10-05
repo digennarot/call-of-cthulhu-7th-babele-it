@@ -1,0 +1,330 @@
+{
+	"_id": "jXG7BkG0jK6gzSMR",
+	"_key": "!actors!jXG7BkG0jK6gzSMR",
+	"name": "Lupo",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 40,
+				"formula": "(2D6+1)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 9,
+				"max": 9,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": 0,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "1"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Possono cacciare in branco quando seguono mandrie di alci o caribù, ma altrettanto spesso cacciano da soli o in coppia. I lupi sono di norma schivi e gli attacchi accertati contro esseri umani in salute sarebbero rari o inesistenti.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Armatura:</strong> 1 punto di pelliccia.</p><p><strong>Habitat:</strong> più o meno gli stessi territori dei grandi ruminanti ed erbivori dei climi freddi e temperati.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Lupo",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "YZrysfxd0usd4twi",
+			"_key": "!actors.items!jXG7BkG0jK6gzSMR.YZrysfxd0usd4twi",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "zRd9Mm3foX2CMFLt",
+			"_key": "!actors.items!jXG7BkG0jK6gzSMR.zRd9Mm3foX2CMFLt",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 32
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "6ACzUgzNxMtgjoe0",
+			"_key": "!actors.items!jXG7BkG0jK6gzSMR.6ACzUgzNxMtgjoe0",
+			"name": "Seguire Tracce",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/track.svg",
+			"system": {
+				"skillName": "Seguire Tracce",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 90
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Seguire Tracce (con l’olfatto)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.track",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "DvX84eKtSch5ZVyd",
+			"_key": "!actors.items!jXG7BkG0jK6gzSMR.DvX84eKtSch5ZVyd",
+			"name": "Individuare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/spot_hidden.svg",
+			"system": {
+				"skillName": "Individuare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.spot-hidden",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "arbGJzElCAjlvUjU",
+			"_key": "!actors.items!jXG7BkG0jK6gzSMR.arbGJzElCAjlvUjU",
+			"name": "Morsi e artigli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "YZrysfxd0usd4twi"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D8"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.wolf",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

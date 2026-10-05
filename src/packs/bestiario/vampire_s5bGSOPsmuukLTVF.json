@@ -1,0 +1,510 @@
+{
+	"_id": "s5bGSOPsmuukLTVF",
+	"_key": "!actors!s5bGSOPsmuukLTVF",
+	"name": "Vampiro",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 105,
+				"formula": "(3D6)*10"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 11,
+				"max": 11,
+				"auto": false
+			},
+			"mp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 10,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D4",
+				"auto": false
+			},
+			"build": {
+				"value": 1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Ogni giocatore vorrà misurarsi con questi succhiasangue; le storie sui vampiri e sui loro poteri sono però così contraddittorie che spetta al Custode decidere quali siano vere nel gioco e quali semplici leggende.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Opzioni:</strong> il vampiro non ha riflesso; deve tornare nella terra in cui fu sepolto per passare le ore del giorno; il terzo morso uccide la vittima e la trasforma in un non morto; di giorno non ha poteri speciali e potrebbe non potersi muovere o lasciare la bara; nelle culture cristiane la croce protegge, almeno per un po’, e l’acqua santa gli ustiona la carne; è vulnerabile solo alla religione che praticava o conosceva in vita; non mangia né beve mai; non può attraversare l’acqua corrente; può trasformarsi a volontà in fumo, nebbia, lupo o pipistrello (come fumo o nebbia si sposta di un metro circa per round).</p><p><strong>Poteri speciali:</strong> quando i danni fisici superano i suoi punti ferita, alla fine del round in cui arriva a zero si trasforma in fumo o nebbia, poi rigenera 1 punto ferita per round. Se, mentre è a zero punti ferita, gli si pianta un paletto nel cuore, muore e si riduce in cenere.</p><p><strong>Movimento:</strong> quello della specie +2 (MOV 10 per un vampiro umano).</p><p><strong>Armatura:</strong> nessuna, ma si ricompone dopo aver esaurito i punti ferita.</p><p><strong>Sanità:</strong> 0/1D4 per essere attaccati; 1/1D3 per assistere a una trasformazione. I vampiri dall’aspetto umano non costano punti Sanità a vederli.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D4"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Mostri succhiasangue",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Vampiro",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "z6huGGgFGGrXB1N5",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.z6huGGgFGGrXB1N5",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "9mFhqGLaatBWkXeK",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.9mFhqGLaatBWkXeK",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 25
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "2YeE85jtHN9zWWbL",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.2YeE85jtHN9zWWbL",
+			"name": "Fascino",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/charm.svg",
+			"system": {
+				"skillName": "Fascino",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.charm",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "FusVy1OmSZSmPym5",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.FusVy1OmSZSmPym5",
+			"name": "Psicologia",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/psychology.svg",
+			"system": {
+				"skillName": "Psicologia",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Psicologia umana</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.psychology",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "bcGPSDrX0yZyDOXN",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.bcGPSDrX0yZyDOXN",
+			"name": "Seguire Tracce",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/track.svg",
+			"system": {
+				"skillName": "Seguire Tracce",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Seguire Tracce (fiutare il sangue)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.track",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "GfbyMivAs6a5J4Wq",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.GfbyMivAs6a5J4Wq",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "byGyrIDMaYLJAnzn",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.byGyrIDMaYLJAnzn",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Oppure il danno dell’arma.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "z6huGGgFGGrXB1N5"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D4"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "EAARzEK7NnKSuaIe",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.EAARzEK7NnKSuaIe",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Da quel momento il vampiro prosciuga 2D10 FOR (sangue) ogni round. A seconda del tipo di vampiro, deve trattenere la vittima per continuare a nutrirsi oppure il morso stesso la sottomette alla sua volontà.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "z6huGGgFGGrXB1N5"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D4"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "EphQNLYkEwTpIKxg",
+			"_key": "!actors.items!s5bGSOPsmuukLTVF.EphQNLYkEwTpIKxg",
+			"name": "Sguardo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Se il bersaglio perde un tiro contrapposto di POT viene ipnotizzato e segue istruzioni semplici. Se le istruzioni sono autodistruttive, all’inizio di un round il giocatore può tentare un tiro di INT per riscuotersi.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "z6huGGgFGGrXB1N5"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "0"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.vampire",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

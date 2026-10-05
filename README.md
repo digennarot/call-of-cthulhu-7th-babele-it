@@ -55,10 +55,29 @@ personaggio. Ogni voce ha le otto abilità d'occupazione (comprese le scelte, co
 interpersonale»), la formula dei punti abilità, l'intervallo di Credito, le ambientazioni (classica,
 moderna, lovecraftiana) e una breve descrizione scritta da noi.
 
-I dati non vengono da una fonte pubblica verificata: sono ricostruiti dall'elenco del manuale. Prima
-di usarli confrontali con la tua copia e segnala gli errori. Le abilità con specializzazione libera
+Per otto occupazioni (Antiquario, Scrittore, Dilettante, Medico, Giornalista, Detective della polizia,
+Investigatore privato e Professore) le abilità sono confermate dal
+[Call of Cthulhu RPG Wiki](https://cthulhuwiki.chaosium.com/investigators/step-three-occupation-and-skills.html)
+di Chaosium. Il resto dei dati, compresi punti abilità e Credito di tutte le voci, è ricostruito
+dall'elenco del manuale: prima di usarlo confrontalo con la tua copia e segnala gli errori. Le abilità con specializzazione libera
 (per esempio Arte/Mestiere per lo Scrittore) chiedono di sceglierla quando si applica l'occupazione;
 la descrizione indica quella prevista dal manuale.
+
+**Compendio aggiuntivo: Bestiario (Call of Cthulhu RPG Wiki)**
+
+Le 29 creature del [bestiario](https://cthulhuwiki.chaosium.com/bestiary/) del wiki ufficiale di
+Chaosium, tradotte e pronte come attori *creatura* di CoC7, divise in tre cartelle: Animali (pipistrello
+gigante, orso nero, coccodrillo del Nilo, cane, cavallo, branco di ratti, lupo), Orrori tradizionali
+(fantasma, mummia, scheletro, vampiro, lupo mannaro, zombie) e Mostri dei Miti (byakhee, progenie
+stellare di Cthulhu, giovane oscuro, Abitante e Ibrido del Profondo, polipo volante, progenie informe,
+ghast, ghoul, orrore cacciatore, mi-go, cosa-ratto, uomo serpente, shoggoth e due figli di Yig).
+
+Ogni scheda ha caratteristiche medie con la formula per tirarle, punti ferita e magia, bonus al danno,
+Corporatura, movimento (anche in volo o a nuoto), armatura, attacchi per round, perdita di Sanità,
+abilità e attacchi pronti da tirare. Poteri speciali, incantesimi, note sull'armatura e spunti per gli
+scenari sono nelle note del Custode. Il compendio è visibile solo al Custode. Lo sciame di vespe e api
+non è incluso perché il wiki non gli dà statistiche; il fantasma ha solo descrizione e regole, perché
+va costruito caso per caso.
 
 ## Requisiti
 
@@ -111,7 +130,7 @@ compendio o la schermata, il testo attuale e quello proposto.
 | `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità, i campi biografici degli attori, la descrizione speciale delle armi e le richieste dei costi degli incantesimi |
 | `compendium/CoC7.<pack>.json` | Un file di traduzione Babele per ogni compendio del sistema |
 | `compendium/CoC7._packs-folders.json` | Nomi delle cartelle dei compendi del sistema |
-| `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo, `incantesimi` e `occupazioni` (un file per documento) |
+| `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo, `incantesimi`, `occupazioni` e `bestiario` (un file per documento) |
 | `tools/build-packs.mjs` | Compila `src/packs` in `packs/` (LevelDB) con `@foundryvtt/foundryvtt-cli`; lo esegue il workflow di release |
 | `lang/it.json` | Stringhe dell'interfaccia (si sommano a quelle italiane del sistema) |
 | `.github/workflows/release.yml` | Build e pubblicazione automatica |
@@ -141,7 +160,10 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 ### 1.5.0
 
 * Nuovo compendio *Occupazioni (Manuale del Custode)* con 41 occupazioni classiche, ricostruite
-  dall'elenco del manuale e da verificare.
+  dall'elenco del manuale e da verificare; le abilità di otto di esse sono confermate dal Call of
+  Cthulhu RPG Wiki di Chaosium.
+* Nuovo compendio *Bestiario (Call of Cthulhu RPG Wiki)* con 29 creature tradotte (animali, orrori
+  tradizionali e mostri dei Miti), visibile solo al Custode.
 
 * Tradotte le cartelle dei compendi: «Cthulhuwiki | en», «System Examples | en» e «System Manuals»
   diventano «Cthulhuwiki», «Esempi del sistema» e «Manuali del sistema».
@@ -227,7 +249,8 @@ system manual) and completes the system's partial Italian UI translation. It als
 compendium listing the 60 Keeper Rulebook spells (Italian names, page references, spell
 types where CoC7 has a matching category and summaries for 45 of them; costs are left for the Keeper
 to fill in), and 41 classic Keeper Rulebook occupations reconstructed from the book's list (skills,
-skill points, Credit Rating; check them against your copy).
+skill points, Credit Rating; check them against your copy), and a Keeper-only bestiary of 29 creatures
+translated from Chaosium's Call of Cthulhu RPG Wiki, ready to use as CoC7 creature actors.
 
 **Requires** Foundry VTT 14, CoC7 8.15+, Babele 2.9.1+ (with libWrapper). The
 *Translation: Italian \[Core]* module is optional but recommended.

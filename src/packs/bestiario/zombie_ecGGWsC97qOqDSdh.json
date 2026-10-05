@@ -1,0 +1,227 @@
+{
+	"_id": "ecGGWsC97qOqDSdh",
+	"_key": "!actors!ecGGWsC97qOqDSdh",
+	"name": "Zombie",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 80,
+				"formula": "(3D6)*5"
+			},
+			"con": {
+				"value": 80,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"dex": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 5,
+				"formula": "5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 14,
+				"max": 14,
+				"auto": false
+			},
+			"mp": {
+				"value": 1,
+				"max": 1,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 6,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D4",
+				"auto": false
+			},
+			"build": {
+				"value": 1,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>L’incantesimo che crea lo zombie fornisce i punti di POT che lo animano. Ogni incantatore dirige ciò che crea: gli zombie, per lo più, non hanno volontà propria.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p>A discrezione del Custode, alcuni incantesimi e sostanze possono disattivarli. Secondo la tradizione vudù gli zombie si distruggono facendogli mangiare del sale, e per questo i loro creatori gli cucivano la bocca. Oltre al vudù, si tenga presente l’incantesimo Resurrezione dei Miti (i morti così riportati in vita sembrano per lo più padroni delle proprie facoltà) e la possibilità che scienza deviata o inquinamento creino cose simili a zombie.</p><p><strong>Movimento:</strong> 6 se barcollante, 8 se non barcollante.</p><p><strong>Schivare:</strong> privi di volontà, non possono schivare.</p><p><strong>Armatura:</strong> una ferita grave al corpo fa perdere un arto; per il resto ignora i danni, tranne quelli alla testa (un dado penalità per mirare alla testa).</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D8"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Morti che camminano",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Zombie",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "jbArLaaBcE3fq4BO",
+			"_key": "!actors.items!ecGGWsC97qOqDSdh.jbArLaaBcE3fq4BO",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "5DRMzS3qiDSsbyCw",
+			"_key": "!actors.items!ecGGWsC97qOqDSdh.5DRMzS3qiDSsbyCw",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Oppure il danno dell’arma, più il bonus al danno.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "jbArLaaBcE3fq4BO"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D3"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.zombie",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

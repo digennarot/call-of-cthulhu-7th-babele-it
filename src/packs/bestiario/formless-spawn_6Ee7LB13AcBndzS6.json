@@ -1,0 +1,407 @@
+{
+	"_id": "6Ee7LB13AcBndzS6",
+	"_key": "!actors!6Ee7LB13AcBndzS6",
+	"name": "Progenie informe",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 90,
+				"formula": "(1D6+6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 120,
+				"formula": "(1D6+12)*5"
+			},
+			"dex": {
+				"value": 95,
+				"formula": "(2D6+12)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 17,
+				"max": 17,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 12,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+2D6",
+				"auto": false
+			},
+			"build": {
+				"value": 3,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Questi esseri neri e protei cambiano forma in un istante, da grumi simili a rospi a cose allungate con centinaia di zampe rudimentali. Filtrano attraverso piccole fessure e ingrandiscono le appendici a volontà. Sono strettamente legati a Tsathoggua e si trovano spesso nei suoi templi o in caverne senza sole.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Caratteristiche:</strong> FOR va da (1D6+6)×5 a (6D6+6)×5 e TAG da (1D6+12)×5 a (6D6+12)×5; i valori indicati sono medi.</p><p><strong>Incantesimi:</strong> hanno il 25% di probabilità di conoscere 1 incantesimo; di questi, il 2% ne conosce molti.</p><p><strong>Morso:</strong> può continuare a inghiottire prede fino a un totale pari alla propria TAG. Mentre digerisce può continuare a combattere, ma non può spostarsi senza rigettare ciò che ha inghiottito.</p><p><strong>Armatura:</strong> immune a tutte le armi fisiche, anche incantate: le ferite si richiudono appena aperte. Possono colpirla gli incantesimi, il fuoco, le sostanze chimiche o altre forze.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1",
+				"checkFailled": "1D10"
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Orrori mutaforma",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Progenie informe",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "aHfJAlLwdSPHYPiH",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.aHfJAlLwdSPHYPiH",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "E5Kk13iPAJqWJYQY",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.E5Kk13iPAJqWJYQY",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 47
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "xWmtbBzOdYAHICsf",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.xWmtbBzOdYAHICsf",
+			"name": "Appendici",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "aHfJAlLwdSPHYPiH"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "2D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "xB3RXL0zBFsyul2C",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.xB3RXL0zBFsyul2C",
+			"name": "Afferrare",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Manovra. Con un’appendice simile a una frusta; la portata è sempre un quinto della TAG del mostro, in iarde.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "aHfJAlLwdSPHYPiH"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": true,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "Zu9YfvunLOjPVQ7s",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.Zu9YfvunLOjPVQ7s",
+			"name": "Combattere (Morso)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Morso",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-morso",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "Cf5eDe2zZfWH7Q18",
+			"_key": "!actors.items!6Ee7LB13AcBndzS6.Cf5eDe2zZfWH7Q18",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Un solo morso per round. La vittima viene inghiottita all’istante e subisce 1 danno da costrizione nel primo round, 2 nel secondo e così via. Non può fare nulla; gli amici possono uccidere il mostro per liberarla.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Morso)",
+						"id": "Zu9YfvunLOjPVQ7s"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "0"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.formless-spawn",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

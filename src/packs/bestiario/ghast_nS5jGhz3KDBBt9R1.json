@@ -1,0 +1,295 @@
+{
+	"_id": "nS5jGhz3KDBBt9R1",
+	"_key": "!actors!nS5jGhz3KDBBt9R1",
+	"name": "Ghast",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 110,
+				"formula": "(3D6+12)*5"
+			},
+			"con": {
+				"value": 70,
+				"formula": "(4D6)*5"
+			},
+			"siz": {
+				"value": 130,
+				"formula": "(4D6+12)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 15,
+				"formula": "(1D6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 20,
+				"max": 20,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 10,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+2D6",
+				"auto": false
+			},
+			"build": {
+				"value": 3,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>I ghast sono confinati nel sottosuolo e nelle vaste caverne dove la luce del sole non arriva mai; esposti alla luce diretta si ammalano e finiscono per morire. Sono cannibali: si divorano tra loro e mangiano qualunque altro essere riescano a catturare. Grandi come un piccolo cavallo, saltano sulle lunghe zampe posteriori; il loro volto è stranamente umano nonostante manchino naso e fronte, e parlano con gutturali colpi di tosse.</p><p>I bipedi semiumani cavalcati dagli umani scientificamente avanzati ma moralmente degenerati della caverna di K’n-Yan potrebbero essere parenti dei ghast, o ghast essi stessi: in tal caso sarebbero il frutto di esperimenti genetici degli uomini serpente. A quanto pare si possono addomesticare, benché primitivi e selvaggi.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Attacchi:</strong> hanno la consueta gamma di attacchi senz’armi degli umanoidi.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D8"
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Bestie immonde e scabrose",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Ghast",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "q1suZMeFLC7CAQc4",
+			"_key": "!actors.items!nS5jGhz3KDBBt9R1.q1suZMeFLC7CAQc4",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "G70askt9VMQaoP6I",
+			"_key": "!actors.items!nS5jGhz3KDBBt9R1.G70askt9VMQaoP6I",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "tfQkZd7jXlkiiUfA",
+			"_key": "!actors.items!nS5jGhz3KDBBt9R1.tfQkZd7jXlkiiUfA",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "5PZNNOpZnUXCRUet",
+			"_key": "!actors.items!nS5jGhz3KDBBt9R1.5PZNNOpZnUXCRUet",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "q1suZMeFLC7CAQc4"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.ghast",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

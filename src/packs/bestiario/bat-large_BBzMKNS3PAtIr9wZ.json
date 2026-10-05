@@ -1,0 +1,300 @@
+{
+	"_id": "BBzMKNS3PAtIr9wZ",
+	"_key": "!actors!BBzMKNS3PAtIr9wZ",
+	"name": "Pipistrello gigante",
+	"type": "creature",
+	"img": "icons/svg/pawprint.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 25,
+				"formula": "(2D4)*5"
+			},
+			"con": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"siz": {
+				"value": 15,
+				"formula": "(2D4)*5"
+			},
+			"dex": {
+				"value": 105,
+				"formula": "(1D6+18)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 5,
+				"max": 5,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 1,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "-2",
+				"auto": false
+			},
+			"build": {
+				"value": -2,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Il grande pipistrello della frutta dell’America centrale si raduna a decine o a centinaia; i pipistrelli più piccoli, comuni negli Stati Uniti, formano nelle caverne stormi enormi, fino a 50.000 individui. In tutto il mondo i pipistrelli sono gravemente minacciati dall’uomo.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Attacchi in gruppo:</strong> se attaccano in gruppo, usa le caratteristiche indicate per rappresentare il gruppo, aumentando la TAG di 10 e la taglia del dado di danno di 1 per ogni pipistrello in più. Ogni volta che il bersaglio batte i pipistrelli in un tiro di Combattere, il loro numero cala di uno: un gruppo di 6 pipistrelli ha TAG 65 e infligge 1D6 di danno (non esiste un D7).</p><p><strong>Habitat:</strong> climi caldi e temperati di tutto il mondo.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [
+				{
+					"value": 12,
+					"type": "fly"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Animale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Pipistrello gigante",
+		"texture": {
+			"src": "icons/svg/pawprint.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "jQn29jngmDFhRAeh",
+			"_key": "!actors.items!BBzMKNS3PAtIr9wZ.jQn29jngmDFhRAeh",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "kl7hR1YrUd78NTPy",
+			"_key": "!actors.items!BBzMKNS3PAtIr9wZ.kl7hR1YrUd78NTPy",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 52
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "PGaWYzeJcWkzMief",
+			"_key": "!actors.items!BBzMKNS3PAtIr9wZ.PGaWYzeJcWkzMief",
+			"name": "Individuare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/spot_hidden.svg",
+			"system": {
+				"skillName": "Individuare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 75
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": "<p>Individuare (ecolocalizzazione)</p>"
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.spot-hidden",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "3B0K0qL3CrnTm6Pw",
+			"_key": "!actors.items!BBzMKNS3PAtIr9wZ.3B0K0qL3CrnTm6Pw",
+			"name": "Morso e artigli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Danno +1 alla taglia del dado per ogni pipistrello in più nel gruppo.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "jQn29jngmDFhRAeh"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D2"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "bQnhdXn1ulPD8iDO",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.bat-large",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

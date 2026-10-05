@@ -1,0 +1,265 @@
+{
+	"_id": "2utT7PEDi6STHD38",
+	"_key": "!actors!2utT7PEDi6STHD38",
+	"name": "Progenie stellare di Cthulhu",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 350,
+				"formula": "(2D6)*50"
+			},
+			"con": {
+				"value": 260,
+				"formula": "(3D6)*50"
+			},
+			"siz": {
+				"value": 525,
+				"formula": "(3D6)*50"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*50"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 105,
+				"formula": "(6D6)*50"
+			},
+			"pow": {
+				"value": 105,
+				"formula": "(6D6)*50"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 78,
+				"max": 78,
+				"auto": false
+			},
+			"mp": {
+				"value": 21,
+				"max": 21,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 15,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+10D6",
+				"auto": false
+			},
+			"build": {
+				"value": 11,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "10"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Questi esseri giganteschi e simili a polpi somigliano a Cthulhu stesso, ma sono più piccoli. Non tutti gli abitanti di R’lyeh rimasero intrappolati nei suoi angoli sommersi quando la città sprofondò: alcuni vivono ancora nelle fosse oceaniche, accuditi dagli Abitanti del Profondo. Entità affini abitano anche tra le stelle, come gli esseri che infesterebbero il Lago di Hali, su un pianeta vicino ad Aldebaran, nel Toro.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Incantesimi:</strong> ognuno conosce 3D6 incantesimi.</p><p><strong>Armatura:</strong> 10 punti di pelle e grasso; rigenera 3 punti ferita per round.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1D6",
+				"checkFailled": "1D20"
+			},
+			"attacksPerRound": "4",
+			"movement": [
+				{
+					"value": 15,
+					"type": "swim"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Satrapi del dormiente",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Progenie stellare di Cthulhu",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "CwG1mkTjNcmXuqYz",
+			"_key": "!actors.items!2utT7PEDi6STHD38.CwG1mkTjNcmXuqYz",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 80
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "xHotZlgQ5GVZ01Dr",
+			"_key": "!actors.items!2utT7PEDi6STHD38.xHotZlgQ5GVZ01Dr",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 26
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "p4npY0UGJ6T9HGBR",
+			"_key": "!actors.items!2utT7PEDi6STHD38.p4npY0UGJ6T9HGBR",
+			"name": "Tentacoli e artigli",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Il danno è pari al bonus al danno. Può anche usare i tentacoli per afferrare le persone.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "CwG1mkTjNcmXuqYz"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "10D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.star-spawn-of-cthulhu",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

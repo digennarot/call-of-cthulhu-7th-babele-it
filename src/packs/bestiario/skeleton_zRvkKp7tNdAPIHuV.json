@@ -1,0 +1,260 @@
+{
+	"_id": "zRvkKp7tNdAPIHuV",
+	"_key": "!actors!zRvkKp7tNdAPIHuV",
+	"name": "Scheletro umano",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"con": {
+				"value": null,
+				"formula": ""
+			},
+			"siz": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"dex": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"pow": {
+				"value": 5,
+				"formula": "5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"mp": {
+				"value": 1,
+				"max": 1,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 7,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": 0,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Gli scheletri animati compaiono in alcune leggende medievali e molto più spesso in racconti e film.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Punti ferita:</strong> non ne ha: si applicano le regole speciali qui sotto.</p><p><strong>Resistente ai danni:</strong> le ossa secche sono fragili e si spezzano facilmente sotto un colpo pesante, ma nessuna parte dello scheletro è più vulnerabile delle altre. Ogni colpo ha una probabilità di distruggerlo pari al danno inflitto ×5 (tirata con 1D100): un’ascia che infligge 8 punti ha il 40% di probabilità di mandarlo in frantumi. Se non va in frantumi, lo scheletro resta del tutto illeso. Gli attacchi con armi perforanti (proiettili compresi) subiscono un dado penalità, perché gran parte del bersaglio è aria.</p><p><strong>Armi:</strong> tradizionalmente gli scheletri animati usano armi invece di colpire direttamente, forse perché si frantumano con facilità. Equipaggiali a piacere.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Le ossa amorevoli",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Scheletro umano",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "qXpTGRlbkNkmLzjp",
+			"_key": "!actors.items!zRvkKp7tNdAPIHuV.qXpTGRlbkNkmLzjp",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "ToBOBSoiID6xJSrV",
+			"_key": "!actors.items!zRvkKp7tNdAPIHuV.ToBOBSoiID6xJSrV",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "hTLdQjBDq1IPBSy1",
+			"_key": "!actors.items!zRvkKp7tNdAPIHuV.hTLdQjBDq1IPBSy1",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Oppure il danno dell’arma impugnata, di solito un piccolo randello o una spada.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "qXpTGRlbkNkmLzjp"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D3"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.skeleton",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

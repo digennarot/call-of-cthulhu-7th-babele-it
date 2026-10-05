@@ -1,0 +1,494 @@
+{
+	"_id": "6VoWMgdLSWk201Ox",
+	"_key": "!actors!6VoWMgdLSWk201Ox",
+	"name": "Uomo serpente",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"con": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"siz": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 80,
+				"formula": "(3D6+6)*5"
+			},
+			"pow": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"mp": {
+				"value": 13,
+				"max": 13,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 8,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": 0,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "1"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Gli uomini serpente somigliano a serpenti eretti, con teste ofidiche e squame, una coda, due braccia e due gambe. Razza raffinata e colta, li si incontra spesso vestiti di tuniche. Venerano Yig sopra ogni altro dio, perché è il padre di tutti i serpenti; nei tempi antichi alcuni blasfemi pregarono invece Tsathoggua, e furono distrutti da un dio vendicativo milioni di anni fa.</p><p>Il loro primo regno, Valusia, fiorì prima ancora dei dinosauri, circa duecentosettantacinque milioni di anni fa: costruirono città di basalto nero, combatterono guerre ed erano grandi stregoni, dediti a evocare demoni e preparare veleni. Con l’arrivo dei dinosauri si ritirarono in roccaforti sotterranee, la più grande delle quali era Yoth, e divennero anche grandi scienziati, capaci di manipolare la vita. Nella preistoria umana fondarono un secondo regno al centro del continente thuriano, rovesciato dagli umani; la loro ultima cittadella, Yanyoga, fu distrutta nel 10.000 a.C.</p><p>Ne sopravvivono pochi resti nascosti e sacche di degenerati rimpiccioliti, tra cui qualche raro uomo serpente atavico, pienamente capace e ancora favorito da Yig. Ci sono poi i dormienti, che riposano da migliaia di anni o più e di tanto in tanto si risvegliano, per sventura dell’umanità: di solito sono più intelligenti e potenti dei loro fratelli e conservano grandi poteri magici.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Degenerati:</strong> le caratteristiche degli uomini serpente degenerati possono essere ridotte fino a un terzo, e difficilmente conoscono la magia.</p><p><strong>Incantesimi:</strong> gli uomini serpente completi conoscono almeno 2D6 incantesimi adatti. Uno comune è un’illusione che dà all’incantatore l’aspetto di un normale essere umano e gli permette di mescolarsi alla società (vedi Consumare le sembianze).</p><p><strong>Tecnologia:</strong> grandi scienziati, possono avere o costruire tecnologie utili: vedi il capitolo 13 del Manuale del Custode, «Artefatti e congegni alieni».</p><p><strong>Armatura:</strong> 1 punto di squame.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D6"
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Pieno atavismo",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Uomo serpente",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "Hg7ihdQFRYnh2KbF",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.Hg7ihdQFRYnh2KbF",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "oCBEgB1EJrd2G9oq",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.oCBEgB1EJrd2G9oq",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 32
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "bGgVdHmh1sq9yD6O",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.bGgVdHmh1sq9yD6O",
+			"name": "Intimidire",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/intimidate.svg",
+			"system": {
+				"skillName": "Intimidire",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.intimidate",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "MtLMlsqtBCO8TLhk",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.MtLMlsqtBCO8TLhk",
+			"name": "Scienza (Biologia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/science_biology.svg",
+			"system": {
+				"skillName": "Biologia",
+				"specialization": "Scienza",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"special": true,
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.science-biology",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "QPDMDwgBcVNKnhVL",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.QPDMDwgBcVNKnhVL",
+			"name": "Scienza (Chimica)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/science_chemistry.svg",
+			"system": {
+				"skillName": "Chimica",
+				"specialization": "Scienza",
+				"base": "0",
+				"adjustments": {
+					"base": 40
+				},
+				"properties": {
+					"special": true,
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.science-chemistry",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "aUkfWvIPS0tBJp1N",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.aUkfWvIPS0tBJp1N",
+			"name": "Individuare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/spot_hidden.svg",
+			"system": {
+				"skillName": "Individuare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.spot-hidden",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "H25myb4RtP5FAy2D",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.H25myb4RtP5FAy2D",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Possono usare tutte le armi conosciute dagli umani, impugnandole bene con le mani artigliate.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "Hg7ihdQFRYnh2KbF"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D3"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		},
+		{
+			"_id": "Eu89qraCXQdqpkNM",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.Eu89qraCXQdqpkNM",
+			"name": "Combattere (Morso)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills.svg",
+			"system": {
+				"skillName": "Morso",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 35
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-morso",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "siS60kdLskneFn5x",
+			"_key": "!actors.items!6VoWMgdLSWk201Ox.siS60kdLskneFn5x",
+			"name": "Morso",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Velenoso: la vittima deve riuscire in un tiro Estremo di COS o subisce 1D8 danni.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Morso)",
+						"id": "Eu89qraCXQdqpkNM"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D8"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": false,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.serpent-people",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

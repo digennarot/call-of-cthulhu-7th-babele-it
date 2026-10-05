@@ -1,0 +1,405 @@
+{
+	"_id": "1pAfCwwLALKJIAfS",
+	"_key": "!actors!1pAfCwwLALKJIAfS",
+	"name": "Ibrido del Profondo",
+	"type": "creature",
+	"img": "systems/CoC7/assets/icons/floating-tentacles.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"con": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"siz": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"dex": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"app": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"int": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"pow": {
+				"value": 50,
+				"formula": "(3D6)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 11,
+				"max": 11,
+				"auto": false
+			},
+			"mp": {
+				"value": 10,
+				"max": 10,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 8,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "0",
+				"auto": false
+			},
+			"build": {
+				"value": 0,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "0"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Gli ibridi sono i figli dell’unione tra Abitanti del Profondo ed esseri umani. Di solito nascono normali, ma verso la fine dell’adolescenza aspetto e fisiologia cominciano a cambiare: è il cosiddetto «aspetto di Innsmouth». Nella mezza età quasi tutti mostrano qualche deformità grave e si ritirano nelle loro case dalle imposte chiuse; qualche anno dopo completano la trasformazione in Abitanti del Profondo e cominciano una nuova vita nel mare.</p><p>I cambiamenti fisici sono accompagnati dal risveglio di nuovi sensi, da strani sogni di città sottomarine e dal desiderio di visitare località di mare, in particolare le case degli antenati o il luogo di nascita. Gli ibridi vivono di solito in remoti villaggi costieri, ma possono trovarsi anche altrove, soprattutto nelle prime fasi. Durante le ultime trasformazioni l’ibrido abbraccia la sua eredità mostruosa oppure impazzisce.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p>Gli Abitanti del Profondo cercano di attirare gli ibridi nelle loro tane o in luoghi sicuri per sorvegliare la metamorfosi finale e istruirli sulla loro eredità comune. Circa il 10% degli ibridi non completa la trasformazione e resta per sempre metà umano e metà Abitante del Profondo; un altro 10% non la subisce affatto, e i geni saltano una generazione per manifestarsi in un discendente.</p><p><strong>Respirare sott’acqua:</strong> non respirano sott’acqua finché non completano la trasformazione, ma fin dall’infanzia restano in apnea il doppio di un umano medio.</p><p><strong>Incantesimi:</strong> gli ibridi più anziani che hanno cominciato ad accettare la loro eredità hanno il 10% di probabilità di conoscere 1D3 incantesimi.</p><p><strong>Sanità:</strong> 0/1D4 per vedere un ibrido; per gli esemplari più mostruosi può salire a 1/1D6 o più.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "0",
+				"checkFailled": "1D4"
+			},
+			"attacksPerRound": "1",
+			"movement": [
+				{
+					"value": 8,
+					"type": "swim"
+				}
+			],
+			"macros": []
+		},
+		"infos": {
+			"type": "Progenie contaminata di Innsmouth",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Ibrido del Profondo",
+		"texture": {
+			"src": "systems/CoC7/assets/icons/floating-tentacles.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "3RElpAcXCfUTfe8V",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.3RElpAcXCfUTfe8V",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "jJMGkgdzPwgVwA5k",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.jJMGkgdzPwgVwA5k",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 30
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "FHxxxwsDJ8EQbztH",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.FHxxxwsDJ8EQbztH",
+			"name": "Saltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/jump.svg",
+			"system": {
+				"skillName": "Saltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 45
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.jump",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "8S1vDWWE32JhFH4y",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.8S1vDWWE32JhFH4y",
+			"name": "Ascoltare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/listen.svg",
+			"system": {
+				"skillName": "Ascoltare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.listen",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "GHJZaW4OdArywRea",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.GHJZaW4OdArywRea",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 46
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "jZtQ3wfWIs9ou1P0",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.jZtQ3wfWIs9ou1P0",
+			"name": "Nuotare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/swim.svg",
+			"system": {
+				"skillName": "Nuotare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 60
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.swim",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "C62GUC3qSYqJLSVz",
+			"_key": "!actors.items!1pAfCwwLALKJIAfS.C62GUC3qSYqJLSVz",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "<p>Oppure il danno dell’arma più il bonus al danno.</p>",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "3RElpAcXCfUTfe8V"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D3"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": true
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "qX7mwzuCk0W3Bmh7",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.deep-one-hybrid",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

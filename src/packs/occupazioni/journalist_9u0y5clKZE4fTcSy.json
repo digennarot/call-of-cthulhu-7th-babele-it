@@ -6,10 +6,10 @@
 	"img": "icons/svg/mystery-man.svg",
 	"system": {
 		"description": {
-			"value": "<p>Cronista o inviato sempre a caccia di una notizia, abituato a fare domande scomode e a frugare negli archivi.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Journalist): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"value": "<p>Cronista o inviato sempre a caccia di una notizia, abituato a fare domande scomode e a frugare negli archivi.</p><p><em>Abilità confermate dal Call of Cthulhu RPG Wiki di Chaosium; punti abilità e Credito ricostruiti dal Manuale del Custode (cap. 3, titolo originale: Journalist), da verificare sul manuale.</em></p>",
 			"keeper": ""
 		},
-		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"source": "Manuale del Custode, cap. 3; abilità dal Call of Cthulhu RPG Wiki",
 		"type": {
 			"classic": true,
 			"lovecraftian": true,

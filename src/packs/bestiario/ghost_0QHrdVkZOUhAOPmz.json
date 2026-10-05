@@ -1,0 +1,134 @@
+{
+	"_id": "0QHrdVkZOUhAOPmz",
+	"_key": "!actors!0QHrdVkZOUhAOPmz",
+	"name": "Fantasma",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": null,
+				"formula": ""
+			},
+			"con": {
+				"value": null,
+				"formula": ""
+			},
+			"siz": {
+				"value": null,
+				"formula": ""
+			},
+			"dex": {
+				"value": null,
+				"formula": ""
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": null,
+				"formula": ""
+			},
+			"pow": {
+				"value": null,
+				"formula": ""
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"mp": {
+				"value": null,
+				"max": null,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": null,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": null,
+				"auto": false
+			},
+			"build": {
+				"value": null,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": null
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Ogni fantasma va creato dal Custode su misura per lo scenario. In genere i fantasmi possiedono solo INT e POT e appaiono come forme vaghe e nebbiose; infestano certi luoghi o oggetti specifici (un libro, una nave, un’automobile). Possono essere vulnerabili o meno alla magia e all’esorcismo, e sembrano infestare i luoghi per comunicare l’orrore che li ha generati. A volte un fantasma fornisce indizi o istruzioni che, se eseguite, permettono all’ombra inquieta di dissolversi in pace.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p><strong>Sanità:</strong> tutti i fantasmi sono terrificanti, alcuni più ripugnanti di altri; la perdita massima per aver visto un fantasma dovrebbe essere di 1D8 punti Sanità.</p><p><strong>Attacco:</strong> per l’attacco di un fantasma usa un tiro contrapposto di POT; nel frattempo lo si può intravedere mentre artiglia, avvolge o colpisce fisicamente il bersaglio. Se il personaggio perde il tiro contrapposto perde 2D10 POT; se ha la meglio, è il fantasma a perdere 2D10 POT. I punti di POT persi non si recuperano. I fantasmi più potenti possono sottrarre 3D10 POT o più in un solo round, ma se sopraffatti ne perdono comunque solo 2D10.</p><p><strong>Dare pace al fantasma:</strong> spetta al Custode stabilire come. Alcune possibilità: trovare e distruggere ciò che lo lega a questo mondo; trovarne i resti, salarli e bruciarli; esorcizzarlo (anche con tiri contrapposti di POT); permettergli di compiere la sua missione (impedire la morte di una persona cara, chiudere una questione in sospeso e così via).</p><p><strong>Poltergeist:</strong> alcuni fantasmi manipolano l’ambiente: fanno volare pentole dagli scaffali, aprono porte, fanno squillare telefoni. I poltergeist più potenti possono ferire gli incauti lanciando oggetti; gli investigatori usano Schivare per evitarli e magari cercano altri modi per calmare o scacciare lo spirito.</p><p><strong>Letture consigliate:</strong> <em>L’incubo di Hill House</em> di Shirley Jackson (e il film del 1963 <em>Gli invasati</em>), <em>Shining</em> di Stephen King, i racconti di William Hope Hodgson (soprattutto Carnacki, il cacciatore di fantasmi), le storie di fantasmi di M. R. James, di Henry James e di Rudyard Kipling.</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": null,
+				"checkFailled": null
+			},
+			"attacksPerRound": "1",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Orrore tradizionale",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Fantasma",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.ghost",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

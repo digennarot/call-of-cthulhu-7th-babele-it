@@ -1,0 +1,295 @@
+{
+	"_id": "0BvJ5oHm5J3y775e",
+	"_key": "!actors!0BvJ5oHm5J3y775e",
+	"name": "Mummia",
+	"type": "creature",
+	"img": "icons/svg/skull.svg",
+	"system": {
+		"characteristics": {
+			"str": {
+				"value": 105,
+				"formula": "(3D6)*10"
+			},
+			"con": {
+				"value": 80,
+				"formula": "(3D6+2)*7.5"
+			},
+			"siz": {
+				"value": 65,
+				"formula": "(2D6+6)*5"
+			},
+			"dex": {
+				"value": 35,
+				"formula": "(2D6)*5"
+			},
+			"app": {
+				"value": null,
+				"formula": ""
+			},
+			"int": {
+				"value": 55,
+				"formula": "(3D6)*5"
+			},
+			"pow": {
+				"value": 75,
+				"formula": "(1D6+12)*5"
+			},
+			"edu": {
+				"value": null,
+				"formula": ""
+			}
+		},
+		"attribs": {
+			"hp": {
+				"value": 14,
+				"max": 14,
+				"auto": false
+			},
+			"mp": {
+				"value": 15,
+				"max": 15,
+				"auto": false
+			},
+			"lck": {
+				"value": null
+			},
+			"san": {
+				"value": null,
+				"max": 99,
+				"dailyLoss": 0,
+				"dailyLimit": 0,
+				"auto": false
+			},
+			"mov": {
+				"value": 6,
+				"auto": false,
+				"type": "walk"
+			},
+			"db": {
+				"value": "+1D6",
+				"auto": false
+			},
+			"build": {
+				"value": 2,
+				"auto": false
+			},
+			"armor": {
+				"notes": false,
+				"value": "2"
+			}
+		},
+		"biography": {
+			"personalDescription": {
+				"value": "<p>Questi non morti somigliano a zombie intelligenti. Alcuni culti custodiscono mummie nei loro templi come guardiani. Contrariamente alla credenza popolare, molte mummie sono prive di bende e possono muoversi con discreta rapidità.</p>"
+			}
+		},
+		"description": {
+			"keeper": "<p>Come gli zombie, le mummie vanno fatte a pezzi perché smettano di agire. Alcune non rigenerano naturalmente i punti magia. Una mummia ha il doppio della FOR che aveva da umana, una volta e mezza la COS e due terzi della DES.</p><p><strong>Fuoco:</strong> a causa del bitume e delle bende usati per conservarle, il fuoco è particolarmente efficace contro le mummie egizie: il danno è normale, ma le fiamme sono più difficili da spegnere.</p><p><strong>Armatura:</strong> 2 punti di pelle. Le armi perforanti hanno scarso effetto (metà danno).</p><p><em>Fonte: Call of Cthulhu RPG Wiki (Chaosium), sezione Bestiario.</em></p>"
+		},
+		"special": {
+			"sanLoss": {
+				"checkPassed": "1",
+				"checkFailled": "1D8"
+			},
+			"attacksPerRound": "2",
+			"movement": [],
+			"macros": []
+		},
+		"infos": {
+			"type": "Gusci dell’orrore",
+			"occupation": "",
+			"organization": "",
+			"age": ""
+		},
+		"flags": {
+			"locked": true,
+			"displayFormula": false,
+			"panelKeeper": true
+		}
+	},
+	"prototypeToken": {
+		"name": "Mummia",
+		"texture": {
+			"src": "icons/svg/skull.svg"
+		},
+		"actorLink": false,
+		"disposition": -1
+	},
+	"items": [
+		{
+			"_id": "PU7mHUViXdTQs4Pb",
+			"_key": "!actors.items!0BvJ5oHm5J3y775e.PU7mHUViXdTQs4Pb",
+			"name": "Combattere (Mischia)",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/fighting_brawl.svg",
+			"system": {
+				"skillName": "Mischia",
+				"specialization": "Combattere",
+				"base": "0",
+				"adjustments": {
+					"base": 70
+				},
+				"properties": {
+					"fighting": true,
+					"special": true,
+					"combat": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.fighting-brawl",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "5nl0siPdZFHzG20F",
+			"_key": "!actors.items!0BvJ5oHm5J3y775e.5nl0siPdZFHzG20F",
+			"name": "Schivare",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/dodge.svg",
+			"system": {
+				"skillName": "Schivare",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 17
+				},
+				"properties": {},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.dodge",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "2YAK9GlFRIeAwnaE",
+			"_key": "!actors.items!0BvJ5oHm5J3y775e.2YAK9GlFRIeAwnaE",
+			"name": "Furtività",
+			"type": "skill",
+			"img": "systems/CoC7/assets/icons/skills/stealth.svg",
+			"system": {
+				"skillName": "Furtività",
+				"specialization": "",
+				"base": "0",
+				"adjustments": {
+					"base": 50
+				},
+				"properties": {
+					"push": true
+				},
+				"description": {
+					"value": ""
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {
+				"CoC7": {
+					"cocidFlag": {
+						"id": "i.skill.stealth",
+						"lang": "it",
+						"priority": 0
+					}
+				}
+			}
+		},
+		{
+			"_id": "eAXcbByDmTgOAACi",
+			"_key": "!actors.items!0BvJ5oHm5J3y775e.eAXcbByDmTgOAACi",
+			"name": "Colpo",
+			"type": "weapon",
+			"img": "icons/svg/sword.svg",
+			"system": {
+				"description": {
+					"value": "",
+					"special": "",
+					"keeper": ""
+				},
+				"skill": {
+					"main": {
+						"name": "Combattere (Mischia)",
+						"id": "PU7mHUViXdTQs4Pb"
+					},
+					"alternativ": {
+						"name": "",
+						"id": ""
+					}
+				},
+				"range": {
+					"normal": {
+						"value": "",
+						"damage": "1D6"
+					},
+					"long": {
+						"value": "",
+						"damage": ""
+					},
+					"extreme": {
+						"value": "",
+						"damage": ""
+					}
+				},
+				"usesPerRound": {
+					"normal": "1",
+					"max": null,
+					"burst": null
+				},
+				"properties": {
+					"rngd": false,
+					"mnvr": false,
+					"addb": true,
+					"spcl": false
+				}
+			},
+			"effects": [],
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			},
+			"flags": {}
+		}
+	],
+	"effects": [],
+	"folder": "ibPJkSy9eCYx624v",
+	"sort": 0,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "a.creature.mummy",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

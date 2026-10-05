@@ -63,6 +63,17 @@
       "path": "packs/occupazioni",
       "type": "Item",
       "system": "CoC7"
+    },
+    {
+      "name": "bestiario",
+      "label": "Bestiario (Call of Cthulhu RPG Wiki)",
+      "path": "packs/bestiario",
+      "type": "Actor",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "url": "https://github.com/digennarot/call-of-cthulhu-7th-babele-it",
