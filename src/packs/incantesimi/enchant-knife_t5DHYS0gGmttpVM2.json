@@ -1,0 +1,41 @@
+{
+	"_id": "t5DHYS0gGmttpVM2",
+	"_key": "!items!t5DHYS0gGmttpVM2",
+	"name": "Incantare coltello",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 255 (titolo originale: Enchant Knife).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 255",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": true,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 4200,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "CwGeFzihkespQBT3",
+	"_key": "!items!CwGeFzihkespQBT3",
+	"name": "Osservare attraverso il portale",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Permette di vedere cosa si trova dall'altra parte di un portale senza attraversarlo.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 257 (titolo originale: View Gate).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 257",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": true,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3800,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

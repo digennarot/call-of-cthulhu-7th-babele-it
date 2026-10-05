@@ -1,0 +1,41 @@
+{
+	"_id": "LVOKdd9FESANYrGN",
+	"_key": "!items!LVOKdd9FESANYrGN",
+	"name": "Benedire una lama",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Incanta un'arma da taglio perché possa ferire creature altrimenti immuni alle armi comuni.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 246 (titolo originale: Bless Blade).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Imbue Might of the Elder Ones, Ritual of the Seven Cuts, Spirit's Bane</p>"
+		},
+		"source": "Manuale del Custode, p. 246",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": true,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3900,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

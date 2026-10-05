@@ -1,0 +1,41 @@
+{
+	"_id": "lVox48QjPvjVqqA4",
+	"_key": "!items!lVox48QjPvjVqqA4",
+	"name": "Ripartire il Ka",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 246 (titolo originale: Apportion Ka).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Imbue Essence, Extraction of the Will, The Deathless Breath</p>"
+		},
+		"source": "Manuale del Custode, p. 246",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 4800,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

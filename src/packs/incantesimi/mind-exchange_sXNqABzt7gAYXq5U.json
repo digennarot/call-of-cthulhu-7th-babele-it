@@ -1,0 +1,41 @@
+{
+	"_id": "sXNqABzt7gAYXq5U",
+	"_key": "!items!sXNqABzt7gAYXq5U",
+	"name": "Scambio di menti",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Il lanciatore e il bersaglio si scambiano il corpo.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 260 (titolo originale: Mind Exchange).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Vice versa Incantation, Rite of Exchange, The Cloak of Another's Flesh</p>"
+		},
+		"source": "Manuale del Custode, p. 260",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 5300,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

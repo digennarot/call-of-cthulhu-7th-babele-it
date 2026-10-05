@@ -1,0 +1,41 @@
+{
+	"_id": "DuyAXZO3CET1UIhc",
+	"_key": "!items!DuyAXZO3CET1UIhc",
+	"name": "Parole di potere",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 265 (titolo originale: Words of Power).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Serkhmenkenhep's Words, Beguile the Unrighteous, Mastery of the Mob</p>"
+		},
+		"source": "Manuale del Custode, p. 265",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 2500,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "lvcQC9kezTbSFAFM",
+	"_key": "!items!lvcQC9kezTbSFAFM",
+	"name": "Evocare creatura",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Esiste una variante per ogni tipo di creatura. Fa comparire una creatura dei Miti al cospetto del lanciatore.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 263 (titolo originale: Summon Creature).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 263",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3300,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

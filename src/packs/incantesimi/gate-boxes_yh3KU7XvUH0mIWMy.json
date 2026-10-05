@@ -1,0 +1,41 @@
+{
+	"_id": "yh3KU7XvUH0mIWMy",
+	"_key": "!items!yh3KU7XvUH0mIWMy",
+	"name": "Scatole portale",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 256 (titolo originale: Gate Boxes).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 256",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": true,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3600,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "Uqk5RWoIUtVe3fJe",
+	"_key": "!items!Uqk5RWoIUtVe3fJe",
+	"name": "Specchio di Tarkhun Atep",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 261 (titolo originale: Mirror of Tarkhun Atep).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>The Silvery Warning, Reflection of Hate, The All-Seeing Eye</p>"
+		},
+		"source": "Manuale del Custode, p. 261",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 2000,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

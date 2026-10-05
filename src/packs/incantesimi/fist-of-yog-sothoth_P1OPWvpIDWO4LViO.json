@@ -1,0 +1,41 @@
+{
+	"_id": "P1OPWvpIDWO4LViO",
+	"_key": "!items!P1OPWvpIDWO4LViO",
+	"name": "Pugno di Yog-Sothoth",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Una forza invisibile si abbatte sul bersaglio.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 259 (titolo originale: Fist of Yog-Sothoth).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Channel the Strength of the Opener of the Way, Smite Down Thine Enemy, The Hideous Blast of the Foul One</p>"
+		},
+		"source": "Manuale del Custode, p. 259",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1200,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

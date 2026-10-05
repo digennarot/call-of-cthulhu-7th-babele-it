@@ -1,0 +1,41 @@
+{
+	"_id": "VTV7u1bN4SrzAvhs",
+	"_key": "!items!VTV7u1bN4SrzAvhs",
+	"name": "Deformazione corporea di Gorgoroth",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Il lanciatore modella la propria carne fino ad assumere un altro aspetto.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 246 (titolo originale: Body Warping of Gorgoroth).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Mastery of the Flesh, Skin Walking, The Black Pharaoh's Touch</p>"
+		},
+		"source": "Manuale del Custode, p. 246",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 4900,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

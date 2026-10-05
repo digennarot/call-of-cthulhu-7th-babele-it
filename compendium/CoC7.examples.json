@@ -9,7 +9,15 @@
 					"skillName": "Deserto",
 					"specialization": "Sopravvivenza"
 				}
-			}
+			},
+			"biography": [
+				"Descrizione personale",
+				"Ideologia/Convinzioni",
+				"Persone importanti",
+				"Luoghi significativi",
+				"Oggetti preziosi",
+				"Tratti"
+			]
 		},
 		"Creature example": {
 			"name": "Esempio Creatura",
@@ -29,7 +37,9 @@
 				"Pile of junk": {
 					"name": "Mucchio di cianfrusaglie"
 				}
-			}
+			},
+			"creatureType": "Phorusrhacide",
+			"personalDescription": "<p>Clicca sul lucchetto per sbloccare la scheda.</p><p>A scheda sbloccata modifichi i valori direttamente da qui. Puoi anche aprire le schede dei singoli oggetti, oppure eliminarli.</p><p>In questa modalità l'icona + crea nuove abilità e nuovi possedimenti; se tieni premuto Maiusc mentre clicchi, la scheda del nuovo elemento non si apre.</p><p>Le caratteristiche accettano sia numeri sia formule, e l'icona a destra passa da una modalità all'altra. Il dado rosso tira la formula, quando è possibile. Così puoi dare alla creatura valori fissi, oppure tirarli e ritirarli quando serve.</p>"
 		},
 		"Cupboard": {
 			"name": "Armadio",
@@ -67,7 +77,8 @@
 					"name": "Impegnarsi a fondo",
 					"skillName": "Impegnarsi a fondo"
 				}
-			}
+			},
+			"occupation": "Obbedire al cattivo"
 		},
 		"Villain example": {
 			"name": "Esempio Cattivo",
@@ -98,7 +109,8 @@
 				"Very mean sidekick": {
 					"name": "Spalla molto cattiva"
 				}
-			}
+			},
+			"occupation": "Fare il cattivo"
 		}
 	}
 }

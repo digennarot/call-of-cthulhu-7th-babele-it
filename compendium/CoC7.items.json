@@ -1,7 +1,10 @@
 {
 	"label": "Esempi Oggetti",
 	"mapping": {
-		"bioSections": "system.bioSections",
+		"bioSections": {
+			"path": "system.bioSections",
+			"converter": "sectionTitles"
+		},
 		"suggestedOccupations": "system.suggestedOccupations",
 		"suggestedTraits": "system.suggestedTraits",
 		"special": "system.description.special",

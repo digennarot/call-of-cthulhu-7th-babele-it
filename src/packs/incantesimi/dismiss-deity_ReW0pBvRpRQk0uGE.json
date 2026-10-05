@@ -1,0 +1,41 @@
+{
+	"_id": "ReW0pBvRpRQk0uGE",
+	"_key": "!items!ReW0pBvRpRQk0uGE",
+	"name": "Congedare divinità",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Esiste una variante per ogni divinità. Rimanda indietro una divinità chiamata.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 249 (titolo originale: Dismiss Deity).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 249",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": true,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3200,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

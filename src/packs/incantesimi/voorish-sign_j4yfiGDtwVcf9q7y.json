@@ -1,0 +1,41 @@
+{
+	"_id": "j4yfiGDtwVcf9q7y",
+	"_key": "!items!j4yfiGDtwVcf9q7y",
+	"name": "Segno di Voor",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Il gesto rituale rafforza gli altri incantesimi e permette di vedere l'invisibile.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 265 (titolo originale: Voorish Sign).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Sign of Power, Cunninge Pass</p>"
+		},
+		"source": "Manuale del Custode, p. 265",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 5400,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

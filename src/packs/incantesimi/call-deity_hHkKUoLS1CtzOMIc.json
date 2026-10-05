@@ -1,0 +1,41 @@
+{
+	"_id": "hHkKUoLS1CtzOMIc",
+	"_key": "!items!hHkKUoLS1CtzOMIc",
+	"name": "Chiamare divinità",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Esiste una variante per ogni divinità. Richiama una divinità dei Miti nel luogo del rituale.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 248 (titolo originale: Call Deity).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 248",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": true,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 2900,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

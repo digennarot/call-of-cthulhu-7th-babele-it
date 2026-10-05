@@ -1,0 +1,41 @@
+{
+	"_id": "GVXjv7ygayikvghV",
+	"_key": "!items!GVXjv7ygayikvghV",
+	"name": "Contattare divinità",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Esiste una variante per ogni divinità. Stabilisce un contatto, spesso attraverso i sogni, con una divinità dei Miti.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 252 (titolo originale: Contact Deity).</em></p>",
+			"keeper": "",
+			"alternativeNames": ""
+		},
+		"source": "Manuale del Custode, p. 252",
+		"type": {
+			"combat": false,
+			"bind": false,
+			"call": false,
+			"contact": true,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3100,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

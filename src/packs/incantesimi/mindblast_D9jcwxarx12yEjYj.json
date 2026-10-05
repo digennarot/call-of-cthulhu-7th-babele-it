@@ -1,0 +1,41 @@
+{
+	"_id": "D9jcwxarx12yEjYj",
+	"_key": "!items!D9jcwxarx12yEjYj",
+	"name": "Esplosione mentale",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Colpisce direttamente la mente del bersaglio e può farlo impazzire.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 260 (titolo originale: Mindblast).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Curse of Enfeeblement, Wave of Doom, Abyss of the Mind's Eye</p>"
+		},
+		"source": "Manuale del Custode, p. 260",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1800,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "4tNmzbWEwK23fxc6",
+	"_key": "!items!4tNmzbWEwK23fxc6",
+	"name": "Sciogliere la carne",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 259 (titolo originale: Melt Flesh).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Rite of the Dissolution, Liquefy Skin</p>"
+		},
+		"source": "Manuale del Custode, p. 259",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1600,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

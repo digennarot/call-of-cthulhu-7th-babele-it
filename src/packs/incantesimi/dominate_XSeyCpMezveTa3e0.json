@@ -1,0 +1,41 @@
+{
+	"_id": "XSeyCpMezveTa3e0",
+	"_key": "!items!XSeyCpMezveTa3e0",
+	"name": "Dominare",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Il bersaglio è costretto a eseguire un ordine del lanciatore.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 254 (titolo originale: Dominate).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>Command of the Wizard, The Chant of Possession, Baleful Influence</p>"
+		},
+		"source": "Manuale del Custode, p. 254",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 700,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "UAsQpSa8DytL6eqb",
+	"_key": "!items!UAsQpSa8DytL6eqb",
+	"name": "Polvere di Suleiman",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Prepara una polvere rituale che ferisce le creature dei Miti.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 255 (titolo originale: Dust of Suleiman).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>The Egyptian Powder, Protection of the Dead</p>"
+		},
+		"source": "Manuale del Custode, p. 255",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 900,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}

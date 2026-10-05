@@ -1,4 +1,4 @@
-# Il Richiamo di Cthulhu 7e per Foundry VTT — Traduzione italiana
+# Il Richiamo di Cthulhu 7e per Foundry VTT: traduzione italiana
 
 ![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-14-orange)
 ![CoC7](https://img.shields.io/badge/CoC7-8.15%2B-darkgreen)
@@ -13,7 +13,7 @@ per Foundry VTT, basata su [Babele](https://foundryvtt.com/packages/babele).
 
 ## Cosa traduce
 
-**Interfaccia** — il sistema include già una traduzione italiana parziale; questo modulo la completa
+**Interfaccia**: il sistema include già una traduzione italiana parziale; questo modulo la completa
 con tutte le stringhe di CoC7 8.15 (schede, impostazioni, Chaosium Canvas Interface, costi degli
 incantesimi, CoC ID, pacchetti esperienza, messaggi di errore, ecc.).
 
@@ -24,12 +24,28 @@ incantesimi, CoC ID, pacchetti esperienza, messaggi di errore, ecc.).
 | Abilità | Tutte le 103 abilità, con nome, specializzazione e descrizione |
 | Armi | 44 armi, con le relative cartelle |
 | Fobie e Manie | 20 voci, con le relative cartelle |
-| Esempi | Attori di esempio (personaggio, creatura, cattivo, scagnozzo, contenitore), incluse le abilità al loro interno |
+| Esempi | Attori di esempio (personaggio, creatura, cattivo, scagnozzo, contenitore), incluse le abilità al loro interno, le biografie e le occupazioni |
 | Esempi Oggetti | Setup, archetipo, occupazione, armi, talento e incantesimo di esempio |
 | Tabelle Sanità | Tabelle VII–X |
 | Tabelle | Attacchi di follia in tempo reale |
 | Richieste di Tiri | Macro di richiesta tiri con i nomi italiani delle abilità |
 | Manuali del sistema | Il manuale inglese di CoC7 (21 pagine), mostrato come «Il Richiamo di Cthulhu 7a Edizione [it]» |
+
+**Compendio aggiuntivo: Incantesimi (Manuale del Custode)**
+
+Nei compendi di CoC7 c'è un solo incantesimo, ed è di prova. Il modulo aggiunge quindi un compendio
+proprio con i 60 incantesimi del capitolo 12 del Manuale del Custode, «Grimorio». Lo vede solo il
+Custode.
+
+Ogni voce riporta il nome italiano, i nomi alternativi originali e il numero di pagina. Il tipo
+(combattimento, evocazione, portale e così via) è indicato quando l'incantesimo rientra in una delle
+otto categorie previste da CoC7. Gli altri quattordici, come Resurrezione o il Segno degli Antichi,
+non hanno un tipo. Quarantacinque voci hanno anche una sintesi dell'effetto; le altre quindici
+rimandano soltanto al manuale, perché non abbiamo trovato una fonte pubblica che ne confermi gli
+effetti. Mancano costi e tempo di lancio. Il testo del manuale è coperto da copyright e i valori
+della settima edizione non circolano in fonti libere, così il Custode li inserisce dalla scheda dopo
+aver importato l'incantesimo. I nomi italiani sono nostri: l'edizione italiana pubblicata potrebbe
+usarne altri.
 
 ## Requisiti
 
@@ -81,8 +97,10 @@ compendio o la schermata, il testo attuale e quello proposto.
 | Percorso | Contenuto |
 | --- | --- |
 | `module.json` | Manifest del modulo |
-| `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità |
+| `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità e i campi biografici degli attori |
 | `compendium/CoC7.<pack>.json` | Un file di traduzione Babele per ogni compendio del sistema |
+| `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo (un file per documento) |
+| `tools/build-packs.mjs` | Compila `src/packs` in `packs/` (LevelDB) con `@foundryvtt/foundryvtt-cli`; lo esegue il workflow di release |
 | `lang/it.json` | Stringhe dell'interfaccia (si sommano a quelle italiane del sistema) |
 | `.github/workflows/release.yml` | Build e pubblicazione automatica |
 
@@ -107,6 +125,14 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 * *Babele* è un modulo di *Simone Ricciardi*.
 
 ## Versioni
+
+### 1.4.0
+
+* Nuovo compendio *Incantesimi (Manuale del Custode)* con 60 incantesimi, visibile solo al Custode.
+* Tradotte le biografie del personaggio e della creatura di esempio e le occupazioni del cattivo e
+  dello scagnozzo.
+* Corretto: i titoli delle sezioni biografiche dell'*Esempio Setup Anni Venti* non venivano tradotti (Babele
+  ignora le traduzioni di tipo array; ora passano da un convertitore dedicato).
 
 ### 1.3.2
 
@@ -173,7 +199,10 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 Unofficial, fan-made Italian translation of the **Call of Cthulhu 7th Edition** system
 (Miskatonic Investigative Society) for Foundry VTT. It translates the system compendiums through
 Babele (skills, weapons, phobias and manias, examples, sanity and roll tables, roll requests, the
-system manual) and completes the system's partial Italian UI translation.
+system manual) and completes the system's partial Italian UI translation. It also adds a Keeper-only
+compendium listing the 60 Keeper Rulebook spells (Italian names, page references, spell
+types where CoC7 has a matching category and summaries for 45 of them; costs are left for the Keeper
+to fill in).
 
 **Requires** Foundry VTT 14, CoC7 8.15+, Babele 2.9.1+ (with libWrapper). The
 *Translation: Italian \[Core]* module is optional but recommended.

@@ -1,0 +1,41 @@
+{
+	"_id": "XTAkCnaqj95dhRd9",
+	"_key": "!items!XTAkCnaqj95dhRd9",
+	"name": "Stretta di Nyogtha",
+	"type": "spell",
+	"img": "systems/CoC7/assets/icons/pentagram-rose.svg",
+	"system": {
+		"castingTime": "",
+		"costs": {
+			"hitPoints": "0",
+			"magicPoints": "0",
+			"others": "",
+			"sanity": "0",
+			"power": "0"
+		},
+		"costList": [],
+		"description": {
+			"value": "<p>Una forza invisibile stringe il cuore della vittima, infliggendole danni potenzialmente mortali.</p><p><em>Costi, tempo di lancio ed effetti completi: Manuale del Custode, capitolo 12 «Grimorio», p. 250 (titolo originale: Clutch of Nyogtha).</em></p>",
+			"keeper": "",
+			"alternativeNames": "<p>The Vile Wrench, The Insidious Wrath of the Dark Wizard, Ye Loathsome Tickle</p>"
+		},
+		"source": "Manuale del Custode, p. 250",
+		"type": {
+			"combat": true,
+			"bind": false,
+			"call": false,
+			"contact": false,
+			"dismiss": false,
+			"enchantment": false,
+			"gate": false,
+			"summon": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 400,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {}
+}
