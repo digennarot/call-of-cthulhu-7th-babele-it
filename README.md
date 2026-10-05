@@ -99,6 +99,7 @@ compendio o la schermata, il testo attuale e quello proposto.
 | `module.json` | Manifest del modulo |
 | `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità e i campi biografici degli attori |
 | `compendium/CoC7.<pack>.json` | Un file di traduzione Babele per ogni compendio del sistema |
+| `compendium/CoC7._packs-folders.json` | Nomi delle cartelle dei compendi del sistema |
 | `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo (un file per documento) |
 | `tools/build-packs.mjs` | Compila `src/packs` in `packs/` (LevelDB) con `@foundryvtt/foundryvtt-cli`; lo esegue il workflow di release |
 | `lang/it.json` | Stringhe dell'interfaccia (si sommano a quelle italiane del sistema) |
@@ -125,6 +126,11 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 * *Babele* è un modulo di *Simone Ricciardi*.
 
 ## Versioni
+
+### 1.4.1
+
+* Tradotte le cartelle dei compendi: «Cthulhuwiki | en», «System Examples | en» e «System Manuals»
+  diventano «Cthulhuwiki», «Esempi del sistema» e «Manuali del sistema».
 
 ### 1.4.0
 
