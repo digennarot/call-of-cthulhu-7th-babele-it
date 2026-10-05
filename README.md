@@ -49,35 +49,37 @@ usarne altri.
 
 **Compendio aggiuntivo: Occupazioni (Manuale del Custode)**
 
-CoC7 offre una sola occupazione di esempio. Il modulo aggiunge 41 occupazioni classiche del Manuale
-del Custode, da Acrobata a Vagabondo, pronte da trascinare sulla scheda durante la creazione del
-personaggio. Ogni voce ha le otto abilità d'occupazione (comprese le scelte, come «un'abilità
-interpersonale»), la formula dei punti abilità, l'intervallo di Credito, le ambientazioni (classica,
-moderna, lovecraftiana) e una breve descrizione scritta da noi.
+CoC7 ha una sola occupazione di esempio, il Venditore ambulante. Il modulo ne aggiunge 41, quelle
+classiche del Manuale del Custode da Acrobata a Vagabondo: si trascinano sulla scheda durante la
+creazione del personaggio e portano con sé le otto abilità d'occupazione (comprese le scelte, come
+«un'abilità interpersonale»), la formula dei punti abilità, l'intervallo di Credito, le ambientazioni
+e una breve descrizione scritta da noi.
 
-Per otto occupazioni (Antiquario, Scrittore, Dilettante, Medico, Giornalista, Detective della polizia,
-Investigatore privato e Professore) le abilità sono confermate dal
+I dati non sono tutti ugualmente solidi. Per otto occupazioni (Antiquario, Scrittore, Dilettante,
+Medico, Giornalista, Detective della polizia, Investigatore privato e Professore) le abilità
+coincidono con quelle del
 [Call of Cthulhu RPG Wiki](https://cthulhuwiki.chaosium.com/investigators/step-three-occupation-and-skills.html)
-di Chaosium. Il resto dei dati, compresi punti abilità e Credito di tutte le voci, è ricostruito
-dall'elenco del manuale: prima di usarlo confrontalo con la tua copia e segnala gli errori. Le abilità con specializzazione libera
-(per esempio Arte/Mestiere per lo Scrittore) chiedono di sceglierla quando si applica l'occupazione;
-la descrizione indica quella prevista dal manuale.
+di Chaosium. Punti abilità e Credito, invece, li abbiamo ricostruiti dall'elenco del manuale per
+tutte le 41 voci: prima di usarli confrontali con la tua copia, e se trovi un errore segnalalo.
+Quando un'abilità ha una specializzazione libera, come Arte/Mestiere per lo Scrittore, Foundry chiede
+di sceglierla al momento di applicare l'occupazione; quella prevista dal manuale è scritta nella
+descrizione.
 
 **Compendio aggiuntivo: Bestiario (Call of Cthulhu RPG Wiki)**
 
-Le 29 creature del [bestiario](https://cthulhuwiki.chaosium.com/bestiary/) del wiki ufficiale di
-Chaosium, tradotte e pronte come attori *creatura* di CoC7, divise in tre cartelle: Animali (pipistrello
-gigante, orso nero, coccodrillo del Nilo, cane, cavallo, branco di ratti, lupo), Orrori tradizionali
-(fantasma, mummia, scheletro, vampiro, lupo mannaro, zombie) e Mostri dei Miti (byakhee, progenie
-stellare di Cthulhu, giovane oscuro, Abitante e Ibrido del Profondo, polipo volante, progenie informe,
-ghast, ghoul, orrore cacciatore, mi-go, cosa-ratto, uomo serpente, shoggoth e due figli di Yig).
+Il wiki ufficiale di Chaosium pubblica gratis un piccolo
+[bestiario](https://cthulhuwiki.chaosium.com/bestiary/), e il modulo lo porta in Foundry: 29 creature
+tradotte, già pronte come attori *creatura* di CoC7. Sono divise in tre cartelle. Gli Animali vanno
+dal pipistrello gigante al lupo; gli Orrori tradizionali sono fantasma, mummia, scheletro, vampiro,
+lupo mannaro e zombie; i Mostri dei Miti sono sedici, dai byakhee agli shoggoth, passando per ghoul,
+mi-go e Abitanti del Profondo.
 
-Ogni scheda ha caratteristiche medie con la formula per tirarle, punti ferita e magia, bonus al danno,
-Corporatura, movimento (anche in volo o a nuoto), armatura, attacchi per round, perdita di Sanità,
-abilità e attacchi pronti da tirare. Poteri speciali, incantesimi, note sull'armatura e spunti per gli
-scenari sono nelle note del Custode. Il compendio è visibile solo al Custode. Lo sciame di vespe e api
-non è incluso perché il wiki non gli dà statistiche; il fantasma ha solo descrizione e regole, perché
-va costruito caso per caso.
+Le schede si usano subito. Caratteristiche con la formula per tirarle, punti ferita e magia, bonus al
+danno, Corporatura, movimento a terra, in volo e a nuoto, armatura, perdita di Sanità, abilità e
+attacchi sono già compilati; poteri speciali, incantesimi e spunti per gli scenari stanno nelle note
+del Custode, l'unico che vede il compendio. Mancano due voci del wiki. Lo sciame di vespe e api non ha
+statistiche e l'abbiamo lasciato fuori; il fantasma c'è, ma con le sole regole e la descrizione,
+perché ogni fantasma va costruito per il suo scenario.
 
 ## Requisiti
 
