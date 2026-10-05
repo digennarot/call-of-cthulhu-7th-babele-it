@@ -1,0 +1,103 @@
+{
+	"_id": "IEYrSfSHVSxXnrA6",
+	"_key": "!items!IEYrSfSHVSxXnrA6",
+	"name": "Hacker",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Esperto di informatica capace di violare sistemi protetti e trovare in rete informazioni che altri vorrebbero nascoste.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Hacker): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": false,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 10,
+			"max": 70
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.computer-use",
+			"i.skill.electrical-repair",
+			"i.skill.electronics",
+			"i.skill.library-use",
+			"i.skill.spot-hidden"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 2,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 2100,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.hacker",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

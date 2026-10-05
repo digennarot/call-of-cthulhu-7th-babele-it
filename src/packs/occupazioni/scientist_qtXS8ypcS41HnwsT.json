@@ -1,0 +1,124 @@
+{
+	"_id": "qtXS8ypcS41HnwsT",
+	"_key": "!items!qtXS8ypcS41HnwsT",
+	"name": "Scienziato",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Ricercatore in un laboratorio, un’università o un’azienda, guidato dalla curiosità e dal metodo scientifico.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Scientist): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 9,
+			"max": 50
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.language-any",
+			"i.skill.language-own",
+			"i.skill.spot-hidden"
+		],
+		"groups": [
+			{
+				"options": 3,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.science-any",
+					"i.skill.science-astronomy",
+					"i.skill.science-biology",
+					"i.skill.science-botany",
+					"i.skill.science-chemistry",
+					"i.skill.science-geology",
+					"i.skill.science-mathematics",
+					"i.skill.science-physics",
+					"i.skill.science-zoology"
+				]
+			},
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.computer-use",
+					"i.skill.library-use"
+				]
+			},
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 0,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3600,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.scientist",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

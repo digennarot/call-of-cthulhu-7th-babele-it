@@ -1,0 +1,102 @@
+{
+	"_id": "AGgZ2JExXtEIuNV7",
+	"_key": "!items!AGgZ2JExXtEIuNV7",
+	"name": "Scrittore",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Romanziere, saggista o poeta che vive (o cerca di vivere) della propria penna; le ricerche per i suoi libri lo portano spesso in luoghi insoliti.</p><p>Arte/Mestiere va specializzata in Letteratura.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Author): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 9,
+			"max": 30
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.art-craft-any",
+			"i.skill.history",
+			"i.skill.library-use",
+			"i.skill.language-any",
+			"i.skill.language-own",
+			"i.skill.psychology"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.natural-world",
+					"i.skill.occult"
+				]
+			}
+		],
+		"personal": 1,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3700,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.author",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"_id": "k8LPqqPm4ldpjwFF",
+	"_key": "!items!k8LPqqPm4ldpjwFF",
+	"name": "Bibliotecario",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Custode di libri e archivi in una biblioteca pubblica, universitaria o privata; sa dove cercare qualsiasi informazione.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Librarian): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 9,
+			"max": 35
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.accounting",
+			"i.skill.library-use",
+			"i.skill.language-any",
+			"i.skill.language-own"
+		],
+		"groups": [],
+		"personal": 4,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1000,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.librarian",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

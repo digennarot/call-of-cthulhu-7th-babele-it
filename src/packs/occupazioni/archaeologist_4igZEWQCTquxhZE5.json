@@ -1,0 +1,103 @@
+{
+	"_id": "4igZEWQCTquxhZE5",
+	"_key": "!items!4igZEWQCTquxhZE5",
+	"name": "Archeologo",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Studia le civiltà scomparse attraverso scavi, reperti e iscrizioni, alternando il lavoro sul campo a quello in biblioteca.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Archaeologist): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 10,
+			"max": 40
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.appraise",
+			"i.skill.archaeology",
+			"i.skill.history",
+			"i.skill.language-any",
+			"i.skill.library-use",
+			"i.skill.spot-hidden",
+			"i.skill.mechanical-repair"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.navigate",
+					"i.skill.science-any"
+				]
+			}
+		],
+		"personal": 0,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 500,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.archaeologist",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

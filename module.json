@@ -2,7 +2,7 @@
   "id": "call-of-cthulhu-7th-babele-it",
   "title": "Call of Cthulhu 7th Babele (Italian)",
   "description": "Traduzione italiana dei compendi del sistema Call of Cthulhu 7th Edition (Miskatonic Investigative Society/CoC7-FoundryVTT) tramite Babele - Call of Cthulhu 7th Edition (Miskatonic Investigative Society/CoC7-FoundryVTT) Italian compendium translation using Babele",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -56,9 +56,16 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "occupazioni",
+      "label": "Occupazioni (Manuale del Custode)",
+      "path": "packs/occupazioni",
+      "type": "Item",
+      "system": "CoC7"
     }
   ],
   "url": "https://github.com/digennarot/call-of-cthulhu-7th-babele-it",
   "manifest": "https://github.com/digennarot/call-of-cthulhu-7th-babele-it/releases/latest/download/module.json",
-  "download": "https://github.com/digennarot/call-of-cthulhu-7th-babele-it/releases/download/v1.4.1/module.zip"
+  "download": "https://github.com/digennarot/call-of-cthulhu-7th-babele-it/releases/download/v1.5.0/module.zip"
 }

@@ -1,0 +1,104 @@
+{
+	"_id": "HMvZHAAPB7ws8Ngy",
+	"_key": "!items!HMvZHAAPB7ws8Ngy",
+	"name": "Antiquario",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Studioso e collezionista di oggetti, libri e documenti del passato, con mezzi propri e molto tempo da dedicare alla sua passione.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Antiquarian): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 30,
+			"max": 70
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.appraise",
+			"i.skill.art-craft-any",
+			"i.skill.history",
+			"i.skill.library-use",
+			"i.skill.language-any",
+			"i.skill.spot-hidden"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 1,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 400,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.antiquarian",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

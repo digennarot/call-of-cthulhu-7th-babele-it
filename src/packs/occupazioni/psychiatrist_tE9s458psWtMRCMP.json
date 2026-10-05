@@ -1,0 +1,95 @@
+{
+	"_id": "tE9s458psWtMRCMP",
+	"_key": "!items!tE9s458psWtMRCMP",
+	"name": "Psichiatra",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Medico specializzato nella cura dei disturbi mentali, in studio privato o in istituto.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Psychiatrist): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 30,
+			"max": 80
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.language-any",
+			"i.skill.listen",
+			"i.skill.medicine",
+			"i.skill.persuade",
+			"i.skill.psychoanalysis",
+			"i.skill.psychology",
+			"i.skill.science-biology",
+			"i.skill.science-chemistry"
+		],
+		"groups": [],
+		"personal": 0,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3500,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.psychiatrist",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

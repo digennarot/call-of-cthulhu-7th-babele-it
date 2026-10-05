@@ -1,0 +1,98 @@
+{
+	"_id": "sEZXt4t1PIXIJDED",
+	"_key": "!items!sEZXt4t1PIXIJDED",
+	"name": "Studente/Tirocinante",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Iscritto a un college o a un’università, oppure apprendista presso un professionista; ha più curiosità che denaro.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Student/Intern): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 5,
+			"max": 10
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.library-use",
+			"i.skill.listen"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.language-own",
+					"i.skill.language-any"
+				]
+			}
+		],
+		"personal": 5,
+		"personalText": "abilità: tre campi di studio e due a scelta"
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3900,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.student",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

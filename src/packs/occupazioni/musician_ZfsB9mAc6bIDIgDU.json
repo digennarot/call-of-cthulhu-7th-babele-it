@@ -1,0 +1,101 @@
+{
+	"_id": "ZfsB9mAc6bIDIgDU",
+	"_key": "!items!ZfsB9mAc6bIDIgDU",
+	"name": "Musicista",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Suona in orchestra, in un locale o per strada; la musica gli apre le porte di ambienti molto diversi.</p><p>Arte/Mestiere va specializzata nello strumento suonato.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Musician): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": true
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": true
+			},
+			"edu": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 9,
+			"max": 30
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.art-craft-any",
+			"i.skill.listen",
+			"i.skill.psychology"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 4,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3100,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.musician",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

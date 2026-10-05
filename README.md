@@ -47,6 +47,19 @@ della settima edizione non circolano in fonti libere, così il Custode li inseri
 aver importato l'incantesimo. I nomi italiani sono nostri: l'edizione italiana pubblicata potrebbe
 usarne altri.
 
+**Compendio aggiuntivo: Occupazioni (Manuale del Custode)**
+
+CoC7 offre una sola occupazione di esempio. Il modulo aggiunge 41 occupazioni classiche del Manuale
+del Custode, da Acrobata a Vagabondo, pronte da trascinare sulla scheda durante la creazione del
+personaggio. Ogni voce ha le otto abilità d'occupazione (comprese le scelte, come «un'abilità
+interpersonale»), la formula dei punti abilità, l'intervallo di Credito, le ambientazioni (classica,
+moderna, lovecraftiana) e una breve descrizione scritta da noi.
+
+I dati non vengono da una fonte pubblica verificata: sono ricostruiti dall'elenco del manuale. Prima
+di usarli confrontali con la tua copia e segnala gli errori. Le abilità con specializzazione libera
+(per esempio Arte/Mestiere per lo Scrittore) chiedono di sceglierla quando si applica l'occupazione;
+la descrizione indica quella prevista dal manuale.
+
 ## Requisiti
 
 | Pacchetto | Versione |
@@ -98,7 +111,7 @@ compendio o la schermata, il testo attuale e quello proposto.
 | `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità, i campi biografici degli attori, la descrizione speciale delle armi e le richieste dei costi degli incantesimi |
 | `compendium/CoC7.<pack>.json` | Un file di traduzione Babele per ogni compendio del sistema |
 | `compendium/CoC7._packs-folders.json` | Nomi delle cartelle dei compendi del sistema |
-| `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo (un file per documento) |
+| `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo, `incantesimi` e `occupazioni` (un file per documento) |
 | `tools/build-packs.mjs` | Compila `src/packs` in `packs/` (LevelDB) con `@foundryvtt/foundryvtt-cli`; lo esegue il workflow di release |
 | `lang/it.json` | Stringhe dell'interfaccia (si sommano a quelle italiane del sistema) |
 | `.github/workflows/release.yml` | Build e pubblicazione automatica |
@@ -125,7 +138,10 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 
 ## Versioni
 
-### 1.4.1
+### 1.5.0
+
+* Nuovo compendio *Occupazioni (Manuale del Custode)* con 41 occupazioni classiche, ricostruite
+  dall'elenco del manuale e da verificare.
 
 * Tradotte le cartelle dei compendi: «Cthulhuwiki | en», «System Examples | en» e «System Manuals»
   diventano «Cthulhuwiki», «Esempi del sistema» e «Manuali del sistema».
@@ -210,7 +226,8 @@ Babele (skills, weapons, phobias and manias, examples, sanity and roll tables, r
 system manual) and completes the system's partial Italian UI translation. It also adds a Keeper-only
 compendium listing the 60 Keeper Rulebook spells (Italian names, page references, spell
 types where CoC7 has a matching category and summaries for 45 of them; costs are left for the Keeper
-to fill in).
+to fill in), and 41 classic Keeper Rulebook occupations reconstructed from the book's list (skills,
+skill points, Credit Rating; check them against your copy).
 
 **Requires** Foundry VTT 14, CoC7 8.15+, Babele 2.9.1+ (with libWrapper). The
 *Translation: Italian \[Core]* module is optional but recommended.

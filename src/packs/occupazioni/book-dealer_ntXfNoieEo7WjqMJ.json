@@ -1,0 +1,105 @@
+{
+	"_id": "ntXfNoieEo7WjqMJ",
+	"_key": "!items!ntXfNoieEo7WjqMJ",
+	"name": "Libraio",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Commercia libri usati e rari, conosce collezionisti e biblioteche e sa riconoscere un’edizione preziosa a colpo d’occhio.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Book Dealer): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 20,
+			"max": 40
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.accounting",
+			"i.skill.appraise",
+			"i.skill.drive-auto",
+			"i.skill.history",
+			"i.skill.library-use",
+			"i.skill.language-own",
+			"i.skill.language-any"
+		],
+		"groups": [
+			{
+				"options": 1,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 0,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 2600,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.book-dealer",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

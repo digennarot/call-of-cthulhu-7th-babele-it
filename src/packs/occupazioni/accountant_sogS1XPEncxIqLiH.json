@@ -1,0 +1,93 @@
+{
+	"_id": "sogS1XPEncxIqLiH",
+	"_key": "!items!sogS1XPEncxIqLiH",
+	"name": "Contabile",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Tiene i conti di aziende e privati e sa leggere tra le righe di un bilancio: un ammanco, una spesa sospetta o un trasferimento di fondi non gli sfuggono.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Accountant): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 30,
+			"max": 70
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.accounting",
+			"i.skill.law",
+			"i.skill.library-use",
+			"i.skill.listen",
+			"i.skill.persuade",
+			"i.skill.spot-hidden"
+		],
+		"groups": [],
+		"personal": 2,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1200,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.accountant",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

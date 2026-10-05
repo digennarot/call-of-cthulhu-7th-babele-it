@@ -1,0 +1,101 @@
+{
+	"_id": "WgbUAPykjwF7hJLW",
+	"_key": "!items!WgbUAPykjwF7hJLW",
+	"name": "Fanatico",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Seguace infervorato di una causa religiosa, politica o sociale, pronto a tutto pur di diffonderla.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Zealot): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": true
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": true
+			},
+			"edu": {
+				"multiplier": 2,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 0,
+			"max": 30
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.history",
+			"i.skill.psychology",
+			"i.skill.stealth"
+		],
+		"groups": [
+			{
+				"options": 2,
+				"itemDocuments": [],
+				"itemKeys": [
+					"i.skill.charm",
+					"i.skill.fast-talk",
+					"i.skill.intimidate",
+					"i.skill.persuade"
+				]
+			}
+		],
+		"personal": 3,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 1800,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.zealot",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

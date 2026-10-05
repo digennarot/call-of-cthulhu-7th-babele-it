@@ -1,0 +1,95 @@
+{
+	"_id": "oEjDXbNZUdhvVjC3",
+	"_key": "!items!oEjDXbNZUdhvVjC3",
+	"name": "Alienista",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Medico che si occupa delle malattie mentali in un’epoca in cui la psichiatria muove i primi passi; spesso lavora in manicomi e istituti di cura.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Alienist): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": false,
+			"modern": false,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 10,
+			"max": 60
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.law",
+			"i.skill.listen",
+			"i.skill.medicine",
+			"i.skill.language-any",
+			"i.skill.psychoanalysis",
+			"i.skill.psychology",
+			"i.skill.science-biology",
+			"i.skill.science-chemistry"
+		],
+		"groups": [],
+		"personal": 0,
+		"personalText": ""
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 300,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.alienist",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}

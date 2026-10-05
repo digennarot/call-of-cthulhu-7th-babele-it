@@ -1,0 +1,91 @@
+{
+	"_id": "MrgtOVg5VtDxWVbp",
+	"_key": "!items!MrgtOVg5VtDxWVbp",
+	"name": "Professore",
+	"type": "occupation",
+	"img": "icons/svg/mystery-man.svg",
+	"system": {
+		"description": {
+			"value": "<p>Docente e ricercatore universitario, esperto nella propria disciplina e con accesso a biblioteche e collezioni accademiche.</p><p><em>Dati ricostruiti dall’elenco delle occupazioni del Manuale del Custode (cap. 3, titolo originale: Professor): verificare abilità, punti abilità e Credito sul manuale.</em></p>",
+			"keeper": ""
+		},
+		"source": "Manuale del Custode, cap. 3 (da verificare)",
+		"type": {
+			"classic": true,
+			"lovecraftian": true,
+			"modern": true,
+			"pulp": false
+		},
+		"occupationSkillPoints": {
+			"str": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"con": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"siz": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"dex": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"app": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"int": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"pow": {
+				"multiplier": null,
+				"selected": false,
+				"optional": false
+			},
+			"edu": {
+				"multiplier": 4,
+				"selected": true,
+				"optional": false
+			}
+		},
+		"creditRating": {
+			"min": 20,
+			"max": 70
+		},
+		"itemDocuments": [],
+		"itemKeys": [
+			"i.skill.library-use",
+			"i.skill.language-any",
+			"i.skill.language-own",
+			"i.skill.psychology"
+		],
+		"groups": [],
+		"personal": 4,
+		"personalText": "abilità come specialità accademiche, del periodo o personali"
+	},
+	"effects": [],
+	"folder": null,
+	"sort": 3400,
+	"ownership": {
+		"default": 0
+	},
+	"flags": {
+		"CoC7": {
+			"cocidFlag": {
+				"id": "i.occupation.professor",
+				"lang": "it",
+				"priority": 0
+			}
+		}
+	}
+}
