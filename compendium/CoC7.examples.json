@@ -7,7 +7,8 @@
 				"Survival (Desert)": {
 					"name": "Sopravvivenza (Deserto)",
 					"skillName": "Deserto",
-					"specialization": "Sopravvivenza"
+					"specialization": "Sopravvivenza",
+					"description": "<p>Vedi il Manuale del Custode di Call of Cthulhu 7ª edizione.</p>"
 				}
 			},
 			"biography": [
@@ -23,7 +24,8 @@
 			"name": "Esempio Creatura",
 			"items": {
 				"Deadly beak": {
-					"name": "Becco mortale"
+					"name": "Becco mortale",
+					"special": "<p>Qui puoi aggiungere una descrizione speciale o dei tiri:</p><p>Tiro 1: [[/r 2d17kh]]</p>"
 				},
 				"Fighting (Slice PCs in small cubes)": {
 					"name": "Combattere (Affettare i PG a cubetti)",

@@ -79,8 +79,6 @@ Gli aggiornamenti arrivano dal gestore moduli di Foundry come per qualsiasi altr
 
 * I nomi tradotti delle abilità valgono per i documenti presi dai compendi: le abilità già presenti
   negli attori creati prima di attivare il modulo mantengono il nome originale.
-* Le richieste mostrate durante il calcolo del costo degli incantesimi (*Incantesimo di prova*) non
-  sono tradotte.
 * Viene tradotto solo il manuale inglese: quelli in tedesco, spagnolo, francese, giapponese e ucraino
   restano nella loro lingua.
 
@@ -97,7 +95,7 @@ compendio o la schermata, il testo attuale e quello proposto.
 | Percorso | Contenuto |
 | --- | --- |
 | `module.json` | Manifest del modulo |
-| `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità e i campi biografici degli attori |
+| `babele-register.js` | Registra le traduzioni su `babele.init` e mappa `skillName`/`specialization` delle abilità, i campi biografici degli attori, la descrizione speciale delle armi e le richieste dei costi degli incantesimi |
 | `compendium/CoC7.<pack>.json` | Un file di traduzione Babele per ogni compendio del sistema |
 | `compendium/CoC7._packs-folders.json` | Nomi delle cartelle dei compendi del sistema |
 | `src/packs/<nome>/*.json` | Sorgenti dei compendi propri del modulo (un file per documento) |
@@ -131,6 +129,10 @@ Ogni push successivo con la stessa versione aggiorna i file della release esiste
 
 * Tradotte le cartelle dei compendi: «Cthulhuwiki | en», «System Examples | en» e «System Manuals»
   diventano «Cthulhuwiki», «Esempi del sistema» e «Manuali del sistema».
+* Tradotte le richieste mostrate durante il calcolo del costo dell’*Incantesimo di prova* (converter
+  `costListTexts`).
+* Tradotte la descrizione di *Sopravvivenza (Deserto)* del personaggio di esempio e la descrizione
+  speciale del *Becco mortale* della creatura di esempio.
 
 ### 1.4.0
 
@@ -222,7 +224,7 @@ https://github.com/digennarot/call-of-cthulhu-7th-babele-it/releases/latest/down
 Then enable Babele and this module in your world and set the language to *Italiano*.
 
 **Known issues** — skills already embedded in actors created before enabling the module keep their
-original names; the spell cost prompts (*Test Spell*) are not translated; the German, Spanish,
+original names; the German, Spanish,
 French, Japanese and Ukrainian manuals stay in their own language.
 
 Feedback and corrections are welcome through

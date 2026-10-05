@@ -9,7 +9,11 @@
 		"suggestedTraits": "system.suggestedTraits",
 		"special": "system.description.special",
 		"skillMainName": "system.skill.main.name",
-		"castingTime": "system.castingTime"
+		"castingTime": "system.castingTime",
+		"costList": {
+			"path": "system.costList",
+			"converter": "costListTexts"
+		}
 	},
 	"entries": {
 		"1920's Setup Example": {
@@ -52,7 +56,17 @@
 		"Test Spell": {
 			"name": "Incantesimo di prova",
 			"description": "<p>Costringe un altro essere umano ad avere un incubo.</p><p>L’incantatore aggiunge un certo numero di punti magia e subisce [[/r 1D3 - 1]] punti Sanità. Se il bersaglio degli incubi è sveglio, l’incantatore deve spendere 1 POT e il lancio richiede cinque minuti in più.</p><p>Altri incantatori che conoscono l’incantesimo possono aggiungere un numero qualsiasi di punti magia; chiunque altro sia presente può aggiungere un punto magia.</p><p>L’incubo inizia con il bersaglio che affronta un esame per cui non ha studiato e si prolunga di un minuto per ogni sei punti magia spesi.</p><p></p>",
-			"castingTime": "10 - 15 minuti"
+			"castingTime": "10 - 15 minuti",
+			"costList": {
+				"The target is awake": "Il bersaglio è sveglio",
+				"Number of magic points you are spending": "Punti magia che stai spendendo",
+				"Others that know the spell": "Altri che conoscono l’incantesimo",
+				"Magic points": "Punti magia",
+				"Other casters": "Altri presenti",
+				"10 minutes": "10 minuti",
+				"15 minutes": "15 minuti",
+				"Nightmare duration: @minutes minutes": "Durata dell’incubo: @minutes minuti"
+			}
 		}
 	}
 }

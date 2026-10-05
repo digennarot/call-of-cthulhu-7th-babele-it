@@ -8,6 +8,25 @@ Hooks.once('babele.init', (babele) => {
 				if (typeof titles[i] !== 'string') return section;
 				return typeof section === 'string' ? titles[i] : { ...section, title: titles[i] };
 			});
+		},
+		// Spell cost steps keep their texts inside a JSON config: the translation maps each English
+		// prompt (or casting time value) to its Italian text, leaving variables and formulas untouched.
+		costListTexts: (costs, texts) => {
+			if (!Array.isArray(costs) || !texts || typeof texts !== 'object') return costs;
+			return costs.map((cost) => {
+				const isString = typeof cost?.config === 'string';
+				let config;
+				try {
+					config = isString ? JSON.parse(cost.config) : cost?.config;
+				} catch {
+					return cost;
+				}
+				if (!config || typeof config !== 'object') return cost;
+				const translated = { ...config };
+				if (typeof texts[config.prompt] === 'string') translated.prompt = texts[config.prompt];
+				if (cost.type === 'castingTime' && typeof texts[config.value] === 'string') translated.value = texts[config.value];
+				return { ...cost, config: isString ? JSON.stringify(translated) : translated };
+			});
 		}
 	});
 
@@ -16,6 +35,9 @@ Hooks.once('babele.init', (babele) => {
 		'Item.skill': {
 			skillName: 'system.skillName',
 			specialization: 'system.specialization'
+		},
+		'Item.weapon': {
+			special: 'system.description.special'
 		},
 		'Actor.character': {
 			biography: { path: 'system.biography', converter: 'sectionTitles' }
